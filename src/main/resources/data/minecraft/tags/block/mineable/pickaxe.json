@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "flois_hadean_mod:molten_lavacobblestone",
+    "flois_hadean_mod:lavarock",
+    "flois_hadean_mod:lavacobblestone"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "flois_hadean_mod:block/hadean_portal_ew"
+    },
+    "axis=x": {
+      "model": "flois_hadean_mod:block/hadean_portal_ns"
+    }
+  }
+}

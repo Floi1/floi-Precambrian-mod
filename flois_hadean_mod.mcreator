@@ -1,0 +1,312 @@
+{
+  "mod_elements": [
+    {
+      "name": "Hadeanwastes",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hadeanwastes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/biome/hadeanwastes.json"
+        ]
+      }
+    },
+    {
+      "name": "Hadean",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hadean",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floishadean/world/teleporter/HadeanPortalShape.java",
+          "src/main/java/net/floishadean/block/HadeanPortalBlock.java",
+          "src/main/resources/data/flois_hadean_mod/dimension/hadean.json",
+          "src/main/java/net/floishadean/world/dimension/HadeanDimension.java",
+          "src/main/resources/assets/flois_hadean_mod/models/block/hadean_portal_ew.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/hadean_portal_ns.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/hadean.json",
+          "src/main/java/net/floishadean/item/HadeanItem.java",
+          "src/main/java/net/floishadean/world/teleporter/HadeanTeleporter.java",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/hadean_portal.json",
+          "src/main/resources/data/flois_hadean_mod/dimension_type/hadean.json"
+        ]
+      }
+    },
+    {
+      "name": "Hadeantab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hadeantab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Blacksand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blacksand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_hadean_mod/models/item/blacksand.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/blacksand.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/blacksand.json",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/blacksand.json",
+          "src/main/java/net/floishadean/block/BlacksandBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Blacksandgen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blacksandgen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/blacksandgen_1.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/blacksandgen_1_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/blacksandgen_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Blacksandgen2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blacksandgen_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/blacksandgen_2.json"
+        ]
+      }
+    },
+    {
+      "name": "HadeanHeat",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hadean_lava_fields",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/biome/hadean_lava_fields.json"
+        ]
+      }
+    },
+    {
+      "name": "Hadeanheatlava",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hadeanheatlava",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/hadeanheatlava_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/hadeanheatlava.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/hadeanheatlava.json"
+        ]
+      }
+    },
+    {
+      "name": "Hadeancoldheat",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hadean_fields",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/biome/hadean_fields.json"
+        ]
+      }
+    },
+    {
+      "name": "Hadeanheatlava2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hadeanheatlava_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/hadeanheatlava_2.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/hadeanheatlava_2_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/hadeanheatlava_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Hadeancoldheat2",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hadean_fields2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/biome/hadean_fields2.json"
+        ]
+      }
+    },
+    {
+      "name": "Magmadisk",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmadisk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/magmadisk.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/magmadisk.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/magmadisk_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Blacksandgen3",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blacksandgen_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/blacksandgen_3.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/blacksandgen_3_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/blacksandgen_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Blackcobblestone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavacobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_hadean_mod/models/item/lavacobblestone.json",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/lavacobblestone.json",
+          "src/main/java/net/floishadean/block/BlackcobblestoneBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/lavacobblestone.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/lavacobblestone.json"
+        ]
+      }
+    },
+    {
+      "name": "Blackcobblestonegen",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackcobblestonegen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/blackcobblestonegen.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/blackcobblestonegen_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/blackcobblestonegen.json"
+        ]
+      }
+    },
+    {
+      "name": "Lavarock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavarock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/lavarock.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/lavarock.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/lavarock.json",
+          "src/main/java/net/floishadean/block/LavarockBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/lavarock.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenLavacobblestone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_lavacobblestone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floishadean/block/MoltenLavacobblestoneBlock.java",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/molten_lavacobblestone.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/molten_lavacobblestone.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/molten_lavacobblestone.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/molten_lavacobblestone.json"
+        ]
+      }
+    },
+    {
+      "name": "Portalkey",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalkey",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/recipe/portalkey.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:MoltenLavacobblestone",
+      "~CUSTOM:Lavarock",
+      "~CUSTOM:Blackcobblestone"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MoltenLavacobblestone",
+      "~CUSTOM:Lavarock",
+      "~CUSTOM:Blackcobblestone"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Blacksand"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Lavarock",
+      "~Blocks.BASALT"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "biome.flois_hadean_mod.hadean_lava_fields": "Hadean lava fields",
+      "biome.flois_hadean_mod.hadean_fields": "Hadean fields",
+      "item.flois_hadean_mod.hadean": "Hadean Portal Igniter (WIP)",
+      "block.flois_hadean_mod.lavacobblestone": "Lava cobblestone",
+      "biome.flois_hadean_mod.hadeanwastes": "Hadean wastes",
+      "item_group.flois_hadean_mod.hadeantab": "Hadean mod tab",
+      "block.flois_hadean_mod.blacksand": "Blacksand",
+      "biome.flois_hadean_mod.hadean_fields2": "Hadean fields",
+      "block.flois_hadean_mod.lavarock": "Lava_rock",
+      "block.flois_hadean_mod.molten_lavacobblestone": "Molten lava cobblestone"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "flois_hadean_mod",
+    "modName": "floi\u0027s Hadean mod",
+    "version": "1.0.0",
+    "author": "nisar, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.floishadean"
+  },
+  "mcreatorVersion": 202400452410
+}
