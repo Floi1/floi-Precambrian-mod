@@ -1,14 +1,16 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="Not specified"
+license="GNU Lesser General Public License version 2.1 (LGPLv2.1)"
 
 [[mods]]
 modId="flois_hadean_mod"
 version="1.0.0"
 displayName="floi's Hadean mod"
-displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="nisar, MCreator"
+displayURL="https://www.curseforge.com/minecraft/mc-mods"
+logoFile="logo.png"
+credits="made by floi"
+authors="Floi"
+description="floi's Hadean mod for 1.21.1 neoforge"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

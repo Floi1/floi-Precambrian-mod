@@ -27,6 +27,8 @@ public class FloisHadeanModModTabs {
 				tabData.accept(FloisHadeanModModBlocks.LAVACOBBLESTONE.get().asItem());
 				tabData.accept(FloisHadeanModModBlocks.LAVAROCK.get().asItem());
 				tabData.accept(FloisHadeanModModBlocks.MOLTEN_LAVACOBBLESTONE.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.HADEANPORTALBLOCK.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.METEORITICIRON.get().asItem());
 			}).build());
 
 	@SubscribeEvent

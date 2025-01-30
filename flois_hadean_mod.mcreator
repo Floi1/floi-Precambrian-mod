@@ -251,17 +251,153 @@
           "src/main/resources/data/flois_hadean_mod/recipe/portalkey.json"
         ]
       }
+    },
+    {
+      "name": "Obsgen",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsgen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/obsgen.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/obsgen_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/obsgen.json"
+        ]
+      }
+    },
+    {
+      "name": "Moltenlavacobblestonegen",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moltenlavacobblestonegen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/moltenlavacobblestonegen.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/moltenlavacobblestonegen_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/moltenlavacobblestonegen.json"
+        ]
+      }
+    },
+    {
+      "name": "Moltenlavacobblestonerep",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moltenlavacobblestonerep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/recipe/moltenlavacobblestonerep.json"
+        ]
+      }
+    },
+    {
+      "name": "Hadeanbiomes",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hadeanbiomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/advancement/hadeanbiomes.json"
+        ]
+      }
+    },
+    {
+      "name": "Hadeanportalblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hadeanportalblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_hadean_mod/models/block/hadeanportalblock.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/hadeanportalblock.json",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/hadeanportalblock.json",
+          "src/main/java/net/floishadean/block/HadeanportalblockBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/hadeanportalblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Bas",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tradeportalblocks",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Hadeaneon",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hadeaneon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/advancement/hadeaneon.json"
+        ]
+      }
+    },
+    {
+      "name": "Meteoriticiron",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteoriticiron",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floishadean/block/MeteoriticironBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/models/item/meteoriticiron.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/meteoriticiron.json",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/meteoriticiron.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/meteoriticiron.json"
+        ]
+      }
+    },
+    {
+      "name": "Meteoriticironiron",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteoriticironiron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/recipe/meteoriticironiron.json"
+        ]
+      }
+    },
+    {
+      "name": "Meteoriticirongen",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteoriticirongen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/meteoriticirongen.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/meteoriticirongen.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/meteoriticirongen_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Meteoriticiron",
+      "~CUSTOM:Hadeanportalblock",
       "~CUSTOM:MoltenLavacobblestone",
       "~CUSTOM:Lavarock",
       "~CUSTOM:Blackcobblestone"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Meteoriticiron",
+      "~CUSTOM:Hadeanportalblock",
       "~CUSTOM:MoltenLavacobblestone",
       "~CUSTOM:Lavarock",
       "~CUSTOM:Blackcobblestone"
@@ -277,16 +413,22 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "advancements.hadeaneon.title": "Hadean Eon",
+      "biome.flois_hadean_mod.hadeanwastes": "Hadean wastes",
+      "item_group.flois_hadean_mod.hadeantab": "Hadean mod tab",
+      "advancements.hadeanbiomes.descr": "Found all biomes in the Hadean",
+      "block.flois_hadean_mod.blacksand": "Blacksand",
+      "block.flois_hadean_mod.hadeanportalblock": "Hadean portal block",
+      "block.flois_hadean_mod.meteoriticiron": "meteoritic iron",
+      "block.flois_hadean_mod.molten_lavacobblestone": "Molten lava cobblestone",
+      "advancements.hadeanbiomes.title": "Hadean biomes",
       "biome.flois_hadean_mod.hadean_lava_fields": "Hadean lava fields",
       "biome.flois_hadean_mod.hadean_fields": "Hadean fields",
       "item.flois_hadean_mod.hadean": "Hadean Portal Igniter (WIP)",
       "block.flois_hadean_mod.lavacobblestone": "Lava cobblestone",
-      "biome.flois_hadean_mod.hadeanwastes": "Hadean wastes",
-      "item_group.flois_hadean_mod.hadeantab": "Hadean mod tab",
-      "block.flois_hadean_mod.blacksand": "Blacksand",
       "biome.flois_hadean_mod.hadean_fields2": "Hadean fields",
       "block.flois_hadean_mod.lavarock": "Lava_rock",
-      "block.flois_hadean_mod.molten_lavacobblestone": "Molten lava cobblestone"
+      "advancements.hadeaneon.descr": "Enter the Hadean"
     }
   },
   "foldersRoot": {
@@ -297,15 +439,18 @@
     "modid": "flois_hadean_mod",
     "modName": "floi\u0027s Hadean mod",
     "version": "1.0.0",
-    "author": "nisar, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "description": "floi\u0027s Hadean mod for 1.21.1 neoforge",
+    "author": "Floi",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods",
+    "license": "GNU Lesser General Public License version 2.1 (LGPLv2.1)",
     "serverSideOnly": false,
+    "modPicture": "untitled_design_22",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
+    "credits": "made by floi",
     "modElementsPackage": "net.floishadean"
   },
   "mcreatorVersion": 202400452410

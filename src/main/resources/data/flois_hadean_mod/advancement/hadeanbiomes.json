@@ -1,0 +1,55 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "flois_hadean_mod:hadean"
+    },
+    "title": {
+      "translate": "advancements.hadeanbiomes.title"
+    },
+    "description": {
+      "translate": "advancements.hadeanbiomes.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hadeanbiomes_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "flois_hadean_mod:hadeanwastes"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hadeanbiomes_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "flois_hadean_mod:hadean_lava_fields"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  }
+}

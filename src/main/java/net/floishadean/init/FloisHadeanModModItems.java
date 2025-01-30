@@ -22,6 +22,8 @@ public class FloisHadeanModModItems {
 	public static final DeferredItem<Item> LAVACOBBLESTONE = block(FloisHadeanModModBlocks.LAVACOBBLESTONE);
 	public static final DeferredItem<Item> LAVAROCK = block(FloisHadeanModModBlocks.LAVAROCK);
 	public static final DeferredItem<Item> MOLTEN_LAVACOBBLESTONE = block(FloisHadeanModModBlocks.MOLTEN_LAVACOBBLESTONE);
+	public static final DeferredItem<Item> HADEANPORTALBLOCK = block(FloisHadeanModModBlocks.HADEANPORTALBLOCK);
+	public static final DeferredItem<Item> METEORITICIRON = block(FloisHadeanModModBlocks.METEORITICIRON);
 
 	// Start of user code block custom items
 	// End of user code block custom items

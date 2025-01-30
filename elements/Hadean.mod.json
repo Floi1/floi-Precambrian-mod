@@ -52,7 +52,7 @@
     "maxMonsterSpawnLightLimit": 0,
     "monsterSpawnBlockLightLimit": 0,
     "portalFrame": {
-      "value": "Blocks.BASALT"
+      "value": "CUSTOM:Hadeanportalblock"
     },
     "portalParticles": {
       "value": "PORTAL"
