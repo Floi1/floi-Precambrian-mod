@@ -622,6 +622,30 @@
           "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/ashgen_3_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "Lavacobblestonerep",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavacobblestonerep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/recipe/lavacobblestonerep.json"
+        ]
+      }
+    },
+    {
+      "name": "Portalblockrep",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalblockrep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/recipe/portalblockrep.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -664,9 +688,9 @@
       "block.flois_hadean_mod.ash": "Ash",
       "item_group.flois_hadean_mod.hadeantab": "Hadean mod tab",
       "advancements.hadeanbiomes.descr": "Found all biomes in the Hadean",
-      "block.flois_hadean_mod.blacksand": "Blacksand",
+      "block.flois_hadean_mod.blacksand": "Black sand",
       "block.flois_hadean_mod.hadeanportalblock": "Hadean portal block",
-      "block.flois_hadean_mod.meteoriticiron": " Meteoritic iron",
+      "block.flois_hadean_mod.meteoriticiron": "Meteoritic iron",
       "block.flois_hadean_mod.dark_ash": "Dark ash",
       "block.flois_hadean_mod.molten_lavacobblestone": "Molten lava cobblestone",
       "advancements.hadeanbiomes.title": "Hadean biomes",

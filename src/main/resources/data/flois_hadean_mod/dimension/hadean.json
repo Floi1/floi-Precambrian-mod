@@ -90,8 +90,8 @@
           "biome": "flois_hadean_mod:hadeanshot",
           "parameters": {
             "temperature": [
-              -0.15,
-              0.2
+              -0.45,
+              -0.15
             ],
             "humidity": [
               -0.5,
