@@ -15,10 +15,10 @@
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardXP": 5000,
-    "achievementType": "goal",
+    "achievementType": "challenge",
     "parent": {
       "value": "No parent: root"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:Hadeanwastes</field><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:HadeanHeat</field></block></next></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:Hadeanwastes</field><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:HadeanHeat</field></block></next></block></next></block><block type=\"biome_entered\" x=\"73\" y=\"187\"><field name=\"biome\">CUSTOM:Hadeancoldheat</field></block></xml>"
   }
 }
