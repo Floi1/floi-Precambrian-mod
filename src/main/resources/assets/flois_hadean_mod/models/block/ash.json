@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "flois_hadean_mod:block/ash",
+    "up": "flois_hadean_mod:block/ash",
+    "north": "flois_hadean_mod:block/ash",
+    "east": "flois_hadean_mod:block/ash",
+    "south": "flois_hadean_mod:block/ash",
+    "west": "flois_hadean_mod:block/ash",
+    "particle": "flois_hadean_mod:block/ash"
+  },
+  "render_type": "solid"
+}

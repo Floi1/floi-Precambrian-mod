@@ -28,5 +28,8 @@ public class FloisHadeanModModTabs {
 				tabData.accept(FloisHadeanModModBlocks.ZIRCONORE.get().asItem());
 				tabData.accept(FloisHadeanModModItems.ZIRCONITEM.get());
 				tabData.accept(FloisHadeanModModBlocks.ZIRCONBLOCK.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.LIGHT_ASH.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.ASH.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.DARK_ASH.get().asItem());
 			}).build());
 }

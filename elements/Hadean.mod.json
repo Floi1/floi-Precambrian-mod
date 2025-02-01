@@ -11,6 +11,9 @@
       },
       {
         "value": "CUSTOM:Hadeancoldheat"
+      },
+      {
+        "value": "CUSTOM:Hadeanshot"
       }
     ],
     "worldGenType": "Normal world gen",

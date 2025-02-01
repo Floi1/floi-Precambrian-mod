@@ -122,12 +122,23 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "generateFeature": false,
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Hadeanshot"
+      },
+      {
+        "value": "CUSTOM:Hadeanwastes"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:Lavarock"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 8,
+    "frequencyOnChunk": 8,
+    "minGenerateHeight": -60,
+    "maxGenerateHeight": 50
   }
 }

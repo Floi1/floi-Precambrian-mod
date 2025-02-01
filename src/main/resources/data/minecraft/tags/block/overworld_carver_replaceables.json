@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "flois_hadean_mod:lavarock",
-    "minecraft:basalt"
+    "flois_hadean_mod:lavarock"
   ]
 }

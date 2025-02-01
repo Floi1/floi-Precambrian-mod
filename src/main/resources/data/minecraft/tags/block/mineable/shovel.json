@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "flois_hadean_mod:dark_ash",
+    "flois_hadean_mod:ash",
+    "flois_hadean_mod:light_ash",
     "flois_hadean_mod:blacksand"
   ]
 }

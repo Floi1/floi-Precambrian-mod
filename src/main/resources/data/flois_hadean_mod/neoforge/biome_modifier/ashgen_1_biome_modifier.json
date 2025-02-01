@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "flois_hadean_mod:hadeanshot",
+  "features": "flois_hadean_mod:ashgen_1",
+  "step": "surface_structures"
+}

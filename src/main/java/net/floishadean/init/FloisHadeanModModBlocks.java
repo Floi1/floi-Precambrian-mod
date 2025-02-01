@@ -13,11 +13,14 @@ import net.floishadean.block.ZirconoreBlock;
 import net.floishadean.block.ZirconblockBlock;
 import net.floishadean.block.MoltenLavacobblestoneBlock;
 import net.floishadean.block.MeteoriticironBlock;
+import net.floishadean.block.LightashBlock;
 import net.floishadean.block.LavarockBlock;
 import net.floishadean.block.HadeanportalblockBlock;
 import net.floishadean.block.HadeanPortalBlock;
+import net.floishadean.block.DarkashBlock;
 import net.floishadean.block.BlacksandBlock;
 import net.floishadean.block.BlackcobblestoneBlock;
+import net.floishadean.block.AshBlock;
 import net.floishadean.FloisHadeanModMod;
 
 public class FloisHadeanModModBlocks {
@@ -31,6 +34,9 @@ public class FloisHadeanModModBlocks {
 	public static final DeferredBlock<Block> METEORITICIRON = REGISTRY.register("meteoriticiron", MeteoriticironBlock::new);
 	public static final DeferredBlock<Block> ZIRCONORE = REGISTRY.register("zirconore", ZirconoreBlock::new);
 	public static final DeferredBlock<Block> ZIRCONBLOCK = REGISTRY.register("zirconblock", ZirconblockBlock::new);
+	public static final DeferredBlock<Block> LIGHT_ASH = REGISTRY.register("light_ash", LightashBlock::new);
+	public static final DeferredBlock<Block> ASH = REGISTRY.register("ash", AshBlock::new);
+	public static final DeferredBlock<Block> DARK_ASH = REGISTRY.register("dark_ash", DarkashBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

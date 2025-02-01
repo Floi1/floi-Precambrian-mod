@@ -28,6 +28,9 @@ public class FloisHadeanModModItems {
 	public static final DeferredItem<Item> ZIRCONORE = block(FloisHadeanModModBlocks.ZIRCONORE);
 	public static final DeferredItem<Item> ZIRCONITEM = REGISTRY.register("zirconitem", ZirconitemItem::new);
 	public static final DeferredItem<Item> ZIRCONBLOCK = block(FloisHadeanModModBlocks.ZIRCONBLOCK);
+	public static final DeferredItem<Item> LIGHT_ASH = block(FloisHadeanModModBlocks.LIGHT_ASH);
+	public static final DeferredItem<Item> ASH = block(FloisHadeanModModBlocks.ASH);
+	public static final DeferredItem<Item> DARK_ASH = block(FloisHadeanModModBlocks.DARK_ASH);
 
 	// Start of user code block custom items
 	// End of user code block custom items

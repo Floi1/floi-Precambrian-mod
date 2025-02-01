@@ -442,6 +442,186 @@
           "src/main/java/net/floishadean/block/ZirconblockBlock.java"
         ]
       }
+    },
+    {
+      "name": "Balcksandtoglass",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balcksandtoglass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/recipe/balcksandtoglass.json"
+        ]
+      }
+    },
+    {
+      "name": "Hadeanshot",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hadeanshot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/biome/hadeanshot.json"
+        ]
+      }
+    },
+    {
+      "name": "Obsgen2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsgen_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/obsgen_2.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/obsgen_2.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/obsgen_2_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Meteoriticirongen2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteoriticirongen_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/meteoriticirongen_2.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/meteoriticirongen_2_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/meteoriticirongen_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Blackcobblestonegen2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackcobblestonegen_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/blackcobblestonegen_2.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/blackcobblestonegen_2_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/blackcobblestonegen_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Lightash",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_ash",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floishadean/block/LightashBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/models/block/light_ash.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/light_ash.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/light_ash.json",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/light_ash.json"
+        ]
+      }
+    },
+    {
+      "name": "Ash",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/ash.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/ash.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/ash.json",
+          "src/main/java/net/floishadean/block/AshBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/models/item/ash.json"
+        ]
+      }
+    },
+    {
+      "name": "Darkash",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_ash",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_hadean_mod/models/item/dark_ash.json",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/dark_ash.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/dark_ash.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/dark_ash.json",
+          "src/main/java/net/floishadean/block/DarkashBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Zirconblockrep",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zirconblockrep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/recipe/zirconblockrep.json"
+        ]
+      }
+    },
+    {
+      "name": "Zirconitemrep",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zirconitemrep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/recipe/zirconitemrep.json"
+        ]
+      }
+    },
+    {
+      "name": "Ashgen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashgen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/ashgen_1.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/ashgen_1.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/ashgen_1_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Ashgen2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashgen_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/ashgen_2.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/ashgen_2.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/ashgen_2_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Ashgen3",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashgen_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/ashgen_3.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/ashgen_3.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/ashgen_3_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -466,23 +646,28 @@
       "~CUSTOM:Blackcobblestone"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Darkash",
+      "~CUSTOM:Ash",
+      "~CUSTOM:Lightash",
       "~CUSTOM:Blacksand"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~CUSTOM:Lavarock",
-      "~Blocks.BASALT"
+      "~CUSTOM:Lavarock"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "advancements.hadeaneon.title": "Hadean Eon",
+      "block.flois_hadean_mod.light_ash": "Light ash",
       "biome.flois_hadean_mod.hadeanwastes": "Hadean wastes",
+      "block.flois_hadean_mod.ash": "Ash",
       "item_group.flois_hadean_mod.hadeantab": "Hadean mod tab",
       "advancements.hadeanbiomes.descr": "Found all biomes in the Hadean",
       "block.flois_hadean_mod.blacksand": "Blacksand",
       "block.flois_hadean_mod.hadeanportalblock": "Hadean portal block",
-      "block.flois_hadean_mod.meteoriticiron": "meteoritic iron",
+      "block.flois_hadean_mod.meteoriticiron": " Meteoritic iron",
+      "block.flois_hadean_mod.dark_ash": "Dark ash",
       "block.flois_hadean_mod.molten_lavacobblestone": "Molten lava cobblestone",
       "advancements.hadeanbiomes.title": "Hadean biomes",
       "biome.flois_hadean_mod.hadean_lava_fields": "Hadean lava fields",
@@ -490,9 +675,10 @@
       "item.flois_hadean_mod.zirconitem": "Zircon ore",
       "item.flois_hadean_mod.hadean": "Hadean Portal Igniter (WIP)",
       "block.flois_hadean_mod.lavacobblestone": "Lava cobblestone",
+      "biome.flois_hadean_mod.hadeanshot": "Hadean Shot",
       "block.flois_hadean_mod.zirconblock": "Zircon block",
       "biome.flois_hadean_mod.hadean_fields2": "Hadean fields",
-      "block.flois_hadean_mod.lavarock": "Lava_rock",
+      "block.flois_hadean_mod.lavarock": "Lava rock",
       "block.flois_hadean_mod.zirconore": "Zircon ore block",
       "advancements.hadeaneon.descr": "Enter the Hadean"
     }
@@ -504,7 +690,7 @@
   "workspaceSettings": {
     "modid": "flois_hadean_mod",
     "modName": "floi\u0027s Hadean mod",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "floi\u0027s Hadean mod for 1.21.1 neoforge",
     "author": "Floi",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods",
