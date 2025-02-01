@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.floishadean.item.ZirconitemItem;
 import net.floishadean.item.HadeanItem;
 import net.floishadean.FloisHadeanModMod;
 
@@ -24,6 +25,9 @@ public class FloisHadeanModModItems {
 	public static final DeferredItem<Item> MOLTEN_LAVACOBBLESTONE = block(FloisHadeanModModBlocks.MOLTEN_LAVACOBBLESTONE);
 	public static final DeferredItem<Item> HADEANPORTALBLOCK = block(FloisHadeanModModBlocks.HADEANPORTALBLOCK);
 	public static final DeferredItem<Item> METEORITICIRON = block(FloisHadeanModModBlocks.METEORITICIRON);
+	public static final DeferredItem<Item> ZIRCONORE = block(FloisHadeanModModBlocks.ZIRCONORE);
+	public static final DeferredItem<Item> ZIRCONITEM = REGISTRY.register("zirconitem", ZirconitemItem::new);
+	public static final DeferredItem<Item> ZIRCONBLOCK = block(FloisHadeanModModBlocks.ZIRCONBLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

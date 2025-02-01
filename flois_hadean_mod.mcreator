@@ -383,12 +383,73 @@
           "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/meteoriticirongen_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "Zirconore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zirconore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_hadean_mod/models/block/zirconore.json",
+          "src/main/java/net/floishadean/block/ZirconoreBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/models/item/zirconore.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/zirconore.json",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/zirconore.json"
+        ]
+      }
+    },
+    {
+      "name": "Zirconitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zirconitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_hadean_mod/models/item/zirconitem.json",
+          "src/main/java/net/floishadean/item/ZirconitemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Zirconoregen",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zirconoregen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/zirconoregen_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/zirconoregen.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/zirconoregen.json"
+        ]
+      }
+    },
+    {
+      "name": "Zirconblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zirconblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/zirconblock.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/zirconblock.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/zirconblock.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/zirconblock.json",
+          "src/main/java/net/floishadean/block/ZirconblockBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Zirconblock",
+      "~CUSTOM:Zirconore",
       "~CUSTOM:Meteoriticiron",
       "~CUSTOM:Hadeanportalblock",
       "~CUSTOM:MoltenLavacobblestone",
@@ -396,6 +457,8 @@
       "~CUSTOM:Blackcobblestone"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Zirconblock",
+      "~CUSTOM:Zirconore",
       "~CUSTOM:Meteoriticiron",
       "~CUSTOM:Hadeanportalblock",
       "~CUSTOM:MoltenLavacobblestone",
@@ -424,10 +487,13 @@
       "advancements.hadeanbiomes.title": "Hadean biomes",
       "biome.flois_hadean_mod.hadean_lava_fields": "Hadean lava fields",
       "biome.flois_hadean_mod.hadean_fields": "Hadean fields",
+      "item.flois_hadean_mod.zirconitem": "Zircon ore",
       "item.flois_hadean_mod.hadean": "Hadean Portal Igniter (WIP)",
       "block.flois_hadean_mod.lavacobblestone": "Lava cobblestone",
+      "block.flois_hadean_mod.zirconblock": "Zircon block",
       "biome.flois_hadean_mod.hadean_fields2": "Hadean fields",
       "block.flois_hadean_mod.lavarock": "Lava_rock",
+      "block.flois_hadean_mod.zirconore": "Zircon ore block",
       "advancements.hadeaneon.descr": "Enter the Hadean"
     }
   },

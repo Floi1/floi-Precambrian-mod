@@ -36,24 +36,24 @@
           "biome": "flois_hadean_mod:hadean_lava_fields",
           "parameters": {
             "temperature": [
-              0.21,
-              0.55
+              0.3,
+              0.6
             ],
             "humidity": [
               -0.5,
               0.5
             ],
             "continentalness": [
-              0.4,
-              1
+              0.15,
+              0.3
             ],
             "weirdness": [
               -1,
               1
             ],
             "erosion": [
-              -0.5,
-              0.5
+              -0.35,
+              0.3
             ],
             "depth": 0,
             "offset": 0

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "flois_hadean_mod:hadean_lava_fields",
+  "features": "flois_hadean_mod:zirconoregen",
+  "step": "surface_structures"
+}

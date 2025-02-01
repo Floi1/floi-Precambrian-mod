@@ -9,6 +9,8 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 
 import net.minecraft.world.level.block.Block;
 
+import net.floishadean.block.ZirconoreBlock;
+import net.floishadean.block.ZirconblockBlock;
 import net.floishadean.block.MoltenLavacobblestoneBlock;
 import net.floishadean.block.MeteoriticironBlock;
 import net.floishadean.block.LavarockBlock;
@@ -27,6 +29,8 @@ public class FloisHadeanModModBlocks {
 	public static final DeferredBlock<Block> MOLTEN_LAVACOBBLESTONE = REGISTRY.register("molten_lavacobblestone", MoltenLavacobblestoneBlock::new);
 	public static final DeferredBlock<Block> HADEANPORTALBLOCK = REGISTRY.register("hadeanportalblock", HadeanportalblockBlock::new);
 	public static final DeferredBlock<Block> METEORITICIRON = REGISTRY.register("meteoriticiron", MeteoriticironBlock::new);
+	public static final DeferredBlock<Block> ZIRCONORE = REGISTRY.register("zirconore", ZirconoreBlock::new);
+	public static final DeferredBlock<Block> ZIRCONBLOCK = REGISTRY.register("zirconblock", ZirconblockBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

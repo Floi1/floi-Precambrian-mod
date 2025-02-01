@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "flois_hadean_mod:zirconblock",
+    "flois_hadean_mod:zirconore",
     "flois_hadean_mod:meteoriticiron",
     "flois_hadean_mod:hadeanportalblock",
     "flois_hadean_mod:molten_lavacobblestone",
