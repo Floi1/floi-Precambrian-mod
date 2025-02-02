@@ -1,8 +1,8 @@
 {
   "parent": "flois_hadean_mod:custom/stromatolite",
   "textures": {
-    "all": "minecraft:block/beetroots_stage2",
-    "particle": "minecraft:block/beetroots_stage2",
+    "all": "minecraft:block/ancient_debris_top",
+    "particle": "minecraft:block/ancient_debris_top",
     "0": "flois_hadean_mod:block/stromatolite"
   },
   "render_type": "cutout"

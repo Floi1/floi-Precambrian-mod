@@ -880,6 +880,21 @@
       "path": "~/archean"
     },
     {
+      "name": "Stromatolitegen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stromatolitegen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/stromatolitegen_1_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/stromatolitegen_1.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/stromatolitegen_1.json"
+        ]
+      },
+      "path": "~/archean"
+    },
+    {
       "name": "Stromatolite",
       "type": "plant",
       "compiles": true,
@@ -892,21 +907,6 @@
           "src/main/resources/assets/flois_hadean_mod/models/item/stromatolite.json",
           "src/main/resources/assets/flois_hadean_mod/blockstates/stromatolite.json",
           "src/main/java/net/floishadean/block/StromatoliteBlock.java"
-        ]
-      },
-      "path": "~/archean"
-    },
-    {
-      "name": "Stromatolitegen2",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stromatolitegen_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/stromatolitegen_2.json",
-          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/stromatolitegen_2_biome_modifier.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/stromatolitegen_2.json"
         ]
       },
       "path": "~/archean"
