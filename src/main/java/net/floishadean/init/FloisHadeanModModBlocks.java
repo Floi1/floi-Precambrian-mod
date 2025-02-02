@@ -11,7 +11,10 @@ import net.minecraft.world.level.block.Block;
 
 import net.floishadean.block.ZirconoreBlock;
 import net.floishadean.block.ZirconblockBlock;
+import net.floishadean.block.StromatoliteBlock;
+import net.floishadean.block.RippledblacksandBlock;
 import net.floishadean.block.MoltenLavacobblestoneBlock;
+import net.floishadean.block.MicrobialmatBlock;
 import net.floishadean.block.MeteoriticironBlock;
 import net.floishadean.block.LightashBlock;
 import net.floishadean.block.LavarockBlock;
@@ -41,6 +44,9 @@ public class FloisHadeanModModBlocks {
 	public static final DeferredBlock<Block> DARK_ASH = REGISTRY.register("dark_ash", DarkashBlock::new);
 	public static final DeferredBlock<Block> ARCHEANPORTALBLOCK = REGISTRY.register("archeanportalblock", ArcheanportalblockBlock::new);
 	public static final DeferredBlock<Block> ARCHEAN_PORTAL = REGISTRY.register("archean_portal", ArcheanPortalBlock::new);
+	public static final DeferredBlock<Block> RIPPLEDBLACKSAND = REGISTRY.register("rippledblacksand", RippledblacksandBlock::new);
+	public static final DeferredBlock<Block> MICROBIALMAT = REGISTRY.register("microbialmat", MicrobialmatBlock::new);
+	public static final DeferredBlock<Block> STROMATOLITE = REGISTRY.register("stromatolite", StromatoliteBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

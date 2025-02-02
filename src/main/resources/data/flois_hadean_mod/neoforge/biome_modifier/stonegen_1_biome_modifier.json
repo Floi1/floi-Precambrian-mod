@@ -4,6 +4,6 @@
     "flois_hadean_mod:archeanshallowocean",
     "flois_hadean_mod:archeanwaterholes"
   ],
-  "features": "flois_hadean_mod:blacksandgen_5",
+  "features": "flois_hadean_mod:stonegen_1",
   "step": "surface_structures"
 }

@@ -23,7 +23,7 @@
     "horizontalNoiseSize": 4,
     "verticalNoiseSize": 1,
     "defaultEffects": "overworld",
-    "useCustomEffects": true,
+    "useCustomEffects": false,
     "hasClouds": true,
     "cloudHeight": 256.0,
     "skyType": "NORMAL",

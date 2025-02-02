@@ -34,6 +34,9 @@ public class FloisHadeanModModItems {
 	public static final DeferredItem<Item> DARK_ASH = block(FloisHadeanModModBlocks.DARK_ASH);
 	public static final DeferredItem<Item> ARCHEANPORTALBLOCK = block(FloisHadeanModModBlocks.ARCHEANPORTALBLOCK);
 	public static final DeferredItem<Item> ARCHEAN = REGISTRY.register("archean", ArcheanItem::new);
+	public static final DeferredItem<Item> RIPPLEDBLACKSAND = block(FloisHadeanModModBlocks.RIPPLEDBLACKSAND);
+	public static final DeferredItem<Item> MICROBIALMAT = block(FloisHadeanModModBlocks.MICROBIALMAT);
+	public static final DeferredItem<Item> STROMATOLITE = block(FloisHadeanModModBlocks.STROMATOLITE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -33,5 +33,8 @@ public class FloisHadeanModModTabs {
 				tabData.accept(FloisHadeanModModBlocks.DARK_ASH.get().asItem());
 				tabData.accept(FloisHadeanModModBlocks.ARCHEANPORTALBLOCK.get().asItem());
 				tabData.accept(FloisHadeanModModItems.ARCHEAN.get());
+				tabData.accept(FloisHadeanModModBlocks.RIPPLEDBLACKSAND.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.MICROBIALMAT.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.STROMATOLITE.get().asItem());
 			}).build());
 }

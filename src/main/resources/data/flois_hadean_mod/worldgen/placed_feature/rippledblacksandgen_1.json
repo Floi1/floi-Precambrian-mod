@@ -1,9 +1,9 @@
 {
-  "feature": "flois_hadean_mod:blacksandgen_5",
+  "feature": "flois_hadean_mod:rippledblacksandgen_1",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 56
+      "count": 96
     },
     {
       "type": "minecraft:in_square"

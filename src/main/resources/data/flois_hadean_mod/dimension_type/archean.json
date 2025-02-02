@@ -19,5 +19,5 @@
     "max_inclusive": 7
   },
   "monster_spawn_block_light_limit": 0,
-  "effects": "flois_hadean_mod:archean"
+  "effects": "minecraft:overworld"
 }

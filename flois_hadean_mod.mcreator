@@ -694,8 +694,7 @@
           "src/main/java/net/floishadean/world/teleporter/ArcheanTeleporter.java",
           "src/main/resources/assets/flois_hadean_mod/models/item/archean.json",
           "src/main/java/net/floishadean/item/ArcheanItem.java",
-          "src/main/resources/data/flois_hadean_mod/dimension/archean.json",
-          "src/main/java/net/floishadean/world/dimension/ArcheanDimension.java"
+          "src/main/resources/data/flois_hadean_mod/dimension/archean.json"
         ]
       },
       "path": "~/archean"
@@ -787,6 +786,130 @@
         ]
       },
       "path": "~/archean"
+    },
+    {
+      "name": "Rippledblacksand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rippledblacksand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_hadean_mod/blockstates/rippledblacksand.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/rippledblacksand.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/rippledblacksand.json",
+          "src/main/java/net/floishadean/block/RippledblacksandBlock.java",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/rippledblacksand.json"
+        ]
+      }
+    },
+    {
+      "name": "Rippledblacksandgen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rippledblacksandgen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/rippledblacksandgen_1_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/rippledblacksandgen_1.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/rippledblacksandgen_1.json"
+        ]
+      },
+      "path": "~/archean"
+    },
+    {
+      "name": "Microbialmat",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microbialmat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/microbialmat.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/microbialmat.json",
+          "src/main/java/net/floishadean/block/MicrobialmatBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/models/block/microbialmat.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/microbialmat.json"
+        ]
+      }
+    },
+    {
+      "name": "Microbialmatgen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microbialmatgen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/microbialmatgen_1.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/microbialmatgen_1_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/microbialmatgen_1.json"
+        ]
+      },
+      "path": "~/archean"
+    },
+    {
+      "name": "Microbialmatgen2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microbialmatgen_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/microbialmatgen_2.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/microbialmatgen_2_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/microbialmatgen_2.json"
+        ]
+      },
+      "path": "~/archean"
+    },
+    {
+      "name": "Stonegen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonegen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/stonegen_1_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/stonegen_1.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/stonegen_1.json"
+        ]
+      },
+      "path": "~/archean"
+    },
+    {
+      "name": "Stromatolite",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stromatolite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_hadean_mod/models/block/stromatolite.json",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/stromatolite.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/stromatolite.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/stromatolite.json",
+          "src/main/java/net/floishadean/block/StromatoliteBlock.java"
+        ]
+      },
+      "path": "~/archean"
+    },
+    {
+      "name": "Stromatolitegen2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stromatolitegen_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/stromatolitegen_2.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/stromatolitegen_2_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/stromatolitegen_2.json"
+        ]
+      },
+      "path": "~/archean"
     }
   ],
   "variable_elements": [],
@@ -815,6 +938,7 @@
       "~CUSTOM:Archeanportalblock"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Rippledblacksand",
       "~CUSTOM:Darkash",
       "~CUSTOM:Ash",
       "~CUSTOM:Lightash",
@@ -831,6 +955,7 @@
       "biome.flois_hadean_mod.hadeanwastes": "Hadean wastes",
       "biome.flois_hadean_mod.archeanwaterholes": "Archeanwaterholes",
       "block.flois_hadean_mod.blacksand": "Black sand",
+      "block.flois_hadean_mod.microbialmat": "Microbial mat",
       "block.flois_hadean_mod.meteoriticiron": "Meteoritic iron",
       "block.flois_hadean_mod.dark_ash": "Dark ash",
       "block.flois_hadean_mod.molten_lavacobblestone": "Molten lava cobblestone",
@@ -838,6 +963,7 @@
       "block.flois_hadean_mod.archeanportalblock": "Archean portal block",
       "biome.flois_hadean_mod.hadean_fields": "Hadean fields",
       "item.flois_hadean_mod.hadean": "Hadean Portal Igniter (WIP)",
+      "block.flois_hadean_mod.stromatolite": "Stromatolite",
       "biome.flois_hadean_mod.hadean_fields2": "Hadean fields",
       "biome.flois_hadean_mod.hadean_ash": "Hadean ash",
       "block.flois_hadean_mod.zirconore": "Zircon ore block",
@@ -853,7 +979,8 @@
       "block.flois_hadean_mod.zirconblock": "Zircon block",
       "block.flois_hadean_mod.lavarock": "Lava rock",
       "biome.flois_hadean_mod.archeanshallowocean": "Archean shallow ocean",
-      "item.flois_hadean_mod.archean": "Archean Portal Igniter (wip)"
+      "item.flois_hadean_mod.archean": "Archean Portal Igniter (wip)",
+      "block.flois_hadean_mod.rippledblacksand": "Rippled black sand"
     }
   },
   "foldersRoot": {

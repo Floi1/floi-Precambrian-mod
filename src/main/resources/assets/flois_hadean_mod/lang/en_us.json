@@ -3,6 +3,7 @@
   "biome.flois_hadean_mod.hadeanwastes": "Hadean wastes",
   "biome.flois_hadean_mod.archeanwaterholes": "Archeanwaterholes",
   "block.flois_hadean_mod.blacksand": "Black sand",
+  "block.flois_hadean_mod.microbialmat": "Microbial mat",
   "block.flois_hadean_mod.meteoriticiron": "Meteoritic iron",
   "block.flois_hadean_mod.dark_ash": "Dark ash",
   "block.flois_hadean_mod.molten_lavacobblestone": "Molten lava cobblestone",
@@ -10,6 +11,7 @@
   "block.flois_hadean_mod.archeanportalblock": "Archean portal block",
   "biome.flois_hadean_mod.hadean_fields": "Hadean fields",
   "item.flois_hadean_mod.hadean": "Hadean Portal Igniter (WIP)",
+  "block.flois_hadean_mod.stromatolite": "Stromatolite",
   "biome.flois_hadean_mod.hadean_fields2": "Hadean fields",
   "biome.flois_hadean_mod.hadean_ash": "Hadean ash",
   "block.flois_hadean_mod.zirconore": "Zircon ore block",
@@ -25,5 +27,6 @@
   "block.flois_hadean_mod.zirconblock": "Zircon block",
   "block.flois_hadean_mod.lavarock": "Lava rock",
   "biome.flois_hadean_mod.archeanshallowocean": "Archean shallow ocean",
-  "item.flois_hadean_mod.archean": "Archean Portal Igniter (wip)"
+  "item.flois_hadean_mod.archean": "Archean Portal Igniter (wip)",
+  "block.flois_hadean_mod.rippledblacksand": "Rippled black sand"
 }

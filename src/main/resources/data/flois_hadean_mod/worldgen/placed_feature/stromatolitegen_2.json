@@ -1,9 +1,9 @@
 {
-  "feature": "flois_hadean_mod:blacksandgen_5",
+  "feature": "flois_hadean_mod:stromatolitegen_2",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 56
+      "count": 96
     },
     {
       "type": "minecraft:in_square"
@@ -17,10 +17,10 @@
       "height": {
         "type": "minecraft:trapezoid",
         "min_inclusive": {
-          "absolute": 30
+          "absolute": 68
         },
         "max_inclusive": {
-          "absolute": 68
+          "absolute": 71
         }
       }
     }
