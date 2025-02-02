@@ -57,7 +57,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "flois_hadean_mod:hadeanshot"
+                "biomes": "flois_hadean_mod:hadean_ash"
               }
             }
           }

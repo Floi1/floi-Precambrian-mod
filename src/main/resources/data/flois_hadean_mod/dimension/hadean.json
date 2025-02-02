@@ -87,7 +87,7 @@
           }
         },
         {
-          "biome": "flois_hadean_mod:hadeanshot",
+          "biome": "flois_hadean_mod:hadean_ash",
           "parameters": {
             "temperature": [
               -0.45,
@@ -695,7 +695,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "flois_hadean_mod:hadeanshot"
+                "flois_hadean_mod:hadean_ash"
               ]
             },
             "then_run": {

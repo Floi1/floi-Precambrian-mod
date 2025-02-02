@@ -16,10 +16,10 @@
   "item.flois_hadean_mod.zirconitem": "Zircon ore",
   "item.flois_hadean_mod.hadean": "Hadean Portal Igniter (WIP)",
   "block.flois_hadean_mod.lavacobblestone": "Lava cobblestone",
-  "biome.flois_hadean_mod.hadeanshot": "Hadean Shot",
   "block.flois_hadean_mod.zirconblock": "Zircon block",
   "biome.flois_hadean_mod.hadean_fields2": "Hadean fields",
   "block.flois_hadean_mod.lavarock": "Lava rock",
+  "biome.flois_hadean_mod.hadean_ash": "Hadean ash",
   "block.flois_hadean_mod.zirconore": "Zircon ore block",
   "advancements.hadeaneon.descr": "Enter the Hadean"
 }
