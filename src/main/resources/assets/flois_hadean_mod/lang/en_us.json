@@ -2,6 +2,7 @@
   "advancements.hadeaneon.title": "Hadean Eon",
   "biome.flois_hadean_mod.hadeanwastes": "Hadean wastes",
   "biome.flois_hadean_mod.archeanwaterholes": "Archeanwaterholes",
+  "advancements.archeanbiomes.title": "Archean biomes",
   "block.flois_hadean_mod.blacksand": "Black sand",
   "block.flois_hadean_mod.microbialmat": "Microbial mat",
   "block.flois_hadean_mod.meteoriticiron": "Meteoritic iron",
@@ -18,6 +19,7 @@
   "advancements.hadeaneon.descr": "Enter the Hadean",
   "block.flois_hadean_mod.light_ash": "Light ash",
   "block.flois_hadean_mod.ash": "Ash",
+  "advancements.archeaneon.title": "Archean eon",
   "item_group.flois_hadean_mod.hadeantab": "Hadean mod tab",
   "advancements.hadeanbiomes.descr": "Found all biomes in the Hadean",
   "block.flois_hadean_mod.hadeanportalblock": "Hadean portal block",
@@ -27,6 +29,8 @@
   "block.flois_hadean_mod.zirconblock": "Zircon block",
   "block.flois_hadean_mod.lavarock": "Lava rock",
   "biome.flois_hadean_mod.archeanshallowocean": "Archean shallow ocean",
+  "advancements.archeaneon.descr": "Enter the Archean",
   "item.flois_hadean_mod.archean": "Archean Portal Igniter (wip)",
-  "block.flois_hadean_mod.rippledblacksand": "Rippled black sand"
+  "block.flois_hadean_mod.rippledblacksand": "Rippled black sand",
+  "advancements.archeanbiomes.descr": "Found all biomes in the Archean"
 }

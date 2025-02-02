@@ -18,7 +18,16 @@ public class FloisHadeanModModTrades {
 	@SubscribeEvent
 	public static void registerTrades(VillagerTradesEvent event) {
 		if (event.getType() == VillagerProfession.ARMORER) {
-			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.IRON_INGOT, 4), new ItemStack(FloisHadeanModModBlocks.HADEANPORTALBLOCK.get()), 10, 30, 0.2f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.IRON_INGOT, 4), new ItemStack(FloisHadeanModModBlocks.HADEANPORTALBLOCK.get()), 12, 30, 0.2f));
+		}
+		if (event.getType() == VillagerProfession.ARMORER) {
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.IRON_INGOT, 4), new ItemStack(FloisHadeanModModBlocks.ARCHEANPORTALBLOCK.get()), 12, 30, 0.2f));
+		}
+		if (event.getType() == VillagerProfession.ARMORER) {
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.IRON_INGOT, 3), new ItemStack(FloisHadeanModModBlocks.HADEANPORTALBLOCK.get()), 12, 30, 0.3f));
+		}
+		if (event.getType() == VillagerProfession.ARMORER) {
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.IRON_INGOT, 3), new ItemStack(FloisHadeanModModBlocks.ARCHEANPORTALBLOCK.get()), 12, 30, 0.3f));
 		}
 	}
 }

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "flois_hadean_mod:archean"
+    },
+    "title": {
+      "translate": "advancements.archeaneon.title"
+    },
+    "description": {
+      "translate": "advancements.archeaneon.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "archeaneon_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "flois_hadean_mod:archean"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  }
+}

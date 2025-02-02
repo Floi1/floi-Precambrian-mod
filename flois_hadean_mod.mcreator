@@ -832,7 +832,8 @@
           "src/main/resources/assets/flois_hadean_mod/models/block/microbialmat.json",
           "src/main/resources/assets/flois_hadean_mod/models/item/microbialmat.json"
         ]
-      }
+      },
+      "path": "~/archean"
     },
     {
       "name": "Microbialmatgen1",
@@ -910,6 +911,58 @@
         ]
       },
       "path": "~/archean"
+    },
+    {
+      "name": "Archeanportalrep",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archeanportalrep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/recipe/archeanportalrep.json"
+        ]
+      },
+      "path": "~/archean"
+    },
+    {
+      "name": "Archeanportalkey",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archeanportalkey",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/recipe/archeanportalkey.json"
+        ]
+      },
+      "path": "~/archean"
+    },
+    {
+      "name": "Archeaneon",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archeaneon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/advancement/archeaneon.json"
+        ]
+      },
+      "path": "~/archean"
+    },
+    {
+      "name": "Archeanbiomes",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archeanbiomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/advancement/archeanbiomes.json"
+        ]
+      },
+      "path": "~/archean"
     }
   ],
   "variable_elements": [],
@@ -954,6 +1007,7 @@
       "advancements.hadeaneon.title": "Hadean Eon",
       "biome.flois_hadean_mod.hadeanwastes": "Hadean wastes",
       "biome.flois_hadean_mod.archeanwaterholes": "Archeanwaterholes",
+      "advancements.archeanbiomes.title": "Archean biomes",
       "block.flois_hadean_mod.blacksand": "Black sand",
       "block.flois_hadean_mod.microbialmat": "Microbial mat",
       "block.flois_hadean_mod.meteoriticiron": "Meteoritic iron",
@@ -970,6 +1024,7 @@
       "advancements.hadeaneon.descr": "Enter the Hadean",
       "block.flois_hadean_mod.light_ash": "Light ash",
       "block.flois_hadean_mod.ash": "Ash",
+      "advancements.archeaneon.title": "Archean eon",
       "item_group.flois_hadean_mod.hadeantab": "Hadean mod tab",
       "advancements.hadeanbiomes.descr": "Found all biomes in the Hadean",
       "block.flois_hadean_mod.hadeanportalblock": "Hadean portal block",
@@ -979,8 +1034,10 @@
       "block.flois_hadean_mod.zirconblock": "Zircon block",
       "block.flois_hadean_mod.lavarock": "Lava rock",
       "biome.flois_hadean_mod.archeanshallowocean": "Archean shallow ocean",
+      "advancements.archeaneon.descr": "Enter the Archean",
       "item.flois_hadean_mod.archean": "Archean Portal Igniter (wip)",
-      "block.flois_hadean_mod.rippledblacksand": "Rippled black sand"
+      "block.flois_hadean_mod.rippledblacksand": "Rippled black sand",
+      "advancements.archeanbiomes.descr": "Found all biomes in the Archean"
     }
   },
   "foldersRoot": {

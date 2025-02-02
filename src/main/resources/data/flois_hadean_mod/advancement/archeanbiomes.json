@@ -1,0 +1,55 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "flois_hadean_mod:archean"
+    },
+    "title": {
+      "translate": "advancements.archeanbiomes.title"
+    },
+    "description": {
+      "translate": "advancements.archeanbiomes.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "archeanbiomes_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "flois_hadean_mod:archeanshallowocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "archeanbiomes_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "flois_hadean_mod:archeanwaterholes"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  }
+}

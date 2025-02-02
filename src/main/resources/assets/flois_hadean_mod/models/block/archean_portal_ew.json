@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "flois_hadean_mod:block/archean_portal",
-    "portal": "flois_hadean_mod:block/archean_portal"
+    "particle": "flois_hadean_mod:block/archean_portal_",
+    "portal": "flois_hadean_mod:block/archean_portal_"
   },
   "elements": [
     {
