@@ -21,6 +21,8 @@ import net.floishadean.block.DarkashBlock;
 import net.floishadean.block.BlacksandBlock;
 import net.floishadean.block.BlackcobblestoneBlock;
 import net.floishadean.block.AshBlock;
+import net.floishadean.block.ArcheanportalblockBlock;
+import net.floishadean.block.ArcheanPortalBlock;
 import net.floishadean.FloisHadeanModMod;
 
 public class FloisHadeanModModBlocks {
@@ -37,6 +39,8 @@ public class FloisHadeanModModBlocks {
 	public static final DeferredBlock<Block> LIGHT_ASH = REGISTRY.register("light_ash", LightashBlock::new);
 	public static final DeferredBlock<Block> ASH = REGISTRY.register("ash", AshBlock::new);
 	public static final DeferredBlock<Block> DARK_ASH = REGISTRY.register("dark_ash", DarkashBlock::new);
+	public static final DeferredBlock<Block> ARCHEANPORTALBLOCK = REGISTRY.register("archeanportalblock", ArcheanportalblockBlock::new);
+	public static final DeferredBlock<Block> ARCHEAN_PORTAL = REGISTRY.register("archean_portal", ArcheanPortalBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

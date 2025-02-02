@@ -31,5 +31,7 @@ public class FloisHadeanModModTabs {
 				tabData.accept(FloisHadeanModModBlocks.LIGHT_ASH.get().asItem());
 				tabData.accept(FloisHadeanModModBlocks.ASH.get().asItem());
 				tabData.accept(FloisHadeanModModBlocks.DARK_ASH.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.ARCHEANPORTALBLOCK.get().asItem());
+				tabData.accept(FloisHadeanModModItems.ARCHEAN.get());
 			}).build());
 }

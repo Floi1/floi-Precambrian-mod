@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.floishadean.item.ZirconitemItem;
 import net.floishadean.item.HadeanItem;
+import net.floishadean.item.ArcheanItem;
 import net.floishadean.FloisHadeanModMod;
 
 public class FloisHadeanModModItems {
@@ -31,6 +32,8 @@ public class FloisHadeanModModItems {
 	public static final DeferredItem<Item> LIGHT_ASH = block(FloisHadeanModModBlocks.LIGHT_ASH);
 	public static final DeferredItem<Item> ASH = block(FloisHadeanModModBlocks.ASH);
 	public static final DeferredItem<Item> DARK_ASH = block(FloisHadeanModModBlocks.DARK_ASH);
+	public static final DeferredItem<Item> ARCHEANPORTALBLOCK = block(FloisHadeanModModBlocks.ARCHEANPORTALBLOCK);
+	public static final DeferredItem<Item> ARCHEAN = REGISTRY.register("archean", ArcheanItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

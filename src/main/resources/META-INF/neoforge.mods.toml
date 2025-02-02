@@ -4,7 +4,7 @@ license="GNU Lesser General Public License version 2.1 (LGPLv2.1)"
 
 [[mods]]
 modId="flois_hadean_mod"
-version="1.2.0"
+version="1.3.0"
 displayName="floi's Hadean mod"
 displayURL="https://www.curseforge.com/minecraft/mc-mods"
 logoFile="logo.png"
