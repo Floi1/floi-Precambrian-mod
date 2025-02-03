@@ -10,7 +10,7 @@ displayURL="https://www.curseforge.com/minecraft/mc-mods"
 logoFile="logo.png"
 credits="made by floi"
 authors="Floi"
-description="floi's Hadean mod for 1.21.1 neoforge"
+description="floi's Hadean mod for 1.21.4 neoforge"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
@@ -18,14 +18,14 @@ description="floi's Hadean mod for 1.21.1 neoforge"
 [[dependencies.flois_hadean_mod]]
     modId="neoforge"
     type="required"
-    versionRange="[21.1.65,)"
+    versionRange="[21.4.78-beta,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.flois_hadean_mod]]
     modId="minecraft"
     type="required"
-    versionRange="[1.21.1]"
+    versionRange="[1.21.4]"
     ordering="AFTER"
     side="BOTH"
 

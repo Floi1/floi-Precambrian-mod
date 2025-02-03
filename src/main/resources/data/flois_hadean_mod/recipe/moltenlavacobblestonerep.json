@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "minecraft:water_bucket"
-    },
-    {
-      "item": "flois_hadean_mod:molten_lavacobblestone"
-    }
+    "minecraft:water_bucket",
+    "flois_hadean_mod:molten_lavacobblestone"
   ],
   "result": {
     "id": "flois_hadean_mod:lavacobblestone",

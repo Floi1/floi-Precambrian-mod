@@ -14,8 +14,8 @@ import net.minecraft.core.BlockPos;
 import net.floishadean.block.HadeanPortalBlock;
 
 public class HadeanItem extends Item {
-	public HadeanItem() {
-		super(new Item.Properties().rarity(Rarity.RARE).durability(64));
+	public HadeanItem(Item.Properties properties) {
+		super(properties.rarity(Rarity.RARE).durability(64));
 	}
 
 	@Override

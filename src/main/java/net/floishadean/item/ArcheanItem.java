@@ -14,8 +14,8 @@ import net.minecraft.core.BlockPos;
 import net.floishadean.block.ArcheanPortalBlock;
 
 public class ArcheanItem extends Item {
-	public ArcheanItem() {
-		super(new Item.Properties().rarity(Rarity.RARE).durability(64));
+	public ArcheanItem(Item.Properties properties) {
+		super(properties.rarity(Rarity.RARE).durability(64));
 	}
 
 	@Override

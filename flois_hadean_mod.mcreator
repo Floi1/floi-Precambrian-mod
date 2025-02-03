@@ -20,17 +20,18 @@
       "registry_name": "hadean",
       "metadata": {
         "files": [
-          "src/main/java/net/floishadean/world/teleporter/HadeanPortalShape.java",
           "src/main/java/net/floishadean/block/HadeanPortalBlock.java",
           "src/main/resources/data/flois_hadean_mod/dimension/hadean.json",
-          "src/main/java/net/floishadean/world/dimension/HadeanDimension.java",
-          "src/main/resources/assets/flois_hadean_mod/models/block/hadean_portal_ew.json",
-          "src/main/resources/assets/flois_hadean_mod/models/block/hadean_portal_ns.json",
-          "src/main/resources/assets/flois_hadean_mod/models/item/hadean.json",
+          "src/main/resources/assets/flois_hadean_mod/items/hadean.json",
           "src/main/java/net/floishadean/item/HadeanItem.java",
+          "src/main/resources/assets/flois_hadean_mod/models/item/hadean.json",
+          "src/main/java/net/floishadean/world/dimension/HadeanDimension.java",
+          "src/main/resources/data/flois_hadean_mod/dimension_type/hadean.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/hadean_portal_ew.json",
           "src/main/java/net/floishadean/world/teleporter/HadeanTeleporter.java",
+          "src/main/java/net/floishadean/world/teleporter/HadeanPortalShape.java",
           "src/main/resources/assets/flois_hadean_mod/blockstates/hadean_portal.json",
-          "src/main/resources/data/flois_hadean_mod/dimension_type/hadean.json"
+          "src/main/resources/assets/flois_hadean_mod/models/block/hadean_portal_ns.json"
         ]
       }
     },
@@ -52,11 +53,12 @@
       "registry_name": "blacksand",
       "metadata": {
         "files": [
-          "src/main/resources/assets/flois_hadean_mod/models/item/blacksand.json",
-          "src/main/resources/assets/flois_hadean_mod/blockstates/blacksand.json",
           "src/main/resources/assets/flois_hadean_mod/models/block/blacksand.json",
+          "src/main/resources/assets/flois_hadean_mod/items/blacksand.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/blacksand.json",
           "src/main/resources/data/flois_hadean_mod/loot_table/blocks/blacksand.json",
-          "src/main/java/net/floishadean/block/BlacksandBlock.java"
+          "src/main/java/net/floishadean/block/BlacksandBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/blacksand.json"
         ]
       }
     },
@@ -68,9 +70,9 @@
       "registry_name": "blacksandgen_1",
       "metadata": {
         "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/blacksandgen_1.json",
           "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/blacksandgen_1.json",
-          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/blacksandgen_1_biome_modifier.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/blacksandgen_1.json"
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/blacksandgen_1_biome_modifier.json"
         ]
       }
     },
@@ -106,9 +108,9 @@
       "registry_name": "hadeanheatlava",
       "metadata": {
         "files": [
-          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/hadeanheatlava_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/hadeanheatlava.json",
           "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/hadeanheatlava.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/hadeanheatlava.json"
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/hadeanheatlava_biome_modifier.json"
         ]
       }
     },
@@ -132,8 +134,8 @@
       "registry_name": "hadeanheatlava_2",
       "metadata": {
         "files": [
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/hadeanheatlava_2.json",
           "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/hadeanheatlava_2_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/hadeanheatlava_2.json",
           "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/hadeanheatlava_2.json"
         ]
       }
@@ -159,8 +161,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/magmadisk.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/magmadisk.json",
-          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/magmadisk_biome_modifier.json"
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/magmadisk_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/magmadisk.json"
         ]
       }
     },
@@ -172,9 +174,9 @@
       "registry_name": "blacksandgen_3",
       "metadata": {
         "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/blacksandgen_3.json",
           "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/blacksandgen_3.json",
-          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/blacksandgen_3_biome_modifier.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/blacksandgen_3.json"
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/blacksandgen_3_biome_modifier.json"
         ]
       }
     },
@@ -187,10 +189,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/flois_hadean_mod/models/item/lavacobblestone.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/lavacobblestone.json",
           "src/main/resources/data/flois_hadean_mod/loot_table/blocks/lavacobblestone.json",
-          "src/main/java/net/floishadean/block/BlackcobblestoneBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/items/lavacobblestone.json",
           "src/main/resources/assets/flois_hadean_mod/blockstates/lavacobblestone.json",
-          "src/main/resources/assets/flois_hadean_mod/models/block/lavacobblestone.json"
+          "src/main/java/net/floishadean/block/BlackcobblestoneBlock.java"
         ]
       }
     },
@@ -217,9 +220,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/flois_hadean_mod/loot_table/blocks/lavarock.json",
+          "src/main/java/net/floishadean/block/LavarockBlock.java",
           "src/main/resources/assets/flois_hadean_mod/models/block/lavarock.json",
           "src/main/resources/assets/flois_hadean_mod/models/item/lavarock.json",
-          "src/main/java/net/floishadean/block/LavarockBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/items/lavarock.json",
           "src/main/resources/assets/flois_hadean_mod/blockstates/lavarock.json"
         ]
       }
@@ -234,9 +238,10 @@
         "files": [
           "src/main/java/net/floishadean/block/MoltenLavacobblestoneBlock.java",
           "src/main/resources/data/flois_hadean_mod/loot_table/blocks/molten_lavacobblestone.json",
-          "src/main/resources/assets/flois_hadean_mod/models/item/molten_lavacobblestone.json",
+          "src/main/resources/assets/flois_hadean_mod/items/molten_lavacobblestone.json",
           "src/main/resources/assets/flois_hadean_mod/blockstates/molten_lavacobblestone.json",
-          "src/main/resources/assets/flois_hadean_mod/models/block/molten_lavacobblestone.json"
+          "src/main/resources/assets/flois_hadean_mod/models/block/molten_lavacobblestone.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/molten_lavacobblestone.json"
         ]
       }
     },
@@ -260,8 +265,8 @@
       "registry_name": "obsgen",
       "metadata": {
         "files": [
-          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/obsgen.json",
           "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/obsgen_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/obsgen.json",
           "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/obsgen.json"
         ]
       }
@@ -274,8 +279,8 @@
       "registry_name": "moltenlavacobblestonegen",
       "metadata": {
         "files": [
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/moltenlavacobblestonegen.json",
           "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/moltenlavacobblestonegen_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/moltenlavacobblestonegen.json",
           "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/moltenlavacobblestonegen.json"
         ]
       }
@@ -312,11 +317,12 @@
       "registry_name": "hadeanportalblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/flois_hadean_mod/models/block/hadeanportalblock.json",
-          "src/main/resources/assets/flois_hadean_mod/models/item/hadeanportalblock.json",
-          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/hadeanportalblock.json",
           "src/main/java/net/floishadean/block/HadeanportalblockBlock.java",
-          "src/main/resources/assets/flois_hadean_mod/blockstates/hadeanportalblock.json"
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/hadeanportalblock.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/hadeanportalblock.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/hadeanportalblock.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/hadeanportalblock.json",
+          "src/main/resources/assets/flois_hadean_mod/items/hadeanportalblock.json"
         ]
       }
     },
@@ -350,11 +356,12 @@
       "registry_name": "meteoriticiron",
       "metadata": {
         "files": [
-          "src/main/java/net/floishadean/block/MeteoriticironBlock.java",
           "src/main/resources/assets/flois_hadean_mod/models/item/meteoriticiron.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/meteoriticiron.json",
           "src/main/resources/assets/flois_hadean_mod/models/block/meteoriticiron.json",
           "src/main/resources/data/flois_hadean_mod/loot_table/blocks/meteoriticiron.json",
-          "src/main/resources/assets/flois_hadean_mod/blockstates/meteoriticiron.json"
+          "src/main/java/net/floishadean/block/MeteoriticironBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/items/meteoriticiron.json"
         ]
       }
     },
@@ -378,9 +385,9 @@
       "registry_name": "meteoriticirongen",
       "metadata": {
         "files": [
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/meteoriticirongen_biome_modifier.json",
           "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/meteoriticirongen.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/meteoriticirongen.json",
-          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/meteoriticirongen_biome_modifier.json"
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/meteoriticirongen.json"
         ]
       }
     },
@@ -392,11 +399,12 @@
       "registry_name": "zirconore",
       "metadata": {
         "files": [
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/zirconore.json",
           "src/main/resources/assets/flois_hadean_mod/models/block/zirconore.json",
-          "src/main/java/net/floishadean/block/ZirconoreBlock.java",
           "src/main/resources/assets/flois_hadean_mod/models/item/zirconore.json",
-          "src/main/resources/assets/flois_hadean_mod/blockstates/zirconore.json",
-          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/zirconore.json"
+          "src/main/resources/assets/flois_hadean_mod/items/zirconore.json",
+          "src/main/java/net/floishadean/block/ZirconoreBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/zirconore.json"
         ]
       }
     },
@@ -408,8 +416,9 @@
       "registry_name": "zirconitem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/flois_hadean_mod/models/item/zirconitem.json",
-          "src/main/java/net/floishadean/item/ZirconitemItem.java"
+          "src/main/resources/assets/flois_hadean_mod/items/zirconitem.json",
+          "src/main/java/net/floishadean/item/ZirconitemItem.java",
+          "src/main/resources/assets/flois_hadean_mod/models/item/zirconitem.json"
         ]
       }
     },
@@ -422,8 +431,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/zirconoregen_biome_modifier.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/zirconoregen.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/zirconoregen.json"
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/zirconoregen.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/zirconoregen.json"
         ]
       }
     },
@@ -437,8 +446,9 @@
         "files": [
           "src/main/resources/data/flois_hadean_mod/loot_table/blocks/zirconblock.json",
           "src/main/resources/assets/flois_hadean_mod/models/block/zirconblock.json",
-          "src/main/resources/assets/flois_hadean_mod/blockstates/zirconblock.json",
           "src/main/resources/assets/flois_hadean_mod/models/item/zirconblock.json",
+          "src/main/resources/assets/flois_hadean_mod/items/zirconblock.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/zirconblock.json",
           "src/main/java/net/floishadean/block/ZirconblockBlock.java"
         ]
       }
@@ -490,8 +500,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/meteoriticirongen_2.json",
-          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/meteoriticirongen_2_biome_modifier.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/meteoriticirongen_2.json"
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/meteoriticirongen_2.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/meteoriticirongen_2_biome_modifier.json"
         ]
       }
     },
@@ -503,9 +513,9 @@
       "registry_name": "blackcobblestonegen_2",
       "metadata": {
         "files": [
-          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/blackcobblestonegen_2.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/blackcobblestonegen_2.json",
           "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/blackcobblestonegen_2_biome_modifier.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/blackcobblestonegen_2.json"
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/blackcobblestonegen_2.json"
         ]
       }
     },
@@ -517,11 +527,12 @@
       "registry_name": "light_ash",
       "metadata": {
         "files": [
-          "src/main/java/net/floishadean/block/LightashBlock.java",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/light_ash.json",
           "src/main/resources/assets/flois_hadean_mod/models/block/light_ash.json",
-          "src/main/resources/assets/flois_hadean_mod/models/item/light_ash.json",
           "src/main/resources/assets/flois_hadean_mod/blockstates/light_ash.json",
-          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/light_ash.json"
+          "src/main/java/net/floishadean/block/LightashBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/models/item/light_ash.json",
+          "src/main/resources/assets/flois_hadean_mod/items/light_ash.json"
         ]
       }
     },
@@ -533,11 +544,12 @@
       "registry_name": "ash",
       "metadata": {
         "files": [
-          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/ash.json",
-          "src/main/resources/assets/flois_hadean_mod/models/block/ash.json",
-          "src/main/resources/assets/flois_hadean_mod/blockstates/ash.json",
+          "src/main/resources/assets/flois_hadean_mod/items/ash.json",
           "src/main/java/net/floishadean/block/AshBlock.java",
-          "src/main/resources/assets/flois_hadean_mod/models/item/ash.json"
+          "src/main/resources/assets/flois_hadean_mod/blockstates/ash.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/ash.json",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/ash.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/ash.json"
         ]
       }
     },
@@ -549,11 +561,12 @@
       "registry_name": "dark_ash",
       "metadata": {
         "files": [
-          "src/main/resources/assets/flois_hadean_mod/models/item/dark_ash.json",
-          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/dark_ash.json",
-          "src/main/resources/assets/flois_hadean_mod/models/block/dark_ash.json",
           "src/main/resources/assets/flois_hadean_mod/blockstates/dark_ash.json",
-          "src/main/java/net/floishadean/block/DarkashBlock.java"
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/dark_ash.json",
+          "src/main/resources/assets/flois_hadean_mod/items/dark_ash.json",
+          "src/main/java/net/floishadean/block/DarkashBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/models/block/dark_ash.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/dark_ash.json"
         ]
       }
     },
@@ -589,8 +602,8 @@
       "registry_name": "ashgen_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/ashgen_1.json",
           "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/ashgen_1.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/ashgen_1.json",
           "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/ashgen_1_biome_modifier.json"
         ]
       }
@@ -603,9 +616,9 @@
       "registry_name": "ashgen_2",
       "metadata": {
         "files": [
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/ashgen_2_biome_modifier.json",
           "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/ashgen_2.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/ashgen_2.json",
-          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/ashgen_2_biome_modifier.json"
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/ashgen_2.json"
         ]
       }
     },
@@ -617,8 +630,8 @@
       "registry_name": "ashgen_3",
       "metadata": {
         "files": [
-          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/ashgen_3.json",
           "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/ashgen_3.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/ashgen_3.json",
           "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/ashgen_3_biome_modifier.json"
         ]
       }
@@ -668,10 +681,11 @@
       "registry_name": "archeanportalblock",
       "metadata": {
         "files": [
+          "src/main/resources/assets/flois_hadean_mod/blockstates/archeanportalblock.json",
+          "src/main/resources/assets/flois_hadean_mod/items/archeanportalblock.json",
+          "src/main/java/net/floishadean/block/ArcheanportalblockBlock.java",
           "src/main/resources/data/flois_hadean_mod/loot_table/blocks/archeanportalblock.json",
           "src/main/resources/assets/flois_hadean_mod/models/block/archeanportalblock.json",
-          "src/main/java/net/floishadean/block/ArcheanportalblockBlock.java",
-          "src/main/resources/assets/flois_hadean_mod/blockstates/archeanportalblock.json",
           "src/main/resources/assets/flois_hadean_mod/models/item/archeanportalblock.json"
         ]
       },
@@ -685,16 +699,17 @@
       "registry_name": "archean",
       "metadata": {
         "files": [
-          "src/main/java/net/floishadean/block/ArcheanPortalBlock.java",
-          "src/main/resources/assets/flois_hadean_mod/blockstates/archean_portal.json",
-          "src/main/resources/assets/flois_hadean_mod/models/block/archean_portal_ew.json",
-          "src/main/resources/data/flois_hadean_mod/dimension_type/archean.json",
           "src/main/java/net/floishadean/world/teleporter/ArcheanPortalShape.java",
-          "src/main/resources/assets/flois_hadean_mod/models/block/archean_portal_ns.json",
+          "src/main/resources/assets/flois_hadean_mod/items/archean.json",
           "src/main/java/net/floishadean/world/teleporter/ArcheanTeleporter.java",
+          "src/main/java/net/floishadean/block/ArcheanPortalBlock.java",
+          "src/main/resources/data/flois_hadean_mod/dimension_type/archean.json",
+          "src/main/resources/data/flois_hadean_mod/dimension/archean.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/archean_portal.json",
           "src/main/resources/assets/flois_hadean_mod/models/item/archean.json",
           "src/main/java/net/floishadean/item/ArcheanItem.java",
-          "src/main/resources/data/flois_hadean_mod/dimension/archean.json"
+          "src/main/resources/assets/flois_hadean_mod/models/block/archean_portal_ew.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/archean_portal_ns.json"
         ]
       },
       "path": "~/archean"
@@ -707,9 +722,9 @@
       "registry_name": "waterholesgen",
       "metadata": {
         "files": [
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/waterholesgen.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/waterholesgen_biome_modifier.json",
           "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/waterholesgen.json",
-          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/waterholesgen_biome_modifier.json"
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/waterholesgen.json"
         ]
       },
       "path": "~/archean"
@@ -722,9 +737,9 @@
       "registry_name": "archeanlavacobgen_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/archeanlavacobgen_1.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/archeanlavacobgen_1.json",
           "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/archeanlavacobgen_1_biome_modifier.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/archeanlavacobgen_1.json"
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/archeanlavacobgen_1.json"
         ]
       },
       "path": "~/archean"
@@ -780,9 +795,9 @@
       "registry_name": "blacksandgen_5",
       "metadata": {
         "files": [
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/blacksandgen_5.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/blacksandgen_5_biome_modifier.json",
           "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/blacksandgen_5.json",
-          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/blacksandgen_5_biome_modifier.json"
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/blacksandgen_5.json"
         ]
       },
       "path": "~/archean"
@@ -795,10 +810,11 @@
       "registry_name": "rippledblacksand",
       "metadata": {
         "files": [
+          "src/main/resources/assets/flois_hadean_mod/items/rippledblacksand.json",
+          "src/main/java/net/floishadean/block/RippledblacksandBlock.java",
           "src/main/resources/assets/flois_hadean_mod/blockstates/rippledblacksand.json",
           "src/main/resources/assets/flois_hadean_mod/models/item/rippledblacksand.json",
           "src/main/resources/assets/flois_hadean_mod/models/block/rippledblacksand.json",
-          "src/main/java/net/floishadean/block/RippledblacksandBlock.java",
           "src/main/resources/data/flois_hadean_mod/loot_table/blocks/rippledblacksand.json"
         ]
       }
@@ -828,9 +844,10 @@
         "files": [
           "src/main/resources/data/flois_hadean_mod/loot_table/blocks/microbialmat.json",
           "src/main/resources/assets/flois_hadean_mod/blockstates/microbialmat.json",
-          "src/main/java/net/floishadean/block/MicrobialmatBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/items/microbialmat.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/microbialmat.json",
           "src/main/resources/assets/flois_hadean_mod/models/block/microbialmat.json",
-          "src/main/resources/assets/flois_hadean_mod/models/item/microbialmat.json"
+          "src/main/java/net/floishadean/block/MicrobialmatBlock.java"
         ]
       },
       "path": "~/archean"
@@ -844,8 +861,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/microbialmatgen_1.json",
-          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/microbialmatgen_1_biome_modifier.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/microbialmatgen_1.json"
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/microbialmatgen_1.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/microbialmatgen_1_biome_modifier.json"
         ]
       },
       "path": "~/archean"
@@ -858,9 +875,9 @@
       "registry_name": "microbialmatgen_2",
       "metadata": {
         "files": [
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/microbialmatgen_2.json",
           "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/microbialmatgen_2_biome_modifier.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/microbialmatgen_2.json"
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/microbialmatgen_2.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/microbialmatgen_2.json"
         ]
       },
       "path": "~/archean"
@@ -873,9 +890,9 @@
       "registry_name": "stonegen_1",
       "metadata": {
         "files": [
-          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/stonegen_1_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/stonegen_1.json",
           "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/stonegen_1.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/stonegen_1.json"
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/stonegen_1_biome_modifier.json"
         ]
       },
       "path": "~/archean"
@@ -888,9 +905,9 @@
       "registry_name": "stromatolitegen_1",
       "metadata": {
         "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/stromatolitegen_1.json",
           "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/stromatolitegen_1_biome_modifier.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/stromatolitegen_1.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/stromatolitegen_1.json"
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/stromatolitegen_1.json"
         ]
       },
       "path": "~/archean"
@@ -903,11 +920,12 @@
       "registry_name": "stromatolite",
       "metadata": {
         "files": [
+          "src/main/resources/assets/flois_hadean_mod/items/stromatolite.json",
           "src/main/resources/assets/flois_hadean_mod/models/block/stromatolite.json",
           "src/main/resources/data/flois_hadean_mod/loot_table/blocks/stromatolite.json",
           "src/main/resources/assets/flois_hadean_mod/models/item/stromatolite.json",
-          "src/main/resources/assets/flois_hadean_mod/blockstates/stromatolite.json",
-          "src/main/java/net/floishadean/block/StromatoliteBlock.java"
+          "src/main/java/net/floishadean/block/StromatoliteBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/stromatolite.json"
         ]
       },
       "path": "~/archean"
@@ -1072,40 +1090,55 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.flois_hadean_mod.archeanportalblock": "Archean portal block",
       "advancements.hadeaneon.title": "Hadean Eon",
-      "biome.flois_hadean_mod.hadeanwastes": "Hadean wastes",
       "biome.flois_hadean_mod.archeanwaterholes": "Archeanwaterholes",
       "advancements.archeanbiomes.title": "Archean biomes",
       "block.flois_hadean_mod.blacksand": "Black sand",
       "block.flois_hadean_mod.microbialmat": "Microbial mat",
+      "item.flois_hadean_mod.zirconore": "Zircon ore block",
       "block.flois_hadean_mod.meteoriticiron": "Meteoritic iron",
       "block.flois_hadean_mod.dark_ash": "Dark ash",
-      "block.flois_hadean_mod.molten_lavacobblestone": "Molten lava cobblestone",
+      "item.flois_hadean_mod.stromatolite": "Stromatolite",
       "advancements.hadeanbiomes.title": "Hadean biomes",
-      "block.flois_hadean_mod.archeanportalblock": "Archean portal block",
       "biome.flois_hadean_mod.hadean_fields": "Hadean fields",
-      "item.flois_hadean_mod.hadean": "Hadean Portal Igniter (WIP)",
+      "item.flois_hadean_mod.microbialmat": "Microbial mat",
+      "item.flois_hadean_mod.rippledblacksand": "Rippled black sand",
       "block.flois_hadean_mod.stromatolite": "Stromatolite",
-      "biome.flois_hadean_mod.hadean_fields2": "Hadean fields",
-      "biome.flois_hadean_mod.hadean_ash": "Hadean ash",
-      "block.flois_hadean_mod.zirconore": "Zircon ore block",
       "advancements.hadeaneon.descr": "Enter the Hadean",
-      "block.flois_hadean_mod.light_ash": "Light ash",
-      "block.flois_hadean_mod.ash": "Ash",
       "advancements.archeaneon.title": "Archean eon",
       "item_group.flois_hadean_mod.hadeantab": "Hadean mod tab",
-      "advancements.hadeanbiomes.descr": "Found all biomes in the Hadean",
-      "block.flois_hadean_mod.hadeanportalblock": "Hadean portal block",
       "biome.flois_hadean_mod.hadean_lava_fields": "Hadean lava fields",
       "item.flois_hadean_mod.zirconitem": "Zircon ore",
       "block.flois_hadean_mod.lavacobblestone": "Lava cobblestone",
+      "item.flois_hadean_mod.light_ash": "Light ash",
       "block.flois_hadean_mod.zirconblock": "Zircon block",
       "block.flois_hadean_mod.lavarock": "Lava rock",
+      "biome.flois_hadean_mod.hadeanwastes": "Hadean wastes",
+      "block.flois_hadean_mod.molten_lavacobblestone": "Molten lava cobblestone",
+      "item.flois_hadean_mod.lavacobblestone": "Lava cobblestone",
+      "block.flois_hadean_mod.archeanportalblock": "Archean portal block",
+      "item.flois_hadean_mod.meteoriticiron": "Meteoritic iron",
+      "item.flois_hadean_mod.hadean": "Hadean Portal Igniter (WIP)",
+      "item.flois_hadean_mod.molten_lavacobblestone": "Molten lava cobblestone",
+      "biome.flois_hadean_mod.hadean_fields2": "Hadean fields",
+      "biome.flois_hadean_mod.hadean_ash": "Hadean ash",
+      "item.flois_hadean_mod.zirconblock": "Zircon block",
+      "block.flois_hadean_mod.zirconore": "Zircon ore block",
+      "item.flois_hadean_mod.hadeanportalblock": "Hadean portal block",
+      "block.flois_hadean_mod.light_ash": "Light ash",
+      "block.flois_hadean_mod.ash": "Ash",
+      "advancements.hadeanbiomes.descr": "Found all biomes in the Hadean",
+      "block.flois_hadean_mod.hadeanportalblock": "Hadean portal block",
+      "item.flois_hadean_mod.ash": "Ash",
+      "item.flois_hadean_mod.dark_ash": "Dark ash",
+      "item.flois_hadean_mod.lavarock": "Lava rock",
       "biome.flois_hadean_mod.archeanshallowocean": "Archean shallow ocean",
       "advancements.archeaneon.descr": "Enter the Archean",
       "item.flois_hadean_mod.archean": "Archean Portal Igniter (wip)",
       "block.flois_hadean_mod.rippledblacksand": "Rippled black sand",
-      "advancements.archeanbiomes.descr": "Found all biomes in the Archean"
+      "advancements.archeanbiomes.descr": "Found all biomes in the Archean",
+      "item.flois_hadean_mod.blacksand": "Black sand"
     }
   },
   "foldersRoot": {
@@ -1121,7 +1154,7 @@
     "modid": "flois_hadean_mod",
     "modName": "floi\u0027s Hadean mod",
     "version": "1.3.0",
-    "description": "floi\u0027s Hadean mod for 1.21.1 neoforge",
+    "description": "floi\u0027s Hadean mod for 1.21.4 neoforge",
     "author": "Floi",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods",
     "license": "GNU Lesser General Public License version 2.1 (LGPLv2.1)",
@@ -1131,9 +1164,9 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "neoforge-1.21.1",
+    "currentGenerator": "neoforge-1.21.4",
     "credits": "made by floi",
     "modElementsPackage": "net.floishadean"
   },
-  "mcreatorVersion": 202400452410
+  "mcreatorVersion": 202500105718
 }

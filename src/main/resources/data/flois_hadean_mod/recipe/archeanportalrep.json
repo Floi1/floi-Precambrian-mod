@@ -7,12 +7,8 @@
     " a "
   ],
   "key": {
-    "a": {
-      "item": "flois_hadean_mod:zirconitem"
-    },
-    "b": {
-      "item": "flois_hadean_mod:zirconblock"
-    }
+    "a": "flois_hadean_mod:zirconitem",
+    "b": "flois_hadean_mod:zirconblock"
   },
   "result": {
     "id": "flois_hadean_mod:archeanportalblock",

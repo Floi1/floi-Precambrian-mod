@@ -1,6 +1,8 @@
 
 package net.floishadean.world.teleporter;
 
+import org.apache.commons.lang3.mutable.MutableInt;
+
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.Vec3;
@@ -9,6 +11,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.NetherPortalBlock;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.util.Mth;
@@ -32,115 +35,122 @@ public class ArcheanPortalShape {
 	private static final BlockBehaviour.StatePredicate FRAME = (state, level, pos) -> state.getBlock() == FloisHadeanModModBlocks.ARCHEANPORTALBLOCK.get();
 	private static final float SAFE_TRAVEL_MAX_ENTITY_XY = 4.0F;
 	private static final double SAFE_TRAVEL_MAX_VERTICAL_DELTA = 1.0;
-	private final LevelAccessor level;
 	private final Direction.Axis axis;
 	private final Direction rightDir;
-	private int numPortalBlocks;
-	@Nullable
-	private BlockPos bottomLeft;
-	private int height;
+	private final int numPortalBlocks;
+	private final BlockPos bottomLeft;
+	private final int height;
 	private final int width;
+
+	public ArcheanPortalShape(Direction.Axis p_77697_, int p_374222_, Direction p_374407_, BlockPos p_77696_, int p_374218_, int p_374477_) {
+		this.axis = p_77697_;
+		this.numPortalBlocks = p_374222_;
+		this.rightDir = p_374407_;
+		this.bottomLeft = p_77696_;
+		this.width = p_374218_;
+		this.height = p_374477_;
+	}
 
 	public static Optional<ArcheanPortalShape> findEmptyPortalShape(LevelAccessor p_77709_, BlockPos p_77710_, Direction.Axis p_77711_) {
 		return findPortalShape(p_77709_, p_77710_, p_77727_ -> p_77727_.isValid() && p_77727_.numPortalBlocks == 0, p_77711_);
 	}
 
 	public static Optional<ArcheanPortalShape> findPortalShape(LevelAccessor p_77713_, BlockPos p_77714_, Predicate<ArcheanPortalShape> p_77715_, Direction.Axis p_77716_) {
-		Optional<ArcheanPortalShape> optional = Optional.of(new ArcheanPortalShape(p_77713_, p_77714_, p_77716_)).filter(p_77715_);
+		Optional<ArcheanPortalShape> optional = Optional.of(findAnyShape(p_77713_, p_77714_, p_77716_)).filter(p_77715_);
 		if (optional.isPresent()) {
 			return optional;
 		} else {
 			Direction.Axis direction$axis = p_77716_ == Direction.Axis.X ? Direction.Axis.Z : Direction.Axis.X;
-			return Optional.of(new ArcheanPortalShape(p_77713_, p_77714_, direction$axis)).filter(p_77715_);
+			return Optional.of(findAnyShape(p_77713_, p_77714_, direction$axis)).filter(p_77715_);
 		}
 	}
 
-	public ArcheanPortalShape(LevelAccessor p_77695_, BlockPos p_77696_, Direction.Axis p_77697_) {
-		this.level = p_77695_;
-		this.axis = p_77697_;
-		this.rightDir = p_77697_ == Direction.Axis.X ? Direction.WEST : Direction.SOUTH;
-		this.bottomLeft = this.calculateBottomLeft(p_77696_);
-		if (this.bottomLeft == null) {
-			this.bottomLeft = p_77696_;
-			this.width = 1;
-			this.height = 1;
+	public static ArcheanPortalShape findAnyShape(BlockGetter p_374054_, BlockPos p_374346_, Direction.Axis p_374516_) {
+		Direction direction = p_374516_ == Direction.Axis.X ? Direction.WEST : Direction.SOUTH;
+		BlockPos blockpos = calculateBottomLeft(p_374054_, direction, p_374346_);
+		if (blockpos == null) {
+			return new ArcheanPortalShape(p_374516_, 0, direction, p_374346_, 0, 0);
 		} else {
-			this.width = this.calculateWidth();
-			if (this.width > 0) {
-				this.height = this.calculateHeight();
+			int i = calculateWidth(p_374054_, blockpos, direction);
+			if (i == 0) {
+				return new ArcheanPortalShape(p_374516_, 0, direction, blockpos, 0, 0);
+			} else {
+				MutableInt mutableint = new MutableInt();
+				int j = calculateHeight(p_374054_, blockpos, direction, i, mutableint);
+				return new ArcheanPortalShape(p_374516_, mutableint.getValue(), direction, blockpos, i, j);
 			}
 		}
 	}
 
 	@Nullable
-	private BlockPos calculateBottomLeft(BlockPos p_77734_) {
-		int i = Math.max(this.level.getMinBuildHeight(), p_77734_.getY() - 21);
-		while (p_77734_.getY() > i && isEmpty(this.level.getBlockState(p_77734_.below()))) {
+	private static BlockPos calculateBottomLeft(BlockGetter p_374347_, Direction p_374365_, BlockPos p_77734_) {
+		int i = Math.max(p_374347_.getMinY(), p_77734_.getY() - 21);
+		while (p_77734_.getY() > i && isEmpty(p_374347_.getBlockState(p_77734_.below()))) {
 			p_77734_ = p_77734_.below();
 		}
-		Direction direction = this.rightDir.getOpposite();
-		int j = this.getDistanceUntilEdgeAboveFrame(p_77734_, direction) - 1;
+		Direction direction = p_374365_.getOpposite();
+		int j = getDistanceUntilEdgeAboveFrame(p_374347_, p_77734_, direction) - 1;
 		return j < 0 ? null : p_77734_.relative(direction, j);
 	}
 
-	private int calculateWidth() {
-		int i = this.getDistanceUntilEdgeAboveFrame(this.bottomLeft, this.rightDir);
+	private static int calculateWidth(BlockGetter p_374528_, BlockPos p_374039_, Direction p_374180_) {
+		int i = getDistanceUntilEdgeAboveFrame(p_374528_, p_374039_, p_374180_);
 		return i >= 2 && i <= 21 ? i : 0;
 	}
 
-	private int getDistanceUntilEdgeAboveFrame(BlockPos p_77736_, Direction p_77737_) {
+	private static int getDistanceUntilEdgeAboveFrame(BlockGetter p_374084_, BlockPos p_77736_, Direction p_77737_) {
 		BlockPos.MutableBlockPos blockpos$mutableblockpos = new BlockPos.MutableBlockPos();
 		for (int i = 0; i <= 21; i++) {
 			blockpos$mutableblockpos.set(p_77736_).move(p_77737_, i);
-			BlockState blockstate = this.level.getBlockState(blockpos$mutableblockpos);
+			BlockState blockstate = p_374084_.getBlockState(blockpos$mutableblockpos);
 			if (!isEmpty(blockstate)) {
-				if (FRAME.test(blockstate, this.level, blockpos$mutableblockpos)) {
+				if (FRAME.test(blockstate, p_374084_, blockpos$mutableblockpos)) {
 					return i;
 				}
 				break;
 			}
-			BlockState blockstate1 = this.level.getBlockState(blockpos$mutableblockpos.move(Direction.DOWN));
-			if (!FRAME.test(blockstate1, this.level, blockpos$mutableblockpos)) {
+			BlockState blockstate1 = p_374084_.getBlockState(blockpos$mutableblockpos.move(Direction.DOWN));
+			if (!FRAME.test(blockstate1, p_374084_, blockpos$mutableblockpos)) {
 				break;
 			}
 		}
 		return 0;
 	}
 
-	private int calculateHeight() {
+	private static int calculateHeight(BlockGetter p_374198_, BlockPos p_374414_, Direction p_374486_, int p_374126_, MutableInt p_374165_) {
 		BlockPos.MutableBlockPos blockpos$mutableblockpos = new BlockPos.MutableBlockPos();
-		int i = this.getDistanceUntilTop(blockpos$mutableblockpos);
-		return i >= 3 && i <= 21 && this.hasTopFrame(blockpos$mutableblockpos, i) ? i : 0;
+		int i = getDistanceUntilTop(p_374198_, p_374414_, p_374486_, blockpos$mutableblockpos, p_374126_, p_374165_);
+		return i >= 3 && i <= 21 && hasTopFrame(p_374198_, p_374414_, p_374486_, blockpos$mutableblockpos, p_374126_, i) ? i : 0;
 	}
 
-	private boolean hasTopFrame(BlockPos.MutableBlockPos p_77731_, int p_77732_) {
-		for (int i = 0; i < this.width; i++) {
-			BlockPos.MutableBlockPos blockpos$mutableblockpos = p_77731_.set(this.bottomLeft).move(Direction.UP, p_77732_).move(this.rightDir, i);
-			if (!FRAME.test(this.level.getBlockState(blockpos$mutableblockpos), this.level, blockpos$mutableblockpos)) {
+	private static boolean hasTopFrame(BlockGetter p_374223_, BlockPos p_374398_, Direction p_374129_, BlockPos.MutableBlockPos p_77731_, int p_77732_, int p_374112_) {
+		for (int i = 0; i < p_77732_; i++) {
+			BlockPos.MutableBlockPos blockpos$mutableblockpos = p_77731_.set(p_374398_).move(Direction.UP, p_374112_).move(p_374129_, i);
+			if (!FRAME.test(p_374223_.getBlockState(blockpos$mutableblockpos), p_374223_, blockpos$mutableblockpos)) {
 				return false;
 			}
 		}
 		return true;
 	}
 
-	private int getDistanceUntilTop(BlockPos.MutableBlockPos p_77729_) {
+	private static int getDistanceUntilTop(BlockGetter p_374443_, BlockPos p_374231_, Direction p_374062_, BlockPos.MutableBlockPos p_77729_, int p_374313_, MutableInt p_374330_) {
 		for (int i = 0; i < 21; i++) {
-			p_77729_.set(this.bottomLeft).move(Direction.UP, i).move(this.rightDir, -1);
-			if (!FRAME.test(this.level.getBlockState(p_77729_), this.level, p_77729_)) {
+			p_77729_.set(p_374231_).move(Direction.UP, i).move(p_374062_, -1);
+			if (!FRAME.test(p_374443_.getBlockState(p_77729_), p_374443_, p_77729_)) {
 				return i;
 			}
-			p_77729_.set(this.bottomLeft).move(Direction.UP, i).move(this.rightDir, this.width);
-			if (!FRAME.test(this.level.getBlockState(p_77729_), this.level, p_77729_)) {
+			p_77729_.set(p_374231_).move(Direction.UP, i).move(p_374062_, p_374313_);
+			if (!FRAME.test(p_374443_.getBlockState(p_77729_), p_374443_, p_77729_)) {
 				return i;
 			}
-			for (int j = 0; j < this.width; j++) {
-				p_77729_.set(this.bottomLeft).move(Direction.UP, i).move(this.rightDir, j);
-				BlockState blockstate = this.level.getBlockState(p_77729_);
+			for (int j = 0; j < p_374313_; j++) {
+				p_77729_.set(p_374231_).move(Direction.UP, i).move(p_374062_, j);
+				BlockState blockstate = p_374443_.getBlockState(p_77729_);
 				if (!isEmpty(blockstate)) {
 					return i;
 				}
 				if (blockstate.getBlock() == FloisHadeanModModBlocks.ARCHEAN_PORTAL.get()) {
-					this.numPortalBlocks++;
+					p_374330_.increment();
 				}
 			}
 		}
@@ -152,12 +162,12 @@ public class ArcheanPortalShape {
 	}
 
 	public boolean isValid() {
-		return this.bottomLeft != null && this.width >= 2 && this.width <= 21 && this.height >= 3 && this.height <= 21;
+		return this.width >= 2 && this.width <= 21 && this.height >= 3 && this.height <= 21;
 	}
 
-	public void createPortalBlocks() {
+	public void createPortalBlocks(LevelAccessor p_374419_) {
 		BlockState blockstate = FloisHadeanModModBlocks.ARCHEAN_PORTAL.get().defaultBlockState().setValue(NetherPortalBlock.AXIS, this.axis);
-		BlockPos.betweenClosed(this.bottomLeft, this.bottomLeft.relative(Direction.UP, this.height - 1).relative(this.rightDir, this.width - 1)).forEach(p_77725_ -> this.level.setBlock(p_77725_, blockstate, 18));
+		BlockPos.betweenClosed(this.bottomLeft, this.bottomLeft.relative(Direction.UP, this.height - 1).relative(this.rightDir, this.width - 1)).forEach(p_374024_ -> p_374419_.setBlock(p_374024_, blockstate, 18));
 	}
 
 	public boolean isComplete() {

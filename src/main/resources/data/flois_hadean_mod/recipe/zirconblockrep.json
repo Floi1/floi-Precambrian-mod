@@ -7,9 +7,7 @@
     "aaa"
   ],
   "key": {
-    "a": {
-      "item": "flois_hadean_mod:zirconitem"
-    }
+    "a": "flois_hadean_mod:zirconitem"
   },
   "result": {
     "id": "flois_hadean_mod:zirconblock",

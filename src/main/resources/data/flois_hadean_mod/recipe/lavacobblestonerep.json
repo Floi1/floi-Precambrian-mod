@@ -5,12 +5,8 @@
     "ab"
   ],
   "key": {
-    "a": {
-      "item": "minecraft:lava_bucket"
-    },
-    "b": {
-      "item": "minecraft:cobblestone"
-    }
+    "a": "minecraft:lava_bucket",
+    "b": "minecraft:cobblestone"
   },
   "result": {
     "id": "flois_hadean_mod:lavacobblestone",
