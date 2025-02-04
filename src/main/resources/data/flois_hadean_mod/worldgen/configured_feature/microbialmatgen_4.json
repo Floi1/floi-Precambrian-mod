@@ -4,7 +4,7 @@
     "radius": {
       "type": "uniform",
       "min_inclusive": 0,
-      "max_inclusive": 0
+      "max_inclusive": 1
     },
     "half_height": 2,
     "target": {

@@ -15,6 +15,7 @@ import net.floishadean.block.TawuiaBlock;
 import net.floishadean.block.StromatoliteBlock;
 import net.floishadean.block.RippledironsandBlock;
 import net.floishadean.block.RippledblacksandBlock;
+import net.floishadean.block.RedalgaeBlock;
 import net.floishadean.block.ProterozoicportalblockBlock;
 import net.floishadean.block.ProterozoicPortalBlock;
 import net.floishadean.block.MoltenLavacobblestoneBlock;
@@ -26,6 +27,8 @@ import net.floishadean.block.LavarockBlock;
 import net.floishadean.block.IronsandBlock;
 import net.floishadean.block.HadeanportalblockBlock;
 import net.floishadean.block.HadeanPortalBlock;
+import net.floishadean.block.GrypaniaBlock;
+import net.floishadean.block.GreenalgaeBlock;
 import net.floishadean.block.DarkashBlock;
 import net.floishadean.block.BlacksandBlock;
 import net.floishadean.block.BlackcobblestoneBlock;
@@ -61,6 +64,9 @@ public class FloisHadeanModModBlocks {
 	public static final DeferredBlock<Block> MICROBIALMATT = REGISTRY.register("microbialmatt", MicrobialmattBlock::new);
 	public static final DeferredBlock<Block> TAWUIA = REGISTRY.register("tawuia", TawuiaBlock::new);
 	public static final DeferredBlock<Block> ANCIENTMUD = REGISTRY.register("ancientmud", AncientmudBlock::new);
+	public static final DeferredBlock<Block> GRYPANIA = REGISTRY.register("grypania", GrypaniaBlock::new);
+	public static final DeferredBlock<Block> REDALGAE = REGISTRY.register("redalgae", RedalgaeBlock::new);
+	public static final DeferredBlock<Block> GREENALGAE = REGISTRY.register("greenalgae", GreenalgaeBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

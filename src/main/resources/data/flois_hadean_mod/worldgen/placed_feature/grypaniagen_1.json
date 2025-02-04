@@ -1,5 +1,5 @@
 {
-  "feature": "flois_hadean_mod:stromatolitegen_2",
+  "feature": "flois_hadean_mod:grypaniagen_1",
   "placement": [
     {
       "type": "minecraft:heightmap",
@@ -7,7 +7,7 @@
     },
     {
       "type": "minecraft:count",
-      "count": 32
+      "count": 24
     },
     {
       "type": "minecraft:in_square"
@@ -17,10 +17,10 @@
       "height": {
         "type": "minecraft:trapezoid",
         "min_inclusive": {
-          "absolute": 55
+          "absolute": 40
         },
         "max_inclusive": {
-          "absolute": 65
+          "absolute": 66
         }
       }
     },

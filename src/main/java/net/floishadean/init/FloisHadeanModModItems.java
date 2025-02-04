@@ -45,6 +45,9 @@ public class FloisHadeanModModItems {
 	public static final DeferredItem<Item> MICROBIALMATT = block(FloisHadeanModModBlocks.MICROBIALMATT);
 	public static final DeferredItem<Item> TAWUIA = block(FloisHadeanModModBlocks.TAWUIA);
 	public static final DeferredItem<Item> ANCIENTMUD = block(FloisHadeanModModBlocks.ANCIENTMUD);
+	public static final DeferredItem<Item> GRYPANIA = block(FloisHadeanModModBlocks.GRYPANIA);
+	public static final DeferredItem<Item> REDALGAE = block(FloisHadeanModModBlocks.REDALGAE);
+	public static final DeferredItem<Item> GREENALGAE = block(FloisHadeanModModBlocks.GREENALGAE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,9 @@
+{
+  "parent": "flois_hadean_mod:custom/grypania",
+  "textures": {
+    "all": "flois_hadean_mod:block/grypan_item",
+    "particle": "flois_hadean_mod:block/grypan_item",
+    "0": "flois_hadean_mod:block/grypania"
+  },
+  "render_type": "translucent"
+}
