@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.SimpleWaterloggedBlock;
 import net.minecraft.world.level.block.FlowerBlock;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.LevelAccessor;
@@ -68,7 +69,8 @@ public class StromatoliteBlock extends FlowerBlock implements SimpleWaterloggedB
 
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(FloisHadeanModModBlocks.BLACKSAND.get()) || groundState.is(FloisHadeanModModBlocks.LAVACOBBLESTONE.get()) || groundState.is(FloisHadeanModModBlocks.LAVAROCK.get());
+		return groundState.is(FloisHadeanModModBlocks.BLACKSAND.get()) || groundState.is(FloisHadeanModModBlocks.LAVACOBBLESTONE.get()) || groundState.is(FloisHadeanModModBlocks.LAVAROCK.get())
+				|| groundState.is(FloisHadeanModModBlocks.ARCHEAN_MICROBIALMAT.get()) || groundState.is(FloisHadeanModModBlocks.MICROBIALMATT.get()) || groundState.is(Blocks.STONE);
 	}
 
 	@Override

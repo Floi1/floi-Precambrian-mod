@@ -103,6 +103,15 @@
       },
       {
         "value": "CUSTOM:Lavarock"
+      },
+      {
+        "value": "CUSTOM:Microbialmat"
+      },
+      {
+        "value": "CUSTOM:Microbialmatt"
+      },
+      {
+        "value": "Blocks.STONE#0"
       }
     ],
     "isBonemealable": false,

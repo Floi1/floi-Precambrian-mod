@@ -42,5 +42,6 @@ public class FloisHadeanModModTabs {
 				tabData.accept(FloisHadeanModModBlocks.RIPPLEDIRONSAND.get().asItem());
 				tabData.accept(FloisHadeanModModBlocks.MICROBIALMATT.get().asItem());
 				tabData.accept(FloisHadeanModModBlocks.TAWUIA.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.ANCIENTMUD.get().asItem());
 			}).build());
 }

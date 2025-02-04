@@ -7,17 +7,17 @@
       "value": "Blocks.SNOW"
     },
     "undergroundBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "Blocks.COBBLESTONE"
     },
     "underwaterBlock": {
-      "value": "CUSTOM:Microbialmat"
+      "value": "Blocks.STONE#0"
     },
     "waterColor": {
-      "value": -16737895,
+      "value": -16750951,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -16737895,
+      "value": -16750951,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -81,8 +81,7 @@
     },
     "defaultFeatures": [
       "Caves",
-      "Ores",
-      "FrozenTopLayer"
+      "Ores"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,

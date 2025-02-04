@@ -1214,9 +1214,7 @@
       "registry_name": "paleoproterozoicocean",
       "metadata": {
         "files": [
-          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/paleoproterozoicocean_tree.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/biome/paleoproterozoicocean.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/paleoproterozoicocean_tree.json"
+          "src/main/resources/data/flois_hadean_mod/worldgen/biome/paleoproterozoicocean.json"
         ]
       },
       "path": "~/Proterozoic"
@@ -1229,9 +1227,7 @@
       "registry_name": "paleoproterozoicland",
       "metadata": {
         "files": [
-          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/paleoproterozoicland_tree.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/biome/paleoproterozoicland.json",
-          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/paleoproterozoicland_tree.json"
+          "src/main/resources/data/flois_hadean_mod/worldgen/biome/paleoproterozoicland.json"
         ]
       },
       "path": "~/Proterozoic"
@@ -1361,6 +1357,83 @@
         ]
       },
       "path": "~/Proterozoic"
+    },
+    {
+      "name": "Ancientmud",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientmud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_hadean_mod/models/item/ancientmud.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/ancientmud.json",
+          "src/main/java/net/floishadean/block/AncientmudBlock.java",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/ancientmud.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/ancientmud.json"
+        ]
+      },
+      "path": "~/archean"
+    },
+    {
+      "name": "Ancientmudgen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientmudgen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/ancientmudgen_1.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/ancientmudgen_1_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/ancientmudgen_1.json"
+        ]
+      },
+      "path": "~/archean"
+    },
+    {
+      "name": "Ancientmudgen2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientmudgen_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/ancientmudgen_2_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/ancientmudgen_2.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/ancientmudgen_2.json"
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "Microbialmatgen4",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microbialmatgen_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/microbialmatgen_4.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/microbialmatgen_4_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/microbialmatgen_4.json"
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "Stromatolitegen2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stromatolitegen_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/stromatolitegen_2.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/stromatolitegen_2_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/stromatolitegen_2.json"
+        ]
+      },
+      "path": "~/Proterozoic"
     }
   ],
   "variable_elements": [],
@@ -1391,6 +1464,7 @@
       "~CUSTOM:Archeanportalblock"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Ancientmud",
       "~CUSTOM:Rippledironsand",
       "~CUSTOM:Ironsand",
       "~CUSTOM:Rippledblacksand",
@@ -1400,6 +1474,7 @@
       "~CUSTOM:Blacksand"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.COBBLESTONE",
       "~CUSTOM:Ironsand",
       "~Blocks.STONE#0",
       "~Blocks.SNOW",
@@ -1410,13 +1485,14 @@
   "language_map": {
     "en_us": {
       "advancements.hadeaneon.title": "Hadean Eon",
-      "biome.flois_hadean_mod.hadeanwastes": "Hadean wastes",
       "block.flois_hadean_mod.tawuia": "Tawuia",
+      "biome.flois_hadean_mod.hadeanwastes": "Hadean wastes",
       "biome.flois_hadean_mod.archeanwaterholes": "Archeanwaterholes",
       "advancements.archeanbiomes.title": "Archean biomes",
       "biome.flois_hadean_mod.paleoproterozoicland": "Paleoproterozoic  land",
       "block.flois_hadean_mod.blacksand": "Black sand",
       "block.flois_hadean_mod.meteoriticiron": "Meteoritic iron",
+      "block.flois_hadean_mod.ancientmud": "Ancient mud",
       "block.flois_hadean_mod.dark_ash": "Dark ash",
       "block.flois_hadean_mod.molten_lavacobblestone": "Molten lava cobblestone",
       "advancements.hadeanbiomes.title": "Hadean biomes",
@@ -1471,7 +1547,7 @@
   "workspaceSettings": {
     "modid": "flois_hadean_mod",
     "modName": "floi\u0027s Hadean mod",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "floi\u0027s Hadean mod for 1.21.1 neoforge",
     "author": "Floi",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods",

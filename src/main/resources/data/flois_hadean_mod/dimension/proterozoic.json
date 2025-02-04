@@ -520,7 +520,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "flois_hadean_mod:archean_microbialmat"
+                            "Name": "minecraft:stone"
                           }
                         }
                       ]
@@ -538,7 +538,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:stone"
+                        "Name": "minecraft:cobblestone"
                       }
                     }
                   }
@@ -592,7 +592,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "flois_hadean_mod:archean_microbialmat"
+                            "Name": "minecraft:stone"
                           }
                         }
                       ]
@@ -682,7 +682,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:stone"
+                        "Name": "flois_hadean_mod:ironsand"
                       }
                     }
                   }
@@ -754,7 +754,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:stone"
+                        "Name": "flois_hadean_mod:ironsand"
                       }
                     }
                   }

@@ -32,6 +32,7 @@ import net.floishadean.block.BlackcobblestoneBlock;
 import net.floishadean.block.AshBlock;
 import net.floishadean.block.ArcheanportalblockBlock;
 import net.floishadean.block.ArcheanPortalBlock;
+import net.floishadean.block.AncientmudBlock;
 import net.floishadean.FloisHadeanModMod;
 
 public class FloisHadeanModModBlocks {
@@ -59,6 +60,7 @@ public class FloisHadeanModModBlocks {
 	public static final DeferredBlock<Block> RIPPLEDIRONSAND = REGISTRY.register("rippledironsand", RippledironsandBlock::new);
 	public static final DeferredBlock<Block> MICROBIALMATT = REGISTRY.register("microbialmatt", MicrobialmattBlock::new);
 	public static final DeferredBlock<Block> TAWUIA = REGISTRY.register("tawuia", TawuiaBlock::new);
+	public static final DeferredBlock<Block> ANCIENTMUD = REGISTRY.register("ancientmud", AncientmudBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

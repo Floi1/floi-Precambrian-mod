@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:cobblestone",
     "flois_hadean_mod:ironsand",
     "minecraft:stone",
     "minecraft:snow_block",
