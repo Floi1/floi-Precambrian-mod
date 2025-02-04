@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class MicrobialmatBlock extends Block {
 	public MicrobialmatBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.SLIME_BLOCK).strength(1f, 10f).friction(0.7f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.SLIME_BLOCK).strength(0.8f, 10f).friction(0.7f));
 	}
 
 	@Override

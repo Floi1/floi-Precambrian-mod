@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "flois_hadean_mod:proterozoicportalblock",
     "flois_hadean_mod:archeanportalblock",
     "flois_hadean_mod:zirconblock",
     "flois_hadean_mod:zirconore",

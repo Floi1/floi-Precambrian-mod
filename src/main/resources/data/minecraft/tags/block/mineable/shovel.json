@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "flois_hadean_mod:rippledironsand",
+    "flois_hadean_mod:ironsand",
     "flois_hadean_mod:rippledblacksand",
     "flois_hadean_mod:dark_ash",
     "flois_hadean_mod:ash",

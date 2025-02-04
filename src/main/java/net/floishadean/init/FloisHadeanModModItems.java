@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.floishadean.item.ZirconitemItem;
+import net.floishadean.item.ProterozoicItem;
 import net.floishadean.item.HadeanItem;
 import net.floishadean.item.ArcheanItem;
 import net.floishadean.FloisHadeanModMod;
@@ -35,8 +36,14 @@ public class FloisHadeanModModItems {
 	public static final DeferredItem<Item> ARCHEANPORTALBLOCK = block(FloisHadeanModModBlocks.ARCHEANPORTALBLOCK);
 	public static final DeferredItem<Item> ARCHEAN = REGISTRY.register("archean", ArcheanItem::new);
 	public static final DeferredItem<Item> RIPPLEDBLACKSAND = block(FloisHadeanModModBlocks.RIPPLEDBLACKSAND);
-	public static final DeferredItem<Item> MICROBIALMAT = block(FloisHadeanModModBlocks.MICROBIALMAT);
+	public static final DeferredItem<Item> ARCHEAN_MICROBIALMAT = block(FloisHadeanModModBlocks.ARCHEAN_MICROBIALMAT);
 	public static final DeferredItem<Item> STROMATOLITE = block(FloisHadeanModModBlocks.STROMATOLITE);
+	public static final DeferredItem<Item> PROTEROZOICPORTALBLOCK = block(FloisHadeanModModBlocks.PROTEROZOICPORTALBLOCK);
+	public static final DeferredItem<Item> PROTEROZOIC = REGISTRY.register("proterozoic", ProterozoicItem::new);
+	public static final DeferredItem<Item> IRONSAND = block(FloisHadeanModModBlocks.IRONSAND);
+	public static final DeferredItem<Item> RIPPLEDIRONSAND = block(FloisHadeanModModBlocks.RIPPLEDIRONSAND);
+	public static final DeferredItem<Item> MICROBIALMATT = block(FloisHadeanModModBlocks.MICROBIALMATT);
+	public static final DeferredItem<Item> TAWUIA = block(FloisHadeanModModBlocks.TAWUIA);
 
 	// Start of user code block custom items
 	// End of user code block custom items

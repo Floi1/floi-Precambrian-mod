@@ -21,6 +21,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.floishadean.init.FloisHadeanModModTabs;
 import net.floishadean.init.FloisHadeanModModItems;
 import net.floishadean.init.FloisHadeanModModBlocks;
+import net.floishadean.init.FloisHadeanModModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -41,7 +42,7 @@ public class FloisHadeanModMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		FloisHadeanModModBlocks.REGISTRY.register(modEventBus);
-
+		FloisHadeanModModBlockEntities.REGISTRY.register(modEventBus);
 		FloisHadeanModModItems.REGISTRY.register(modEventBus);
 
 		FloisHadeanModModTabs.REGISTRY.register(modEventBus);

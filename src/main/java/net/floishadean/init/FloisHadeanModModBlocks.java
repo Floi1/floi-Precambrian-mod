@@ -11,13 +11,19 @@ import net.minecraft.world.level.block.Block;
 
 import net.floishadean.block.ZirconoreBlock;
 import net.floishadean.block.ZirconblockBlock;
+import net.floishadean.block.TawuiaBlock;
 import net.floishadean.block.StromatoliteBlock;
+import net.floishadean.block.RippledironsandBlock;
 import net.floishadean.block.RippledblacksandBlock;
+import net.floishadean.block.ProterozoicportalblockBlock;
+import net.floishadean.block.ProterozoicPortalBlock;
 import net.floishadean.block.MoltenLavacobblestoneBlock;
+import net.floishadean.block.MicrobialmattBlock;
 import net.floishadean.block.MicrobialmatBlock;
 import net.floishadean.block.MeteoriticironBlock;
 import net.floishadean.block.LightashBlock;
 import net.floishadean.block.LavarockBlock;
+import net.floishadean.block.IronsandBlock;
 import net.floishadean.block.HadeanportalblockBlock;
 import net.floishadean.block.HadeanPortalBlock;
 import net.floishadean.block.DarkashBlock;
@@ -45,8 +51,14 @@ public class FloisHadeanModModBlocks {
 	public static final DeferredBlock<Block> ARCHEANPORTALBLOCK = REGISTRY.register("archeanportalblock", ArcheanportalblockBlock::new);
 	public static final DeferredBlock<Block> ARCHEAN_PORTAL = REGISTRY.register("archean_portal", ArcheanPortalBlock::new);
 	public static final DeferredBlock<Block> RIPPLEDBLACKSAND = REGISTRY.register("rippledblacksand", RippledblacksandBlock::new);
-	public static final DeferredBlock<Block> MICROBIALMAT = REGISTRY.register("microbialmat", MicrobialmatBlock::new);
+	public static final DeferredBlock<Block> ARCHEAN_MICROBIALMAT = REGISTRY.register("archean_microbialmat", MicrobialmatBlock::new);
 	public static final DeferredBlock<Block> STROMATOLITE = REGISTRY.register("stromatolite", StromatoliteBlock::new);
+	public static final DeferredBlock<Block> PROTEROZOICPORTALBLOCK = REGISTRY.register("proterozoicportalblock", ProterozoicportalblockBlock::new);
+	public static final DeferredBlock<Block> PROTEROZOIC_PORTAL = REGISTRY.register("proterozoic_portal", ProterozoicPortalBlock::new);
+	public static final DeferredBlock<Block> IRONSAND = REGISTRY.register("ironsand", IronsandBlock::new);
+	public static final DeferredBlock<Block> RIPPLEDIRONSAND = REGISTRY.register("rippledironsand", RippledironsandBlock::new);
+	public static final DeferredBlock<Block> MICROBIALMATT = REGISTRY.register("microbialmatt", MicrobialmattBlock::new);
+	public static final DeferredBlock<Block> TAWUIA = REGISTRY.register("tawuia", TawuiaBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

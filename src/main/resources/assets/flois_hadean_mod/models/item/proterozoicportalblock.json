@@ -1,5 +1,5 @@
 {
-  "parent": "flois_hadean_mod:block/microbialmat",
+  "parent": "flois_hadean_mod:block/proterozoicportalblock",
   "display": {
     "thirdperson": {
       "rotation": [

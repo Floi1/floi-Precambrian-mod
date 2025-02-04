@@ -34,7 +34,13 @@ public class FloisHadeanModModTabs {
 				tabData.accept(FloisHadeanModModBlocks.ARCHEANPORTALBLOCK.get().asItem());
 				tabData.accept(FloisHadeanModModItems.ARCHEAN.get());
 				tabData.accept(FloisHadeanModModBlocks.RIPPLEDBLACKSAND.get().asItem());
-				tabData.accept(FloisHadeanModModBlocks.MICROBIALMAT.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.ARCHEAN_MICROBIALMAT.get().asItem());
 				tabData.accept(FloisHadeanModModBlocks.STROMATOLITE.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.PROTEROZOICPORTALBLOCK.get().asItem());
+				tabData.accept(FloisHadeanModModItems.PROTEROZOIC.get());
+				tabData.accept(FloisHadeanModModBlocks.IRONSAND.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.RIPPLEDIRONSAND.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.MICROBIALMATT.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.TAWUIA.get().asItem());
 			}).build());
 }

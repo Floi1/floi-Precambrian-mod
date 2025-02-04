@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "flois_hadean_mod:blocks/microbialmat",
+  "random_sequence": "flois_hadean_mod:blocks/proterozoicportalblock",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "flois_hadean_mod:microbialmat"
+          "name": "flois_hadean_mod:proterozoicportalblock"
         }
       ]
     }
