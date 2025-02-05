@@ -50,6 +50,8 @@ public class FloisHadeanModModItems {
 	public static final DeferredItem<Item> STROMATOLITESTEM = block(FloisHadeanModModBlocks.STROMATOLITESTEM);
 	public static final DeferredItem<Item> STROMATOLITE = block(FloisHadeanModModBlocks.STROMATOLITE);
 	public static final DeferredItem<Item> IRONSTONE = block(FloisHadeanModModBlocks.IRONSTONE);
+	public static final DeferredItem<Item> HORODYSKIA = block(FloisHadeanModModBlocks.HORODYSKIA);
+	public static final DeferredItem<Item> BACTERIALMAT = block(FloisHadeanModModBlocks.BACTERIALMAT);
 
 	// Start of user code block custom items
 	// End of user code block custom items

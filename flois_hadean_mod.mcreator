@@ -1735,6 +1735,115 @@
         ]
       },
       "path": "~/Proterozoic"
+    },
+    {
+      "name": "Horodyskia",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horodyskia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/horodyskia.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/horodyskia.json",
+          "src/main/java/net/floishadean/block/HorodyskiaBlock.java",
+          "src/main/resources/assets/flois_hadean_mod/models/item/horodyskia.json",
+          "src/main/java/net/floishadean/block/entity/HorodyskiaBlockEntity.java",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/horodyskia.json"
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "HorodyskiaBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horodyskia_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floishadean/procedures/HorodyskiaBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "Horodyskiagen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horodyskiagen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/horodyskiagen_1.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/horodyskiagen_1_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/horodyskiagen_1.json"
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "Bacterialmat",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bacterialmat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_hadean_mod/models/item/bacterialmat.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/bacterialmat.json",
+          "src/main/java/net/floishadean/block/BacterialmatBlock.java",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/bacterialmat.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/bacterialmat.json"
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "Neoproterozoiclands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neoproterozoiclands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/biome/neoproterozoiclands.json"
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "Gravelgen2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravelgen_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/gravelgen_2.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/gravelgen_2.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/gravelgen_2_biome_modifier.json"
+        ]
+      },
+      "path": "~/Proterozoic"
     }
   ],
   "variable_elements": [],
@@ -1795,6 +1904,7 @@
       "biome.flois_hadean_mod.hadean_fields": "Hadean fields",
       "block.flois_hadean_mod.stromatolite": "Stromatolite",
       "advancements.hadeaneon.descr": "Enter the Hadean",
+      "block.flois_hadean_mod.bacterialmat": "Bacteria lmat",
       "biome.flois_hadean_mod.paleoproterozoicocean": "Paleoproterozoic  ocean",
       "advancements.archeaneon.title": "Archean eon",
       "block.flois_hadean_mod.rippledironsand": "Rippled iron sand",
@@ -1822,12 +1932,14 @@
       "block.flois_hadean_mod.zirconore": "Zircon ore block",
       "block.flois_hadean_mod.light_ash": "Light ash",
       "block.flois_hadean_mod.ash": "Ash",
+      "biome.flois_hadean_mod.neoproterozoiclands": "Paleoproterozoic  land",
       "advancements.hadeanbiomes.descr": "Found all biomes in the Hadean",
       "item.flois_hadean_mod.proterozoic": "Proterozoic Portal Igniter (wip)",
       "block.flois_hadean_mod.hadeanportalblock": "Hadean portal block",
       "block.flois_hadean_mod.microbialmatt": "Microbial mat",
       "block.flois_hadean_mod.grypania": "Grypania",
       "block.flois_hadean_mod.redalgae": "Red algae",
+      "block.flois_hadean_mod.horodyskia": "Horodyskia",
       "biome.flois_hadean_mod.archeanshallowocean": "Archean shallow ocean",
       "block.flois_hadean_mod.archean_microbialmat": "Archean microbial mat",
       "advancements.archeaneon.descr": "Enter the Archean",

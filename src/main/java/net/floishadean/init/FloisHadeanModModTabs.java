@@ -47,5 +47,7 @@ public class FloisHadeanModModTabs {
 				tabData.accept(FloisHadeanModModBlocks.GREENALGAE.get().asItem());
 				tabData.accept(FloisHadeanModModBlocks.STROMATOLITE.get().asItem());
 				tabData.accept(FloisHadeanModModBlocks.IRONSTONE.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.HORODYSKIA.get().asItem());
+				tabData.accept(FloisHadeanModModBlocks.BACTERIALMAT.get().asItem());
 			}).build());
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "flois_hadean_mod:custom/horodyskia",
+  "textures": {
+    "all": "flois_hadean_mod:block/horodyskia_item",
+    "particle": "flois_hadean_mod:block/horodyskia_item",
+    "0": "flois_hadean_mod:block/horodyskia"
+  },
+  "render_type": "translucent"
+}

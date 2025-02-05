@@ -14,6 +14,9 @@
       },
       {
         "value": "CUSTOM:Paleoproterozoicocean"
+      },
+      {
+        "value": "CUSTOM:Neoproterozoiclands"
       }
     ],
     "worldGenType": "Normal world gen",

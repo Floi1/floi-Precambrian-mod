@@ -18,6 +18,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.floishadean.block.entity.TawuiaBlockEntity;
 import net.floishadean.block.entity.StromatoliteBlockEntity;
 import net.floishadean.block.entity.RedalgaeBlockEntity;
+import net.floishadean.block.entity.HorodyskiaBlockEntity;
 import net.floishadean.block.entity.GrypaniaBlockEntity;
 import net.floishadean.block.entity.GreenalgaeBlockEntity;
 import net.floishadean.FloisHadeanModMod;
@@ -30,6 +31,7 @@ public class FloisHadeanModModBlockEntities {
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> REDALGAE = register("redalgae", FloisHadeanModModBlocks.REDALGAE, RedalgaeBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> GREENALGAE = register("greenalgae", FloisHadeanModModBlocks.GREENALGAE, GreenalgaeBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> STROMATOLITE = register("stromatolite", FloisHadeanModModBlocks.STROMATOLITE, StromatoliteBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> HORODYSKIA = register("horodyskia", FloisHadeanModModBlocks.HORODYSKIA, HorodyskiaBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -44,5 +46,6 @@ public class FloisHadeanModModBlockEntities {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, REDALGAE.get(), (blockEntity, side) -> ((RedalgaeBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, GREENALGAE.get(), (blockEntity, side) -> ((GreenalgaeBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, STROMATOLITE.get(), (blockEntity, side) -> ((StromatoliteBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, HORODYSKIA.get(), (blockEntity, side) -> ((HorodyskiaBlockEntity) blockEntity).getItemHandler());
 	}
 }

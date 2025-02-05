@@ -27,6 +27,7 @@ import net.floishadean.block.LightashBlock;
 import net.floishadean.block.LavarockBlock;
 import net.floishadean.block.IronstoneBlock;
 import net.floishadean.block.IronsandBlock;
+import net.floishadean.block.HorodyskiaBlock;
 import net.floishadean.block.HadeanportalblockBlock;
 import net.floishadean.block.HadeanPortalBlock;
 import net.floishadean.block.GrypaniaBlock;
@@ -34,6 +35,7 @@ import net.floishadean.block.GreenalgaeBlock;
 import net.floishadean.block.DarkashBlock;
 import net.floishadean.block.BlacksandBlock;
 import net.floishadean.block.BlackcobblestoneBlock;
+import net.floishadean.block.BacterialmatBlock;
 import net.floishadean.block.AshBlock;
 import net.floishadean.block.ArcheanportalblockBlock;
 import net.floishadean.block.ArcheanPortalBlock;
@@ -71,6 +73,8 @@ public class FloisHadeanModModBlocks {
 	public static final DeferredBlock<Block> STROMATOLITESTEM = REGISTRY.register("stromatolitestem", StromatolitestemBlock::new);
 	public static final DeferredBlock<Block> STROMATOLITE = REGISTRY.register("stromatolite", StromatoliteBlock::new);
 	public static final DeferredBlock<Block> IRONSTONE = REGISTRY.register("ironstone", IronstoneBlock::new);
+	public static final DeferredBlock<Block> HORODYSKIA = REGISTRY.register("horodyskia", HorodyskiaBlock::new);
+	public static final DeferredBlock<Block> BACTERIALMAT = REGISTRY.register("bacterialmat", BacterialmatBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
