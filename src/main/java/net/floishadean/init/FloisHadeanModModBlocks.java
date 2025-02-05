@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.floishadean.block.ZirconoreBlock;
 import net.floishadean.block.ZirconblockBlock;
 import net.floishadean.block.TawuiaBlock;
+import net.floishadean.block.StromatolitestemBlock;
 import net.floishadean.block.StromatoliteBlock;
 import net.floishadean.block.RippledironsandBlock;
 import net.floishadean.block.RippledblacksandBlock;
@@ -24,6 +25,7 @@ import net.floishadean.block.MicrobialmatBlock;
 import net.floishadean.block.MeteoriticironBlock;
 import net.floishadean.block.LightashBlock;
 import net.floishadean.block.LavarockBlock;
+import net.floishadean.block.IronstoneBlock;
 import net.floishadean.block.IronsandBlock;
 import net.floishadean.block.HadeanportalblockBlock;
 import net.floishadean.block.HadeanPortalBlock;
@@ -56,7 +58,6 @@ public class FloisHadeanModModBlocks {
 	public static final DeferredBlock<Block> ARCHEAN_PORTAL = REGISTRY.register("archean_portal", ArcheanPortalBlock::new);
 	public static final DeferredBlock<Block> RIPPLEDBLACKSAND = REGISTRY.register("rippledblacksand", RippledblacksandBlock::new);
 	public static final DeferredBlock<Block> ARCHEAN_MICROBIALMAT = REGISTRY.register("archean_microbialmat", MicrobialmatBlock::new);
-	public static final DeferredBlock<Block> STROMATOLITE = REGISTRY.register("stromatolite", StromatoliteBlock::new);
 	public static final DeferredBlock<Block> PROTEROZOICPORTALBLOCK = REGISTRY.register("proterozoicportalblock", ProterozoicportalblockBlock::new);
 	public static final DeferredBlock<Block> PROTEROZOIC_PORTAL = REGISTRY.register("proterozoic_portal", ProterozoicPortalBlock::new);
 	public static final DeferredBlock<Block> IRONSAND = REGISTRY.register("ironsand", IronsandBlock::new);
@@ -67,6 +68,9 @@ public class FloisHadeanModModBlocks {
 	public static final DeferredBlock<Block> GRYPANIA = REGISTRY.register("grypania", GrypaniaBlock::new);
 	public static final DeferredBlock<Block> REDALGAE = REGISTRY.register("redalgae", RedalgaeBlock::new);
 	public static final DeferredBlock<Block> GREENALGAE = REGISTRY.register("greenalgae", GreenalgaeBlock::new);
+	public static final DeferredBlock<Block> STROMATOLITESTEM = REGISTRY.register("stromatolitestem", StromatolitestemBlock::new);
+	public static final DeferredBlock<Block> STROMATOLITE = REGISTRY.register("stromatolite", StromatoliteBlock::new);
+	public static final DeferredBlock<Block> IRONSTONE = REGISTRY.register("ironstone", IronstoneBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

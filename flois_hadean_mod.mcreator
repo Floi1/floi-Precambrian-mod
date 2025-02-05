@@ -896,23 +896,6 @@
       "path": "~/archean"
     },
     {
-      "name": "Stromatolite",
-      "type": "plant",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stromatolite",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/flois_hadean_mod/models/block/stromatolite.json",
-          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/stromatolite.json",
-          "src/main/resources/assets/flois_hadean_mod/models/item/stromatolite.json",
-          "src/main/resources/assets/flois_hadean_mod/blockstates/stromatolite.json",
-          "src/main/java/net/floishadean/block/StromatoliteBlock.java"
-        ]
-      },
-      "path": "~/archean"
-    },
-    {
       "name": "Archeanportalrep",
       "type": "recipe",
       "compiles": true,
@@ -1626,6 +1609,132 @@
         ]
       },
       "path": "~/Proterozoic"
+    },
+    {
+      "name": "Stromatolitestem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stromatolitestem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_hadean_mod/models/block/stromatolitestem.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/stromatolitestem.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/stromatolitestem.json",
+          "src/main/java/net/floishadean/block/StromatolitestemBlock.java",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/stromatolitestem.json"
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "Stromatolite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stromatolite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_hadean_mod/models/block/stromatolite.json",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/stromatolite.json",
+          "src/main/resources/assets/flois_hadean_mod/models/item/stromatolite.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/stromatolite.json",
+          "src/main/java/net/floishadean/block/StromatoliteBlock.java",
+          "src/main/java/net/floishadean/block/entity/StromatoliteBlockEntity.java"
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "StromatoliteOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stromatolite_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floishadean/procedures/StromatoliteOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "Tawuiagen2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tawuiagen_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/tawuiagen_2_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/tawuiagen_2.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/tawuiagen_2.json"
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "Ironstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_hadean_mod/models/item/ironstone.json",
+          "src/main/java/net/floishadean/block/IronstoneBlock.java",
+          "src/main/resources/data/flois_hadean_mod/loot_table/blocks/ironstone.json",
+          "src/main/resources/assets/flois_hadean_mod/models/block/ironstone.json",
+          "src/main/resources/assets/flois_hadean_mod/blockstates/ironstone.json"
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "Ironsandigrep",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironsandigrep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/recipe/ironsandigrep.json"
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "Ironstonegen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironstonegen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/worldgen/placed_feature/ironstonegen_1.json",
+          "src/main/resources/data/flois_hadean_mod/neoforge/biome_modifier/ironstonegen_1_biome_modifier.json",
+          "src/main/resources/data/flois_hadean_mod/worldgen/configured_feature/ironstonegen_1.json"
+        ]
+      },
+      "path": "~/Proterozoic"
     }
   ],
   "variable_elements": [],
@@ -1689,6 +1798,7 @@
       "biome.flois_hadean_mod.paleoproterozoicocean": "Paleoproterozoic  ocean",
       "advancements.archeaneon.title": "Archean eon",
       "block.flois_hadean_mod.rippledironsand": "Rippled iron sand",
+      "block.flois_hadean_mod.stromatolitestem": "Stromatolite stem",
       "item_group.flois_hadean_mod.hadeantab": "Hadean mod tab",
       "biome.flois_hadean_mod.cryogenianocean": "Cryogenian ocean",
       "biome.flois_hadean_mod.hadean_lava_fields": "Hadean lava fields",
@@ -1706,6 +1816,7 @@
       "block.flois_hadean_mod.proterozoicportalblock": "Proterozoic portal block",
       "item.flois_hadean_mod.hadean": "Hadean Portal Igniter (WIP)",
       "biome.flois_hadean_mod.hadean_fields2": "Hadean fields",
+      "block.flois_hadean_mod.ironstone": "Ironstone",
       "block.flois_hadean_mod.greenalgae": "Green algae",
       "biome.flois_hadean_mod.hadean_ash": "Hadean ash",
       "block.flois_hadean_mod.zirconore": "Zircon ore block",

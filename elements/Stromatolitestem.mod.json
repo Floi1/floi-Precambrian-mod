@@ -2,14 +2,14 @@
   "_fv": 73,
   "_type": "block",
   "definition": {
-    "texture": "dark_ash",
+    "texture": "minecraft:brown_wool",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "stromatolite:default",
+    "customModelName": "stromatolite_stem:default",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Stromatolite",
+    "name": "Stromatolite stem",
     "specialInformation": {
       "fixedValue": []
     },
@@ -42,14 +42,10 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": true,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:Hadeantab"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Stromatolite"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -61,8 +57,8 @@
     "material": {
       "value": "NONE"
     },
-    "tickRate": 299,
-    "tickRandomly": true,
+    "tickRate": 0,
+    "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -77,7 +73,7 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.6,
+    "slipperiness": 0.7999999999999999,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
@@ -105,7 +101,7 @@
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
-    "hasInventory": true,
+    "hasInventory": false,
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
@@ -121,9 +117,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
-      "name": "StromatoliteOnTickUpdate"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],

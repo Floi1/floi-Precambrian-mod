@@ -37,7 +37,6 @@ public class FloisHadeanModModItems {
 	public static final DeferredItem<Item> ARCHEAN = REGISTRY.register("archean", ArcheanItem::new);
 	public static final DeferredItem<Item> RIPPLEDBLACKSAND = block(FloisHadeanModModBlocks.RIPPLEDBLACKSAND);
 	public static final DeferredItem<Item> ARCHEAN_MICROBIALMAT = block(FloisHadeanModModBlocks.ARCHEAN_MICROBIALMAT);
-	public static final DeferredItem<Item> STROMATOLITE = block(FloisHadeanModModBlocks.STROMATOLITE);
 	public static final DeferredItem<Item> PROTEROZOICPORTALBLOCK = block(FloisHadeanModModBlocks.PROTEROZOICPORTALBLOCK);
 	public static final DeferredItem<Item> PROTEROZOIC = REGISTRY.register("proterozoic", ProterozoicItem::new);
 	public static final DeferredItem<Item> IRONSAND = block(FloisHadeanModModBlocks.IRONSAND);
@@ -48,6 +47,9 @@ public class FloisHadeanModModItems {
 	public static final DeferredItem<Item> GRYPANIA = block(FloisHadeanModModBlocks.GRYPANIA);
 	public static final DeferredItem<Item> REDALGAE = block(FloisHadeanModModBlocks.REDALGAE);
 	public static final DeferredItem<Item> GREENALGAE = block(FloisHadeanModModBlocks.GREENALGAE);
+	public static final DeferredItem<Item> STROMATOLITESTEM = block(FloisHadeanModModBlocks.STROMATOLITESTEM);
+	public static final DeferredItem<Item> STROMATOLITE = block(FloisHadeanModModBlocks.STROMATOLITE);
+	public static final DeferredItem<Item> IRONSTONE = block(FloisHadeanModModBlocks.IRONSTONE);
 
 	// Start of user code block custom items
 	// End of user code block custom items
