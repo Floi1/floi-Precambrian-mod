@@ -17,7 +17,7 @@
     "rewardXP": 5000,
     "achievementType": "challenge",
     "parent": {
-      "value": "No parent: root"
+      "value": "CUSTOM:Hadeanbiomes"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:Archeanshallowocean</field><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:Archeanwaterholes</field></block></next></block></next></block></xml>"
   }

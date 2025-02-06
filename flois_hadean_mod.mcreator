@@ -2005,6 +2005,71 @@
         ]
       },
       "path": "~/Proterozoic"
+    },
+    {
+      "name": "Proterozoiceon",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proterozoiceon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/advancement/proterozoiceon.json"
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "Proterozoicbiomes",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proterozoicbiomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/advancement/proterozoicbiomes.json"
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "EnteredallDimension",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enteredall_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/advancement/enteredall_dimension.json"
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "Portalkeyproterozoicrep",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portalkeyproterozoicrep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/recipe/portalkeyproterozoicrep.json"
+        ]
+      },
+      "path": "~/Proterozoic"
+    },
+    {
+      "name": "Proterozoicportalblockrep",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proterozoicportalblockrep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_hadean_mod/recipe/proterozoicportalblockrep.json"
+        ]
+      },
+      "path": "~/Proterozoic"
     }
   ],
   "variable_elements": [],
@@ -2021,6 +2086,7 @@
       "~CUSTOM:Blackcobblestone"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Ironstone",
       "~CUSTOM:Stromatolitestem",
       "~CUSTOM:Stromatolite",
       "~CUSTOM:Proterozoicportalblock",
@@ -2037,6 +2103,8 @@
       "~CUSTOM:Archeanportalblock"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Microbialmat",
+      "~CUSTOM:Microbialmatt",
       "~CUSTOM:Ancientmud",
       "~CUSTOM:Rippledironsand",
       "~CUSTOM:Ironsand",
@@ -2065,7 +2133,12 @@
       "block.flois_hadean_mod.dark_ash": "Dark ash",
       "advancements.hadeanbiomes.title": "Hadean biomes",
       "biome.flois_hadean_mod.hadean_fields": "Hadean fields",
+      "advancements.enteredall_dimension.title": "The past ",
       "block.flois_hadean_mod.stromatolite": "Stromatolite",
+      "advancements.proterozoicbiomes.descr": "Found all biomes in the Proterozoic",
+      "advancements.proterozoicbiomes.title": "Proterozoic biomes",
+      "advancements.enteredall_dimension.descr": "Entered all dimension",
+      "advancements.proterozoiceon.title": "Proterozoic eon",
       "advancements.hadeaneon.descr": "Enter the Hadean",
       "block.flois_hadean_mod.bacterialmat": "Bacteria lmat",
       "biome.flois_hadean_mod.paleoproterozoicocean": "Paleoproterozoic ocean",
@@ -2088,6 +2161,7 @@
       "block.flois_hadean_mod.archeanportalblock": "Archean portal block",
       "block.flois_hadean_mod.proterozoicportalblock": "Proterozoic portal block",
       "item.flois_hadean_mod.hadean": "Hadean Portal Igniter (WIP)",
+      "advancements.proterozoiceon.descr": "Enter the Proterozoic",
       "biome.flois_hadean_mod.hadean_fields2": "Hadean fields",
       "block.flois_hadean_mod.ironstone": "Iron stone",
       "block.flois_hadean_mod.greenalgae": "Green algae",
@@ -2095,14 +2169,14 @@
       "block.flois_hadean_mod.zirconore": "Zircon ore block",
       "block.flois_hadean_mod.light_ash": "Light ash",
       "block.flois_hadean_mod.ash": "Ash",
-      "biome.flois_hadean_mod.neoproterozoiclands": "Paleoproterozoic land",
+      "biome.flois_hadean_mod.neoproterozoiclands": "Paleoproterozoic plains",
       "advancements.hadeanbiomes.descr": "Found all biomes in the Hadean",
       "item.flois_hadean_mod.proterozoic": "Proterozoic Portal Igniter (wip)",
       "block.flois_hadean_mod.hadeanportalblock": "Hadean portal block",
       "block.flois_hadean_mod.microbialmatt": "Microbial mat",
       "block.flois_hadean_mod.grypania": "Grypania",
       "block.flois_hadean_mod.redalgae": "Red algae",
-      "biome.flois_hadean_mod.mesoproterozoicocean": "mesoproterozoic ocean",
+      "biome.flois_hadean_mod.mesoproterozoicocean": "Mesoproterozoic ocean",
       "block.flois_hadean_mod.horodyskia": "Horodyskia",
       "biome.flois_hadean_mod.archeanshallowocean": "Archean shallow ocean",
       "block.flois_hadean_mod.archean_microbialmat": "Archean microbial mat",

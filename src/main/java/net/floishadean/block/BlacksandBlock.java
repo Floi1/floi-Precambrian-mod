@@ -26,7 +26,7 @@ public class BlacksandBlock extends FallingBlock {
 	}
 
 	public BlacksandBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.SAND).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.SAND).strength(0.5f, 1f));
 	}
 
 	@Override

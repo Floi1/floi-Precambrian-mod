@@ -1,0 +1,119 @@
+{
+  "display": {
+    "icon": {
+      "id": "flois_hadean_mod:proterozoic"
+    },
+    "title": {
+      "translate": "advancements.proterozoicbiomes.title"
+    },
+    "description": {
+      "translate": "advancements.proterozoicbiomes.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "proterozoicbiomes_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "flois_hadean_mod:cryogenianland"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "proterozoicbiomes_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "flois_hadean_mod:cryogenianocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "proterozoicbiomes_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "flois_hadean_mod:mesoproterozoicocean"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "proterozoicbiomes_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "flois_hadean_mod:neoproterozoiclands"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "proterozoicbiomes_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "flois_hadean_mod:paleoproterozoicland"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "proterozoicbiomes_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "flois_hadean_mod:paleoproterozoicocean"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  },
+  "parent": "flois_hadean_mod:archeanbiomes"
+}

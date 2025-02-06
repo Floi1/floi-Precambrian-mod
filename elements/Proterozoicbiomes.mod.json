@@ -1,0 +1,24 @@
+{
+  "_fv": 73,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Proterozoic biomes",
+    "achievementDescription": "Found all biomes in the Proterozoic",
+    "achievementIcon": {
+      "value": "CUSTOM:Proterozoic"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 5000,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:Archeanbiomes"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:Cryogenianland</field><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:Cryogenianocean</field><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:Mesoproterozoicocean</field><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:Neoproterozoiclands</field><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:Paleoproterozoicland</field><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:Paleoproterozoicocean</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

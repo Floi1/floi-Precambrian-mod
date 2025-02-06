@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "flois_hadean_mod:archean_microbialmat",
+    "flois_hadean_mod:microbialmatt",
     "flois_hadean_mod:ancientmud",
     "flois_hadean_mod:rippledironsand",
     "flois_hadean_mod:ironsand",

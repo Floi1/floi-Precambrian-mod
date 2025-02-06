@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "flois_hadean_mod:archean_microbialmat"
+    },
+    "b": {
+      "item": "flois_hadean_mod:archean"
+    }
+  },
+  "result": {
+    "id": "flois_hadean_mod:proterozoic",
+    "count": 1
+  }
+}

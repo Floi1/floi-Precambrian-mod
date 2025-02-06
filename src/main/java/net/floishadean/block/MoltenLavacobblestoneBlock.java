@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class MoltenLavacobblestoneBlock extends Block {
 	public MoltenLavacobblestoneBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(4f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(3f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "flois_hadean_mod:ironstone",
     "flois_hadean_mod:stromatolitestem",
     "flois_hadean_mod:stromatolite",
     "flois_hadean_mod:proterozoicportalblock",
