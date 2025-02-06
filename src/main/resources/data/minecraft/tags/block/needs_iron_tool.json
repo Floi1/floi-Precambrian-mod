@@ -1,13 +1,13 @@
 {
   "replace": false,
   "values": [
-    "flois_hadean_mod:proterozoicportalblock",
-    "flois_hadean_mod:zirconblock",
-    "flois_hadean_mod:zirconore",
-    "flois_hadean_mod:meteoriticiron",
-    "flois_hadean_mod:hadeanportalblock",
-    "flois_hadean_mod:molten_lavacobblestone",
-    "flois_hadean_mod:lavarock",
-    "flois_hadean_mod:lavacobblestone"
+    "flois_precambrian:proterozoicportalblock",
+    "flois_precambrian:zirconblock",
+    "flois_precambrian:zirconore",
+    "flois_precambrian:meteoriticiron",
+    "flois_precambrian:hadeanportalblock",
+    "flois_precambrian:molten_lavacobblestone",
+    "flois_precambrian:lavarock",
+    "flois_precambrian:lavacobblestone"
   ]
 }

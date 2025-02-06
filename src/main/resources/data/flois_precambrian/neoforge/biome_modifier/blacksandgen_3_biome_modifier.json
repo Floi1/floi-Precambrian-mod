@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "flois_precambrian:hadeanwastes",
+  "features": "flois_precambrian:blacksandgen_3",
+  "step": "surface_structures"
+}

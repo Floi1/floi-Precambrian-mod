@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "flois_precambrian:block/zircon_block",
+    "particle": "flois_precambrian:block/zircon_block"
+  },
+  "render_type": "solid"
+}

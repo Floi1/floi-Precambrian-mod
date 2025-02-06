@@ -1,0 +1,9 @@
+{
+  "parent": "flois_precambrian:custom/red_algae",
+  "textures": {
+    "all": "flois_precambrian:block/tep2",
+    "particle": "flois_precambrian:block/tep2",
+    "0": "flois_precambrian:block/red_algae"
+  },
+  "render_type": "translucent"
+}

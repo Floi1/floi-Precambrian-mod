@@ -1,0 +1,9 @@
+{
+  "parent": "flois_precambrian:custom/bacterial_mat",
+  "textures": {
+    "all": "flois_precambrian:block/bacterial_mat",
+    "particle": "flois_precambrian:block/bacterial_mat",
+    "0": "flois_precambrian:block/bacterial_mat"
+  },
+  "render_type": "translucent"
+}

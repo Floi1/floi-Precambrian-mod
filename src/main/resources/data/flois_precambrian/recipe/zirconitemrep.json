@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "flois_precambrian:zirconblock"
+    }
+  },
+  "result": {
+    "id": "flois_precambrian:zirconitem",
+    "count": 9
+  }
+}

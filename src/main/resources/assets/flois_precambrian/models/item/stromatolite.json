@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "flois_precambrian:item/stromatolite_item"
+  },
+  "render_type": "translucent"
+}

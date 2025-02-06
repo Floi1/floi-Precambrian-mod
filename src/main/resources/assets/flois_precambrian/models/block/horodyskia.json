@@ -1,0 +1,9 @@
+{
+  "parent": "flois_precambrian:custom/horodyskia",
+  "textures": {
+    "all": "flois_precambrian:block/horodyskia_item",
+    "particle": "flois_precambrian:block/horodyskia_item",
+    "0": "flois_precambrian:block/horodyskia"
+  },
+  "render_type": "translucent"
+}

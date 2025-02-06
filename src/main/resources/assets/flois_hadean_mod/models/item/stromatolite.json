@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "flois_hadean_mod:item/stromatolite_item"
-  },
-  "render_type": "translucent"
-}

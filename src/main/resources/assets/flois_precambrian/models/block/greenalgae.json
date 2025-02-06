@@ -1,0 +1,10 @@
+{
+  "parent": "flois_precambrian:custom/green_algae",
+  "textures": {
+    "all": "flois_precambrian:block/green_algae",
+    "particle": "flois_precambrian:block/green_algae",
+    "0": "flois_precambrian:block/green_algae",
+    "missing": "flois_precambrian:block/green_algae"
+  },
+  "render_type": "translucent"
+}

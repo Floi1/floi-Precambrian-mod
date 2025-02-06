@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "flois_precambrian:block/microbial_mat",
+    "up": "flois_precambrian:block/microbial_mat",
+    "north": "flois_precambrian:block/microbial_mat",
+    "east": "flois_precambrian:block/microbial_mat",
+    "south": "flois_precambrian:block/microbial_mat",
+    "west": "flois_precambrian:block/microbial_mat",
+    "particle": "flois_precambrian:block/microbial_mat"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "id": "flois_precambrian:hadean"
+    },
+    "title": {
+      "translate": "advancements.hadeanbiomes.title"
+    },
+    "description": {
+      "translate": "advancements.hadeanbiomes.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hadeanbiomes_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "flois_precambrian:hadeanwastes"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hadeanbiomes_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "flois_precambrian:hadean_lava_fields"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hadeanbiomes_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "flois_precambrian:hadean_ash"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  },
+  "parent": "flois_precambrian:hadeaneon"
+}

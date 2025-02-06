@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "flois_precambrian:block/ancient_mud",
+    "particle": "flois_precambrian:block/ancient_mud"
+  },
+  "render_type": "solid"
+}

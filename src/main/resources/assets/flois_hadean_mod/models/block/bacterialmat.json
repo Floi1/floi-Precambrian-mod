@@ -1,9 +1,0 @@
-{
-  "parent": "flois_hadean_mod:custom/bacterial_mat",
-  "textures": {
-    "all": "flois_hadean_mod:block/bacterial_mat",
-    "particle": "flois_hadean_mod:block/bacterial_mat",
-    "0": "flois_hadean_mod:block/bacterial_mat"
-  },
-  "render_type": "translucent"
-}

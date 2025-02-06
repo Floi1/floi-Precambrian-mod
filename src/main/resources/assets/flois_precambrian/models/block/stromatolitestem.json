@@ -1,0 +1,9 @@
+{
+  "parent": "flois_precambrian:custom/stromatolite_stem",
+  "textures": {
+    "all": "minecraft:block/brown_wool",
+    "particle": "minecraft:block/brown_wool",
+    "0": "flois_precambrian:block/stromatolite_stem"
+  },
+  "render_type": "solid"
+}

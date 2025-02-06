@@ -1,0 +1,9 @@
+{
+  "parent": "flois_precambrian:custom/tawuia",
+  "textures": {
+    "all": "flois_precambrian:block/tawuia_itemm",
+    "particle": "flois_precambrian:block/tawuia_itemm",
+    "0": "flois_precambrian:block/tawuia"
+  },
+  "render_type": "translucent"
+}

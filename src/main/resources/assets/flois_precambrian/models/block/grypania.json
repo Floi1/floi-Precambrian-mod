@@ -1,0 +1,9 @@
+{
+  "parent": "flois_precambrian:custom/grypania",
+  "textures": {
+    "all": "flois_precambrian:block/grypan_item",
+    "particle": "flois_precambrian:block/grypan_item",
+    "0": "flois_precambrian:block/grypania"
+  },
+  "render_type": "translucent"
+}

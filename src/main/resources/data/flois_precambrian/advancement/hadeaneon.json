@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "flois_precambrian:hadean"
+    },
+    "title": {
+      "translate": "advancements.hadeaneon.title"
+    },
+    "description": {
+      "translate": "advancements.hadeaneon.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hadeaneon_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "flois_precambrian:hadean"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  },
+  "parent": "flois_precambrian:enteredall_dimension"
+}

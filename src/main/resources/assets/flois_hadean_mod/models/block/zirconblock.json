@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "flois_hadean_mod:block/zircon_block",
-    "particle": "flois_hadean_mod:block/zircon_block"
-  },
-  "render_type": "solid"
-}

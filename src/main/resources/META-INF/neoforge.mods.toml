@@ -3,26 +3,26 @@ loaderVersion="[4,)"
 license="GNU Lesser General Public License version 2.1 (LGPLv2.1)"
 
 [[mods]]
-modId="flois_hadean_mod"
+modId="flois_precambrian"
 version="1.4.0"
-displayName="floi's Hadean mod"
-displayURL="https://www.curseforge.com/minecraft/mc-mods"
+displayName="floi's Precambrian mod"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/flois-precambrian"
 logoFile="logo.png"
 credits="made by floi"
 authors="Floi"
-description="floi's Hadean mod for 1.21.1 neoforge"
+description="floi's Precambrian mod for 1.21.1 neoforge"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
-[[dependencies.flois_hadean_mod]]
+[[dependencies.flois_precambrian]]
     modId="neoforge"
     type="required"
     versionRange="[21.1.65,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.flois_hadean_mod]]
+[[dependencies.flois_precambrian]]
     modId="minecraft"
     type="required"
     versionRange="[1.21.1]"

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "flois_precambrian:block/dark_ash",
+    "up": "flois_precambrian:block/dark_ash",
+    "north": "flois_precambrian:block/dark_ash",
+    "east": "flois_precambrian:block/dark_ash",
+    "south": "flois_precambrian:block/dark_ash",
+    "west": "flois_precambrian:block/dark_ash",
+    "particle": "flois_precambrian:block/dark_ash"
+  },
+  "render_type": "solid"
+}

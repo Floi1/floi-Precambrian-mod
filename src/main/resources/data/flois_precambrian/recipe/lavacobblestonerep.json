@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lava_bucket"
+    },
+    "b": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "id": "flois_precambrian:lavacobblestone",
+    "count": 1
+  }
+}

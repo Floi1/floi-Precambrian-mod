@@ -1,0 +1,9 @@
+{
+  "feature": "flois_precambrian:microbialmatgen_3",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 4
+    }
+  ]
+}

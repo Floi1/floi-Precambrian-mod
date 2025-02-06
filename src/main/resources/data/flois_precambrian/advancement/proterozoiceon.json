@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "flois_precambrian:proterozoic"
+    },
+    "title": {
+      "translate": "advancements.proterozoiceon.title"
+    },
+    "description": {
+      "translate": "advancements.proterozoiceon.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "proterozoiceon_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "flois_precambrian:proterozoic"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  },
+  "parent": "flois_precambrian:enteredall_dimension"
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "flois_hadean_mod:block/molten_black_cobblestone",
-    "particle": "flois_hadean_mod:block/molten_black_cobblestone"
-  },
-  "render_type": "solid"
-}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "flois_precambrian:zirconore"
+    },
+    "title": {
+      "translate": "advancements.enteredall_dimension.title"
+    },
+    "description": {
+      "translate": "advancements.enteredall_dimension.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enteredall_dimension_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "flois_precambrian:hadean"
+      }
+    },
+    "enteredall_dimension_1": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "flois_precambrian:archean"
+      }
+    },
+    "enteredall_dimension_2": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "flois_precambrian:proterozoic"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50000
+  }
+}

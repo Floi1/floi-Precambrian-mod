@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "flois_hadean_mod:block/rippled_black_sand",
-    "particle": "flois_hadean_mod:block/rippled_black_sand"
-  },
-  "render_type": "solid"
-}

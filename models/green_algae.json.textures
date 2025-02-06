@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "green_algae",
+        "missing": "green_algae"
+      },
+      "name": "default"
+    }
+  }
+}

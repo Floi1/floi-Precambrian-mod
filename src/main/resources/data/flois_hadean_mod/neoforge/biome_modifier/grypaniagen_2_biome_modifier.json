@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "flois_hadean_mod:mesoproterozoicocean",
-  "features": "flois_hadean_mod:grypaniagen_2",
-  "step": "local_modifications"
-}

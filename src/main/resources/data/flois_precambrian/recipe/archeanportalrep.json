@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "flois_precambrian:zirconitem"
+    },
+    "b": {
+      "item": "flois_precambrian:zirconblock"
+    }
+  },
+  "result": {
+    "id": "flois_precambrian:archeanportalblock",
+    "count": 1
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "parent": "flois_hadean_mod:custom/stromatolite_stem",
-  "textures": {
-    "all": "minecraft:block/brown_wool",
-    "particle": "minecraft:block/brown_wool",
-    "0": "flois_hadean_mod:block/stromatolite_stem"
-  },
-  "render_type": "solid"
-}

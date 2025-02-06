@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "flois_precambrian:block/archean_portal_ew"
+    },
+    "axis=x": {
+      "model": "flois_precambrian:block/archean_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "flois_precambrian:custom/stromatolite",
+  "textures": {
+    "all": "flois_precambrian:block/dark_ash",
+    "particle": "flois_precambrian:block/dark_ash",
+    "0": "flois_precambrian:block/stromatolite"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flois_precambrian:hadean_fields",
+    "flois_precambrian:hadean_fields2"
+  ],
+  "features": "flois_precambrian:hadeanheatlava_2",
+  "step": "surface_structures"
+}

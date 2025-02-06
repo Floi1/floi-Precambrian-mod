@@ -1,9 +1,0 @@
-{
-  "parent": "flois_hadean_mod:custom/stromatolite",
-  "textures": {
-    "all": "flois_hadean_mod:block/dark_ash",
-    "particle": "flois_hadean_mod:block/dark_ash",
-    "0": "flois_hadean_mod:block/stromatolite"
-  },
-  "render_type": "solid"
-}

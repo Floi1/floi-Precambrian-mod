@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flois_precambrian:cryogenianland",
+    "flois_precambrian:cryogenianocean"
+  ],
+  "features": "flois_precambrian:stromatolitegen_2",
+  "step": "local_modifications"
+}

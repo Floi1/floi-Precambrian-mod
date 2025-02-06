@@ -17,7 +17,7 @@
     "rewardXP": 5000,
     "achievementType": "challenge",
     "parent": {
-      "value": "CUSTOM:EnteredallDimension"
+      "value": "CUSTOM:Hadeaneon"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:Hadeanwastes</field><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:HadeanHeat</field><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:Hadeanshot</field></block></next></block></next></block></next></block></xml>"
   }

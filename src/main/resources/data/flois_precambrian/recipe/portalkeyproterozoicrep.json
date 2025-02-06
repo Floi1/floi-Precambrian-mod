@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "flois_precambrian:archean_microbialmat"
+    },
+    "b": {
+      "item": "flois_precambrian:archean"
+    }
+  },
+  "result": {
+    "id": "flois_precambrian:proterozoic",
+    "count": 1
+  }
+}

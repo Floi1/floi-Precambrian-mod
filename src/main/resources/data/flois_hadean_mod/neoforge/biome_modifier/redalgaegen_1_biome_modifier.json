@@ -1,9 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": [
-    "flois_hadean_mod:cryogenianland",
-    "flois_hadean_mod:cryogenianocean"
-  ],
-  "features": "flois_hadean_mod:redalgaegen_1",
-  "step": "local_modifications"
-}

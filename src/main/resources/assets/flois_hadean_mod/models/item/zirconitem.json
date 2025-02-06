@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "flois_hadean_mod:item/zircon_item"
-  }
-}

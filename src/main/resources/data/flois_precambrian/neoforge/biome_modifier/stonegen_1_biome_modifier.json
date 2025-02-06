@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flois_precambrian:archeanshallowocean",
+    "flois_precambrian:archeanwaterholes"
+  ],
+  "features": "flois_precambrian:stonegen_1",
+  "step": "surface_structures"
+}

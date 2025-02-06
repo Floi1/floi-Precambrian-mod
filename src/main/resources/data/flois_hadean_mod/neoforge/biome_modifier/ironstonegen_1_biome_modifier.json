@@ -1,9 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": [
-    "flois_hadean_mod:paleoproterozoicland",
-    "flois_hadean_mod:paleoproterozoicocean"
-  ],
-  "features": "flois_hadean_mod:ironstonegen_1",
-  "step": "surface_structures"
-}

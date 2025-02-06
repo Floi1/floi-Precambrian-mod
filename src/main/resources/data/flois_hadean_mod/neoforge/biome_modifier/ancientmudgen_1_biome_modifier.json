@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "flois_hadean_mod:archeanwaterholes",
-  "features": "flois_hadean_mod:ancientmudgen_1",
-  "step": "surface_structures"
-}

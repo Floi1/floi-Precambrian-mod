@@ -1,15 +1,15 @@
 {
   "replace": false,
   "values": [
-    "flois_hadean_mod:archean_microbialmat",
-    "flois_hadean_mod:microbialmatt",
-    "flois_hadean_mod:ancientmud",
-    "flois_hadean_mod:rippledironsand",
-    "flois_hadean_mod:ironsand",
-    "flois_hadean_mod:rippledblacksand",
-    "flois_hadean_mod:dark_ash",
-    "flois_hadean_mod:ash",
-    "flois_hadean_mod:light_ash",
-    "flois_hadean_mod:blacksand"
+    "flois_precambrian:ancientmud",
+    "flois_precambrian:microbialmatt",
+    "flois_precambrian:rippledironsand",
+    "flois_precambrian:ironsand",
+    "flois_precambrian:archean_microbialmat",
+    "flois_precambrian:rippledblacksand",
+    "flois_precambrian:dark_ash",
+    "flois_precambrian:ash",
+    "flois_precambrian:light_ash",
+    "flois_precambrian:blacksand"
   ]
 }

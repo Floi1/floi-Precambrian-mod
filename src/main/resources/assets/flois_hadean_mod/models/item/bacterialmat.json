@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "flois_hadean_mod:item/bacterial_mat"
-  },
-  "render_type": "translucent"
-}

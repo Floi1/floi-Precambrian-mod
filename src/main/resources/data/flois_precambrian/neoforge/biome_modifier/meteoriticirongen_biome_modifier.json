@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flois_precambrian:hadeanwastes",
+    "flois_precambrian:hadean_fields",
+    "flois_precambrian:hadean_fields2"
+  ],
+  "features": "flois_precambrian:meteoriticirongen",
+  "step": "surface_structures"
+}

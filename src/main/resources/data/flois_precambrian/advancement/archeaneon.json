@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "flois_precambrian:archean"
+    },
+    "title": {
+      "translate": "advancements.archeaneon.title"
+    },
+    "description": {
+      "translate": "advancements.archeaneon.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "archeaneon_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "flois_precambrian:archean"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  },
+  "parent": "flois_precambrian:enteredall_dimension"
+}
