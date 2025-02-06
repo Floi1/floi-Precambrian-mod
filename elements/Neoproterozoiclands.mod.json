@@ -2,7 +2,7 @@
   "_fv": 73,
   "_type": "biome",
   "definition": {
-    "name": "Paleoproterozoic  land",
+    "name": "Paleoproterozoic land",
     "groundBlock": {
       "value": "Blocks.STONE#0"
     },
@@ -36,8 +36,8 @@
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -0.15000000000000002,
-      "max": 0.2
+      "min": -0.1,
+      "max": 0.25
     },
     "genHumidity": {
       "min": -1.0,
@@ -45,7 +45,7 @@
     },
     "genContinentalness": {
       "min": -0.15,
-      "max": 0.08
+      "max": 0.04
     },
     "genErosion": {
       "min": -0.11,

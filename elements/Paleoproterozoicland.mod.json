@@ -2,7 +2,7 @@
   "_fv": 73,
   "_type": "biome",
   "definition": {
-    "name": "Paleoproterozoic  land",
+    "name": "Paleoproterozoic land",
     "groundBlock": {
       "value": "CUSTOM:Ironsand"
     },

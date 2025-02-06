@@ -2,7 +2,7 @@
   "_fv": 73,
   "_type": "biome",
   "definition": {
-    "name": "Paleoproterozoic  ocean",
+    "name": "Paleoproterozoic ocean",
     "groundBlock": {
       "value": "CUSTOM:Ironsand"
     },

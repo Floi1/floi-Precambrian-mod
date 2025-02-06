@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flois_hadean_mod:mesoproterozoicocean",
+    "flois_hadean_mod:neoproterozoiclands"
+  ],
+  "features": "flois_hadean_mod:redalgaegen_2",
+  "step": "local_modifications"
+}

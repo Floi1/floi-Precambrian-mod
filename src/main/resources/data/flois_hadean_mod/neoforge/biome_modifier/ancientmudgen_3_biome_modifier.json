@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "flois_hadean_mod:mesoproterozoicocean",
+  "features": "flois_hadean_mod:ancientmudgen_3",
+  "step": "local_modifications"
+}

@@ -4,7 +4,10 @@
     "to_place": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "flois_hadean_mod:tawuia"
+        "Name": "flois_hadean_mod:tawuia",
+        "Properties": {
+          "waterlogged": "true"
+        }
       }
     }
   }

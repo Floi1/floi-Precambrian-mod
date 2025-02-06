@@ -29,5 +29,20 @@ public class FloisHadeanModModTrades {
 		if (event.getType() == VillagerProfession.ARMORER) {
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.IRON_INGOT, 3), new ItemStack(FloisHadeanModModBlocks.ARCHEANPORTALBLOCK.get()), 12, 30, 0.3f));
 		}
+		if (event.getType() == VillagerProfession.ARMORER) {
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.IRON_INGOT, 4), new ItemStack(FloisHadeanModModBlocks.PROTEROZOICPORTALBLOCK.get()), 10, 30, 0.4f));
+		}
+		if (event.getType() == VillagerProfession.ARMORER) {
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.IRON_INGOT, 3), new ItemStack(FloisHadeanModModBlocks.PROTEROZOICPORTALBLOCK.get()), 10, 30, 0.4f));
+		}
+		if (event.getType() == VillagerProfession.TOOLSMITH) {
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.IRON_INGOT), new ItemStack(FloisHadeanModModItems.HADEAN.get()), 4, 30, 0.2f));
+		}
+		if (event.getType() == VillagerProfession.TOOLSMITH) {
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.IRON_INGOT), new ItemStack(FloisHadeanModModItems.ARCHEAN.get()), 4, 30, 0.3f));
+		}
+		if (event.getType() == VillagerProfession.TOOLSMITH) {
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.IRON_INGOT), new ItemStack(FloisHadeanModModItems.PROTEROZOIC.get()), 4, 30, 0.4f));
+		}
 	}
 }

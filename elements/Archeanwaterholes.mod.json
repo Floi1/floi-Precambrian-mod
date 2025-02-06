@@ -2,7 +2,7 @@
   "_fv": 73,
   "_type": "biome",
   "definition": {
-    "name": "Archeanwaterholes",
+    "name": "Archean waterholes",
     "groundBlock": {
       "value": "CUSTOM:Lavarock"
     },
