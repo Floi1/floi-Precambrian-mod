@@ -20,6 +20,12 @@
       },
       {
         "value": "CUSTOM:Mesoproterozoicocean"
+      },
+      {
+        "value": "CUSTOM:Ediacaranland"
+      },
+      {
+        "value": "CUSTOM:Ediacaransea"
       }
     ],
     "worldGenType": "Normal world gen",

@@ -2070,6 +2070,32 @@
         ]
       },
       "path": "~/Proterozoic"
+    },
+    {
+      "name": "Ediacaranland",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ediacaranland",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/biome/ediacaranland.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Ediacaransea",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ediacaransea",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/biome/ediacaransea.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
     }
   ],
   "variable_elements": [],
@@ -2172,6 +2198,7 @@
       "block.flois_hadean_mod.grypania": "Grypania",
       "block.flois_hadean_mod.redalgae": "Red algae",
       "block.flois_precambrian.blacksand": "Black sand",
+      "biome.flois_precambrian.ediacaransea": "Mesoproterozoic ocean",
       "block.flois_precambrian.zirconblock": "Zircon block",
       "block.flois_precambrian.lavarock": "Lava rock",
       "block.flois_precambrian.stromatolite": "Stromatolite",
@@ -2182,7 +2209,7 @@
       "advancements.hadeaneon.title": "Hadean Eon",
       "advancements.archeanbiomes.title": "Archean biomes",
       "block.flois_precambrian.microbialmatt": "Microbial mat",
-      "biome.flois_precambrian.neoproterozoiclands": "Paleoproterozoic plains",
+      "biome.flois_precambrian.neoproterozoiclands": "Neoproterozoic plains",
       "block.flois_precambrian.grypania": "Grypania",
       "block.flois_hadean_mod.dark_ash": "Dark ash",
       "advancements.hadeanbiomes.title": "Hadean biomes",
@@ -2222,6 +2249,7 @@
       "block.flois_hadean_mod.hadeanportalblock": "Hadean portal block",
       "biome.flois_precambrian.hadean_ash": "Hadean ash",
       "biome.flois_hadean_mod.mesoproterozoicocean": "Mesoproterozoic ocean",
+      "biome.flois_precambrian.ediacaranland": "Ediacaran land",
       "item_group.flois_precambrian.hadeantab": "Hadean mod tab",
       "block.flois_precambrian.rippledblacksand": "Rippled black sand",
       "block.flois_precambrian.tawuia": "Tawuia",
@@ -2242,7 +2270,12 @@
       },
       {
         "name": "Proterozoic",
-        "children": []
+        "children": [
+          {
+            "name": "Ediacaran ",
+            "children": []
+          }
+        ]
       }
     ]
   },
