@@ -2096,6 +2096,21 @@
         ]
       },
       "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Microbialmatgen5",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microbialmatgen_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/microbialmatgen_5_biome_modifier.json",
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/microbialmatgen_5.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/microbialmatgen_5.json"
+        ]
+      },
+      "path": "~/Proterozoic"
     }
   ],
   "variable_elements": [],
@@ -2282,7 +2297,7 @@
   "workspaceSettings": {
     "modid": "flois_precambrian",
     "modName": "floi\u0027s Precambrian mod",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "floi\u0027s Precambrian mod for 1.21.1 neoforge",
     "author": "Floi",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/flois-precambrian",

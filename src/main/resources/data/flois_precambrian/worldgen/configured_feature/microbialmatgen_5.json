@@ -9,13 +9,13 @@
     "half_height": 2,
     "target": {
       "type": "minecraft:matching_blocks",
-      "blocks": "flois_precambrian:microbialmatt"
+      "blocks": "minecraft:stone"
     },
     "state_provider": {
       "fallback": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:stone"
+          "Name": "flois_precambrian:microbialmatt"
         }
       },
       "rules": [
@@ -32,7 +32,7 @@
           "then": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:stone"
+              "Name": "flois_precambrian:microbialmatt"
             }
           }
         }

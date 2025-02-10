@@ -133,7 +133,7 @@
         "ridges": "minecraft:overworld/ridges",
         "initial_density_without_jaggedness": {
           "type": "minecraft:add",
-          "argument1": 0.1171875,
+          "argument1": 0.12,
           "argument2": {
             "type": "minecraft:mul",
             "argument1": {
@@ -212,7 +212,7 @@
                         "from_y": -64,
                         "to_y": -40,
                         "from_value": 0,
-                        "to_value": 4
+                        "to_value": 2
                       },
                       "argument2": {
                         "type": "minecraft:add",
@@ -225,13 +225,13 @@
                             "argument1": {
                               "type": "minecraft:y_clamped_gradient",
                               "from_y": 71,
-                              "to_y": 81,
+                              "to_y": 100,
                               "from_value": 0.8,
                               "to_value": 0
                             },
                             "argument2": {
                               "type": "minecraft:add",
-                              "argument1": 0.2,
+                              "argument1": 0.01,
                               "argument2": {
                                 "type": "minecraft:range_choice",
                                 "input": "minecraft:overworld/sloped_cheese",

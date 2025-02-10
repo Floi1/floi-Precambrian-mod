@@ -4,7 +4,7 @@ license="GNU Lesser General Public License version 2.1 (LGPLv2.1)"
 
 [[mods]]
 modId="flois_precambrian"
-version="1.4.0"
+version="1.4.1"
 displayName="floi's Precambrian mod"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/flois-precambrian"
 logoFile="logo.png"

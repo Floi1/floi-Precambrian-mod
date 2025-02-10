@@ -10,7 +10,7 @@
       "value": "Blocks.COBBLESTONE"
     },
     "underwaterBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "CUSTOM:Microbialmatt"
     },
     "waterColor": {
       "value": -16750951,

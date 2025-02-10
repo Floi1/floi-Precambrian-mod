@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flois_precambrian:cryogenianocean",
+    "flois_precambrian:cryogenianland"
+  ],
+  "features": "flois_precambrian:microbialmatgen_5",
+  "step": "local_modifications"
+}

@@ -20,12 +20,6 @@
       },
       {
         "value": "CUSTOM:Mesoproterozoicocean"
-      },
-      {
-        "value": "CUSTOM:Ediacaranland"
-      },
-      {
-        "value": "CUSTOM:Ediacaransea"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -36,8 +30,8 @@
       "value": "Blocks.FLOWING_WATER"
     },
     "seaLevel": 67,
-    "generateOreVeins": true,
-    "generateAquifers": true,
+    "generateOreVeins": false,
+    "generateAquifers": false,
     "horizontalNoiseSize": 4,
     "verticalNoiseSize": 4,
     "defaultEffects": "overworld",
