@@ -17,8 +17,8 @@
               0.5
             ],
             "continentalness": [
-              -0.4,
-              -0.06
+              -1,
+              -0.11
             ],
             "weirdness": [
               -1,
@@ -63,16 +63,16 @@
           "biome": "flois_precambrian:hadean_fields",
           "parameters": {
             "temperature": [
-              0.21,
-              0.55
+              0.65,
+              0.7
             ],
             "humidity": [
               -0.5,
               0.5
             ],
             "continentalness": [
-              -0.01,
-              0.03
+              0.4,
+              0.6
             ],
             "weirdness": [
               -1,
@@ -117,7 +117,7 @@
     },
     "settings": {
       "name": "flois_precambrian:hadean",
-      "sea_level": 80,
+      "sea_level": 70,
       "legacy_random_source": false,
       "disable_mob_generation": false,
       "aquifers_enabled": true,
@@ -251,14 +251,14 @@
             "type": "minecraft:squeeze",
             "argument": {
               "type": "minecraft:mul",
-              "argument1": 0.64,
+              "argument1": 1,
               "argument2": {
                 "type": "minecraft:interpolated",
                 "argument": {
                   "type": "minecraft:blend_density",
                   "argument": {
                     "type": "minecraft:add",
-                    "argument1": 0.1171875,
+                    "argument1": 0.15,
                     "argument2": {
                       "type": "minecraft:mul",
                       "argument1": {
@@ -270,22 +270,22 @@
                       },
                       "argument2": {
                         "type": "minecraft:add",
-                        "argument1": -0.1171875,
+                        "argument1": -0.1,
                         "argument2": {
                           "type": "minecraft:add",
-                          "argument1": -0.078125,
+                          "argument1": -0.15,
                           "argument2": {
                             "type": "minecraft:mul",
                             "argument1": {
                               "type": "minecraft:y_clamped_gradient",
-                              "from_y": 240,
-                              "to_y": 256,
+                              "from_y": 79,
+                              "to_y": 300,
                               "from_value": 1,
                               "to_value": 0
                             },
                             "argument2": {
                               "type": "minecraft:add",
-                              "argument1": 0.078125,
+                              "argument1": 0.5,
                               "argument2": {
                                 "type": "minecraft:range_choice",
                                 "input": "minecraft:overworld/sloped_cheese",

@@ -16,7 +16,7 @@
       "name": "Hadean",
       "type": "dimension",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "hadean",
       "metadata": {
         "files": [
@@ -681,7 +681,7 @@
       "name": "Archean",
       "type": "dimension",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "archean",
       "metadata": {
         "files": [
