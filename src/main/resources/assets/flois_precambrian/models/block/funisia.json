@@ -1,0 +1,9 @@
+{
+  "parent": "flois_precambrian:custom/funisia",
+  "textures": {
+    "all": "minecraft:block/black_wool",
+    "particle": "minecraft:block/black_wool",
+    "0": "flois_precambrian:block/funisia"
+  },
+  "render_type": "translucent"
+}

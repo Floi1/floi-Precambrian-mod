@@ -1,0 +1,9 @@
+{
+  "parent": "flois_precambrian:custom/bomakellia",
+  "textures": {
+    "all": "minecraft:block/black_wool",
+    "particle": "minecraft:block/black_wool",
+    "0": "flois_precambrian:block/bomakellia"
+  },
+  "render_type": "translucent"
+}

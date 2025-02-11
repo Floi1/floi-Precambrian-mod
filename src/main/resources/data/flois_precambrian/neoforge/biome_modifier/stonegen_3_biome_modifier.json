@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flois_precambrian:ediacaransea",
+    "flois_precambrian:ediacaranland"
+  ],
+  "features": "flois_precambrian:stonegen_3",
+  "step": "local_modifications"
+}

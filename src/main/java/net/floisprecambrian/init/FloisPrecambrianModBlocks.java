@@ -32,7 +32,9 @@ import net.floisprecambrian.block.HadeanportalblockBlock;
 import net.floisprecambrian.block.HadeanPortalBlock;
 import net.floisprecambrian.block.GrypaniaBlock;
 import net.floisprecambrian.block.GreenalgaeBlock;
+import net.floisprecambrian.block.FunisiaBlock;
 import net.floisprecambrian.block.DarkashBlock;
+import net.floisprecambrian.block.BomakelliaBlock;
 import net.floisprecambrian.block.BlacksandBlock;
 import net.floisprecambrian.block.BlackcobblestoneBlock;
 import net.floisprecambrian.block.BacterialmatBlock;
@@ -75,6 +77,8 @@ public class FloisPrecambrianModBlocks {
 	public static final DeferredBlock<Block> IRONSTONE = REGISTRY.register("ironstone", IronstoneBlock::new);
 	public static final DeferredBlock<Block> HORODYSKIA = REGISTRY.register("horodyskia", HorodyskiaBlock::new);
 	public static final DeferredBlock<Block> BACTERIALMAT = REGISTRY.register("bacterialmat", BacterialmatBlock::new);
+	public static final DeferredBlock<Block> BOMAKELLIA = REGISTRY.register("bomakellia", BomakelliaBlock::new);
+	public static final DeferredBlock<Block> FUNISIA = REGISTRY.register("funisia", FunisiaBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

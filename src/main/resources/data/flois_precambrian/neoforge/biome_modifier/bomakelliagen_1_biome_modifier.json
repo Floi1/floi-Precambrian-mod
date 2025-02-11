@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flois_precambrian:ediacaranland",
+    "flois_precambrian:ediacaransea"
+  ],
+  "features": "flois_precambrian:bomakelliagen_1",
+  "step": "local_modifications"
+}

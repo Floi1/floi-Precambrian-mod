@@ -2111,6 +2111,207 @@
         ]
       },
       "path": "~/Proterozoic"
+    },
+    {
+      "name": "Bomakellia",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomakellia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/loot_table/blocks/bomakellia.json",
+          "src/main/java/net/floisprecambrian/block/BomakelliaBlock.java",
+          "src/main/resources/assets/flois_precambrian/blockstates/bomakellia.json",
+          "src/main/resources/assets/flois_precambrian/models/item/bomakellia.json",
+          "src/main/resources/assets/flois_precambrian/models/block/bomakellia.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "BomakelliaBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomakellia_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floisprecambrian/procedures/BomakelliaBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Stonegen3",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonegen_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/stonegen_3_biome_modifier.json",
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/stonegen_3.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/stonegen_3.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Grypaniagen3",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grypaniagen_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/grypaniagen_3.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/grypaniagen_3.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/grypaniagen_3_biome_modifier.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Redalgaegen3",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redalgaegen_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/redalgaegen_3_biome_modifier.json",
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/redalgaegen_3.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/redalgaegen_3.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Greenalgaegen3",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenalgaegen_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/greenalgaegen_3.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/greenalgaegen_3.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/greenalgaegen_3_biome_modifier.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Bomakelliagen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomakelliagen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/bomakelliagen_1_biome_modifier.json",
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/bomakelliagen_1.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/bomakelliagen_1.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Stromatolitegen4",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stromatolitegen_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/stromatolitegen_4.json",
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/stromatolitegen_4.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/stromatolitegen_4_biome_modifier.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Funisia",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funisia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floisprecambrian/block/FunisiaBlock.java",
+          "src/main/resources/assets/flois_precambrian/blockstates/funisia.json",
+          "src/main/resources/data/flois_precambrian/loot_table/blocks/funisia.json",
+          "src/main/resources/assets/flois_precambrian/models/block/funisia.json",
+          "src/main/resources/assets/flois_precambrian/models/item/funisia.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "FunisiaBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funisia_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floisprecambrian/procedures/FunisiaBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Funisiagen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funisiagen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/funisiagen_1.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/funisiagen_1_biome_modifier.json",
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/funisiagen_1.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
     }
   ],
   "variable_elements": [],
@@ -2183,6 +2384,7 @@
       "biome.flois_hadean_mod.paleoproterozoicocean": "Paleoproterozoic ocean",
       "block.flois_hadean_mod.rippledironsand": "Rippled iron sand",
       "item.flois_precambrian.proterozoic": "Proterozoic Portal Igniter (wip)",
+      "block.flois_precambrian.bomakellia": "Bomakellia",
       "biome.flois_precambrian.hadeanwastes": "Hadean wastes",
       "biome.flois_hadean_mod.cryogenianocean": "Cryogenian ocean",
       "biome.flois_hadean_mod.hadean_lava_fields": "Hadean lava fields",
@@ -2196,6 +2398,7 @@
       "block.flois_precambrian.hadeanportalblock": "Hadean portal block",
       "item.flois_precambrian.archean": "Archean Portal Igniter (wip)",
       "biome.flois_hadean_mod.paleoproterozoicland": "Paleoproterozoic land",
+      "block.flois_precambrian.funisia": "Funisia",
       "block.flois_precambrian.ancientmud": "Ancient mud",
       "block.flois_hadean_mod.molten_lavacobblestone": "Molten lava cobblestone",
       "block.flois_hadean_mod.archeanportalblock": "Archean portal block",
@@ -2297,7 +2500,7 @@
   "workspaceSettings": {
     "modid": "flois_precambrian",
     "modName": "floi\u0027s Precambrian mod",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "floi\u0027s Precambrian mod for 1.21.1 neoforge",
     "author": "Floi",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/flois-precambrian",

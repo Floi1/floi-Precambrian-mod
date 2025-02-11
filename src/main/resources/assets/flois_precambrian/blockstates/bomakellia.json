@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "flois_precambrian:block/bomakellia"
+    },
+    "facing=east": {
+      "model": "flois_precambrian:block/bomakellia",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "flois_precambrian:block/bomakellia",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "flois_precambrian:block/bomakellia",
+      "y": 270
+    }
+  }
+}

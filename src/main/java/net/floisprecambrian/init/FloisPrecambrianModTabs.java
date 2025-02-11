@@ -49,5 +49,7 @@ public class FloisPrecambrianModTabs {
 				tabData.accept(FloisPrecambrianModBlocks.IRONSTONE.get().asItem());
 				tabData.accept(FloisPrecambrianModBlocks.HORODYSKIA.get().asItem());
 				tabData.accept(FloisPrecambrianModBlocks.BACTERIALMAT.get().asItem());
+				tabData.accept(FloisPrecambrianModBlocks.BOMAKELLIA.get().asItem());
+				tabData.accept(FloisPrecambrianModBlocks.FUNISIA.get().asItem());
 			}).build());
 }
