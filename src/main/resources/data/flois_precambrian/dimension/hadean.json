@@ -106,7 +106,7 @@
               1
             ],
             "erosion": [
-              0.5,
+              0.05,
               1
             ],
             "depth": 0,
@@ -181,8 +181,17 @@
           "shift_y": 0,
           "shift_z": "minecraft:shift_z"
         },
-        "continents": "minecraft:overworld/continents",
-        "erosion": "minecraft:overworld/erosion",
+				"erosion": {
+					"type": "noise",
+					"noise": "tutorial:erosion",
+					"xz_scale": 1,
+					"y_scale": 0
+				},
+        "continents": {	"type": "noise",
+					"noise": "tutorial:continents",
+					"xz_scale": 1,
+					"y_scale": 0
+				},
         "depth": "minecraft:overworld/depth",
         "ridges": "minecraft:overworld/ridges",
         "initial_density_without_jaggedness": {

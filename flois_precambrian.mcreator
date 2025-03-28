@@ -2360,8 +2360,7 @@
       "~CUSTOM:Ironsand",
       "~Blocks.COBBLESTONE",
       "~Blocks.STONE#0",
-      "~Blocks.SNOW",
-      "~CUSTOM:Lavarock"
+      "~Blocks.SNOW"
     ]
   },
   "tab_element_order": {},
@@ -2515,5 +2514,5 @@
     "credits": "made by floi",
     "modElementsPackage": "net.floisprecambrian"
   },
-  "mcreatorVersion": 202400452410
+  "mcreatorVersion": 202500113416
 }

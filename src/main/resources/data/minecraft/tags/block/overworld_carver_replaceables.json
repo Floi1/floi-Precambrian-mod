@@ -4,7 +4,6 @@
     "flois_precambrian:ironsand",
     "minecraft:cobblestone",
     "minecraft:stone",
-    "minecraft:snow_block",
-    "flois_precambrian:lavarock"
+    "minecraft:snow_block"
   ]
 }
