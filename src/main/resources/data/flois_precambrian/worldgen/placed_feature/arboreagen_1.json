@@ -1,5 +1,5 @@
 {
-  "feature": "flois_precambrian:beltanelliformisgen_1",
+  "feature": "flois_precambrian:arboreagen_1",
   "placement": [
     {
       "type": "minecraft:biome"
@@ -10,7 +10,7 @@
     },
     {
       "type": "minecraft:count",
-      "count": 32
+      "count": 20
     },
     {
       "type": "minecraft:in_square"
@@ -20,7 +20,7 @@
       "height": {
         "type": "minecraft:trapezoid",
         "min_inclusive": {
-          "absolute": 30
+          "absolute": 20
         },
         "max_inclusive": {
           "absolute": 66

@@ -2470,6 +2470,69 @@
         ]
       },
       "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Arborea",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arborea",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/loot_table/blocks/arborea.json",
+          "src/main/resources/assets/flois_precambrian/models/block/arborea.json",
+          "src/main/resources/assets/flois_precambrian/models/item/arborea.json",
+          "src/main/java/net/floisprecambrian/block/ArboreaBlock.java",
+          "src/main/resources/assets/flois_precambrian/blockstates/arborea.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "ArboreaBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arborea_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floisprecambrian/procedures/ArboreaBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Arboreagen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arboreagen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/arboreagen_1.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/arboreagen_1_biome_modifier.json",
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/arboreagen_1.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
     }
   ],
   "variable_elements": [],
@@ -2611,6 +2674,7 @@
       "block.flois_hadean_mod.tawuia": "Tawuia",
       "block.flois_hadean_mod.ancientmud": "Ancient mud",
       "block.flois_precambrian.redalgae": "Red algae",
+      "block.flois_precambrian.arborea": "Arborea",
       "biome.flois_precambrian.hadean_fields2": "Hadean fields",
       "block.flois_precambrian.stromatolitestem": "Stromatolite stem",
       "block.flois_hadean_mod.proterozoicportalblock": "Proterozoic portal block",

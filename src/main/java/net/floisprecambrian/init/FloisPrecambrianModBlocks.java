@@ -44,6 +44,7 @@ import net.floisprecambrian.block.BacterialmatBlock;
 import net.floisprecambrian.block.AshBlock;
 import net.floisprecambrian.block.ArcheanportalblockBlock;
 import net.floisprecambrian.block.ArcheanPortalBlock;
+import net.floisprecambrian.block.ArboreaBlock;
 import net.floisprecambrian.block.AncientmudBlock;
 import net.floisprecambrian.FloisPrecambrianMod;
 
@@ -85,6 +86,7 @@ public class FloisPrecambrianModBlocks {
 	public static final DeferredBlock<Block> HELICOLOCELLUS = REGISTRY.register("helicolocellus", HelicolocellusBlock::new);
 	public static final DeferredBlock<Block> BELTANELLIFORMIS = REGISTRY.register("beltanelliformis", BeltanelliformisBlock::new);
 	public static final DeferredBlock<Block> SCORIA = REGISTRY.register("scoria", ScoriaBlock::new);
+	public static final DeferredBlock<Block> ARBOREA = REGISTRY.register("arborea", ArboreaBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
