@@ -51,5 +51,8 @@ public class FloisPrecambrianModTabs {
 				tabData.accept(FloisPrecambrianModBlocks.BACTERIALMAT.get().asItem());
 				tabData.accept(FloisPrecambrianModBlocks.BOMAKELLIA.get().asItem());
 				tabData.accept(FloisPrecambrianModBlocks.FUNISIA.get().asItem());
+				tabData.accept(FloisPrecambrianModBlocks.HELICOLOCELLUS.get().asItem());
+				tabData.accept(FloisPrecambrianModBlocks.BELTANELLIFORMIS.get().asItem());
+				tabData.accept(FloisPrecambrianModBlocks.SCORIA.get().asItem());
 			}).build());
 }

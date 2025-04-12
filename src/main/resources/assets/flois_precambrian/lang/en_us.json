@@ -52,6 +52,7 @@
   "block.flois_precambrian.zirconblock": "Zircon block",
   "block.flois_precambrian.lavarock": "Lava rock",
   "block.flois_precambrian.stromatolite": "Stromatolite",
+  "block.flois_precambrian.scoria": "Scoria",
   "biome.flois_hadean_mod.archeanshallowocean": "Archean shallow ocean",
   "block.flois_hadean_mod.archean_microbialmat": "Archean microbial mat",
   "advancements.archeaneon.descr": "Enter the Archean",
@@ -67,6 +68,7 @@
   "item.flois_precambrian.hadean": "Hadean Portal Igniter (WIP)",
   "biome.flois_precambrian.hadean_fields": "Hadean fields",
   "block.flois_precambrian.horodyskia": "Horodyskia",
+  "block.flois_precambrian.beltanelliformis": "Beltanelliformis",
   "advancements.proterozoicbiomes.title": "Proterozoic biomes",
   "biome.flois_precambrian.archeanshallowocean": "Archean shallow ocean",
   "advancements.archeaneon.title": "Archean eon",
@@ -106,6 +108,7 @@
   "block.flois_hadean_mod.horodyskia": "Horodyskia",
   "block.flois_precambrian.dark_ash": "Dark ash",
   "block.flois_precambrian.archean_microbialmat": "Archean microbial mat",
+  "block.flois_precambrian.helicolocellus": "Helicolocellus",
   "item.flois_hadean_mod.archean": "Archean Portal Igniter (wip)",
   "block.flois_hadean_mod.rippledblacksand": "Rippled black sand",
   "advancements.archeanbiomes.descr": "Found all biomes in the Archean"

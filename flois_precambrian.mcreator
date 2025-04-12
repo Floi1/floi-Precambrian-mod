@@ -2312,6 +2312,164 @@
         ]
       },
       "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Helicolocellus",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helicolocellus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_precambrian/blockstates/helicolocellus.json",
+          "src/main/resources/assets/flois_precambrian/models/block/helicolocellus.json",
+          "src/main/resources/data/flois_precambrian/loot_table/blocks/helicolocellus.json",
+          "src/main/java/net/floisprecambrian/block/HelicolocellusBlock.java",
+          "src/main/resources/assets/flois_precambrian/models/item/helicolocellus.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "HelicolocellusBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helicolocellus_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floisprecambrian/procedures/HelicolocellusBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Helicolocellusgen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helicolocellusgen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/helicolocellusgen_1.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/helicolocellusgen_1.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/helicolocellusgen_1_biome_modifier.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Beltanelliformis",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beltanelliformis",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floisprecambrian/block/BeltanelliformisBlock.java",
+          "src/main/resources/assets/flois_precambrian/models/block/beltanelliformis.json",
+          "src/main/resources/data/flois_precambrian/loot_table/blocks/beltanelliformis.json",
+          "src/main/resources/assets/flois_precambrian/models/item/beltanelliformis.json",
+          "src/main/resources/assets/flois_precambrian/blockstates/beltanelliformis.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "BeltanelliformisBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beltanelliformis_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floisprecambrian/procedures/BeltanelliformisBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Beltanelliformisgen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beltanelliformisgen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/beltanelliformisgen_1.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/beltanelliformisgen_1.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/beltanelliformisgen_1_biome_modifier.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Scoriagen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scoriagen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/scoriagen_1.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/scoriagen_1_biome_modifier.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/scoriagen_1.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Scoria",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scoria",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_precambrian/models/block/scoria.json",
+          "src/main/resources/assets/flois_precambrian/blockstates/scoria.json",
+          "src/main/java/net/floisprecambrian/block/ScoriaBlock.java",
+          "src/main/resources/data/flois_precambrian/loot_table/blocks/scoria.json",
+          "src/main/resources/assets/flois_precambrian/models/item/scoria.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
     }
   ],
   "variable_elements": [],
@@ -2419,6 +2577,7 @@
       "block.flois_precambrian.zirconblock": "Zircon block",
       "block.flois_precambrian.lavarock": "Lava rock",
       "block.flois_precambrian.stromatolite": "Stromatolite",
+      "block.flois_precambrian.scoria": "Scoria",
       "biome.flois_hadean_mod.archeanshallowocean": "Archean shallow ocean",
       "block.flois_hadean_mod.archean_microbialmat": "Archean microbial mat",
       "advancements.archeaneon.descr": "Enter the Archean",
@@ -2434,6 +2593,7 @@
       "item.flois_precambrian.hadean": "Hadean Portal Igniter (WIP)",
       "biome.flois_precambrian.hadean_fields": "Hadean fields",
       "block.flois_precambrian.horodyskia": "Horodyskia",
+      "block.flois_precambrian.beltanelliformis": "Beltanelliformis",
       "advancements.proterozoicbiomes.title": "Proterozoic biomes",
       "biome.flois_precambrian.archeanshallowocean": "Archean shallow ocean",
       "advancements.archeaneon.title": "Archean eon",
@@ -2473,6 +2633,7 @@
       "block.flois_hadean_mod.horodyskia": "Horodyskia",
       "block.flois_precambrian.dark_ash": "Dark ash",
       "block.flois_precambrian.archean_microbialmat": "Archean microbial mat",
+      "block.flois_precambrian.helicolocellus": "Helicolocellus",
       "item.flois_hadean_mod.archean": "Archean Portal Igniter (wip)",
       "block.flois_hadean_mod.rippledblacksand": "Rippled black sand",
       "advancements.archeanbiomes.descr": "Found all biomes in the Archean"

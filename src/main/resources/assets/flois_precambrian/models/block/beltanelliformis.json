@@ -1,0 +1,9 @@
+{
+  "parent": "flois_precambrian:custom/beltanelliformis",
+  "textures": {
+    "all": "flois_precambrian:block/beltanelliformis",
+    "particle": "flois_precambrian:block/beltanelliformis",
+    "0": "flois_precambrian:block/beltanelliformis"
+  },
+  "render_type": "translucent"
+}

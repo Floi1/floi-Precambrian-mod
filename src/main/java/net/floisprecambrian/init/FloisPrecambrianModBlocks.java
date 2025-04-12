@@ -14,6 +14,7 @@ import net.floisprecambrian.block.ZirconblockBlock;
 import net.floisprecambrian.block.TawuiaBlock;
 import net.floisprecambrian.block.StromatolitestemBlock;
 import net.floisprecambrian.block.StromatoliteBlock;
+import net.floisprecambrian.block.ScoriaBlock;
 import net.floisprecambrian.block.RippledironsandBlock;
 import net.floisprecambrian.block.RippledblacksandBlock;
 import net.floisprecambrian.block.RedalgaeBlock;
@@ -28,6 +29,7 @@ import net.floisprecambrian.block.LavarockBlock;
 import net.floisprecambrian.block.IronstoneBlock;
 import net.floisprecambrian.block.IronsandBlock;
 import net.floisprecambrian.block.HorodyskiaBlock;
+import net.floisprecambrian.block.HelicolocellusBlock;
 import net.floisprecambrian.block.HadeanportalblockBlock;
 import net.floisprecambrian.block.HadeanPortalBlock;
 import net.floisprecambrian.block.GrypaniaBlock;
@@ -37,6 +39,7 @@ import net.floisprecambrian.block.DarkashBlock;
 import net.floisprecambrian.block.BomakelliaBlock;
 import net.floisprecambrian.block.BlacksandBlock;
 import net.floisprecambrian.block.BlackcobblestoneBlock;
+import net.floisprecambrian.block.BeltanelliformisBlock;
 import net.floisprecambrian.block.BacterialmatBlock;
 import net.floisprecambrian.block.AshBlock;
 import net.floisprecambrian.block.ArcheanportalblockBlock;
@@ -79,6 +82,9 @@ public class FloisPrecambrianModBlocks {
 	public static final DeferredBlock<Block> BACTERIALMAT = REGISTRY.register("bacterialmat", BacterialmatBlock::new);
 	public static final DeferredBlock<Block> BOMAKELLIA = REGISTRY.register("bomakellia", BomakelliaBlock::new);
 	public static final DeferredBlock<Block> FUNISIA = REGISTRY.register("funisia", FunisiaBlock::new);
+	public static final DeferredBlock<Block> HELICOLOCELLUS = REGISTRY.register("helicolocellus", HelicolocellusBlock::new);
+	public static final DeferredBlock<Block> BELTANELLIFORMIS = REGISTRY.register("beltanelliformis", BeltanelliformisBlock::new);
+	public static final DeferredBlock<Block> SCORIA = REGISTRY.register("scoria", ScoriaBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

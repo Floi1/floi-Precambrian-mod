@@ -54,6 +54,9 @@ public class FloisPrecambrianModItems {
 	public static final DeferredItem<Item> BACTERIALMAT = block(FloisPrecambrianModBlocks.BACTERIALMAT);
 	public static final DeferredItem<Item> BOMAKELLIA = block(FloisPrecambrianModBlocks.BOMAKELLIA);
 	public static final DeferredItem<Item> FUNISIA = block(FloisPrecambrianModBlocks.FUNISIA);
+	public static final DeferredItem<Item> HELICOLOCELLUS = block(FloisPrecambrianModBlocks.HELICOLOCELLUS);
+	public static final DeferredItem<Item> BELTANELLIFORMIS = block(FloisPrecambrianModBlocks.BELTANELLIFORMIS);
+	public static final DeferredItem<Item> SCORIA = block(FloisPrecambrianModBlocks.SCORIA);
 
 	// Start of user code block custom items
 	// End of user code block custom items
