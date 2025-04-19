@@ -1,0 +1,9 @@
+{
+  "parent": "flois_precambrian:custom/rangea",
+  "textures": {
+    "all": "flois_precambrian:block/arborea_",
+    "particle": "flois_precambrian:block/arborea_",
+    "0": "flois_precambrian:block/rangea"
+  },
+  "render_type": "translucent"
+}

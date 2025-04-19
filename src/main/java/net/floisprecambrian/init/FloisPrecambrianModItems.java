@@ -58,6 +58,7 @@ public class FloisPrecambrianModItems {
 	public static final DeferredItem<Item> BELTANELLIFORMIS = block(FloisPrecambrianModBlocks.BELTANELLIFORMIS);
 	public static final DeferredItem<Item> SCORIA = block(FloisPrecambrianModBlocks.SCORIA);
 	public static final DeferredItem<Item> ARBOREA = block(FloisPrecambrianModBlocks.ARBOREA);
+	public static final DeferredItem<Item> RANGEA = block(FloisPrecambrianModBlocks.RANGEA);
 
 	// Start of user code block custom items
 	// End of user code block custom items

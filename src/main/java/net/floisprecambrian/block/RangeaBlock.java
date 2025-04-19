@@ -25,13 +25,13 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import net.floisprecambrian.procedures.BomakelliaBlockAddedProcedure;
+import net.floisprecambrian.procedures.RangeaBlockAddedProcedure;
 
-public class BomakelliaBlock extends Block implements SimpleWaterloggedBlock {
+public class RangeaBlock extends Block implements SimpleWaterloggedBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
-	public BomakelliaBlock() {
+	public RangeaBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.CORAL_BLOCK).strength(1f, 10f).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
 	}
@@ -87,6 +87,6 @@ public class BomakelliaBlock extends Block implements SimpleWaterloggedBlock {
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		BomakelliaBlockAddedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		RangeaBlockAddedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

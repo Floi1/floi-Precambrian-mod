@@ -2533,6 +2533,69 @@
         ]
       },
       "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Rangea",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rangea",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floisprecambrian/block/RangeaBlock.java",
+          "src/main/resources/assets/flois_precambrian/models/block/rangea.json",
+          "src/main/resources/data/flois_precambrian/loot_table/blocks/rangea.json",
+          "src/main/resources/assets/flois_precambrian/models/item/rangea.json",
+          "src/main/resources/assets/flois_precambrian/blockstates/rangea.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "RangeaBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rangea_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floisprecambrian/procedures/RangeaBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Rangeagen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rangeagen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/rangeagen_1_biome_modifier.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/rangeagen_1.json",
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/rangeagen_1.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
     }
   ],
   "variable_elements": [],
@@ -2602,8 +2665,8 @@
       "advancements.hadeaneon.descr": "Enter the Hadean",
       "block.flois_hadean_mod.bacterialmat": "Bacteria lmat",
       "biome.flois_hadean_mod.paleoproterozoicocean": "Paleoproterozoic ocean",
-      "block.flois_hadean_mod.rippledironsand": "Rippled iron sand",
       "item.flois_precambrian.proterozoic": "Proterozoic Portal Igniter (wip)",
+      "block.flois_hadean_mod.rippledironsand": "Rippled iron sand",
       "block.flois_precambrian.bomakellia": "Bomakellia",
       "biome.flois_precambrian.hadeanwastes": "Hadean wastes",
       "biome.flois_hadean_mod.cryogenianocean": "Cryogenian ocean",
@@ -2618,8 +2681,8 @@
       "block.flois_precambrian.hadeanportalblock": "Hadean portal block",
       "item.flois_precambrian.archean": "Archean Portal Igniter (wip)",
       "biome.flois_hadean_mod.paleoproterozoicland": "Paleoproterozoic land",
-      "block.flois_precambrian.funisia": "Funisia",
       "block.flois_precambrian.ancientmud": "Ancient mud",
+      "block.flois_precambrian.funisia": "Funisia",
       "block.flois_hadean_mod.molten_lavacobblestone": "Molten lava cobblestone",
       "block.flois_hadean_mod.archeanportalblock": "Archean portal block",
       "block.flois_precambrian.bacterialmat": "Bacteria lmat",
@@ -2689,6 +2752,7 @@
       "item.flois_hadean_mod.proterozoic": "Proterozoic Portal Igniter (wip)",
       "block.flois_hadean_mod.hadeanportalblock": "Hadean portal block",
       "biome.flois_precambrian.hadean_ash": "Hadean ash",
+      "block.flois_precambrian.rangea": "Rangea",
       "biome.flois_hadean_mod.mesoproterozoicocean": "Mesoproterozoic ocean",
       "biome.flois_precambrian.ediacaranland": "Ediacaran land",
       "item_group.flois_precambrian.hadeantab": "Hadean mod tab",

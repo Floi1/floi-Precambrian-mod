@@ -55,5 +55,6 @@ public class FloisPrecambrianModTabs {
 				tabData.accept(FloisPrecambrianModBlocks.BELTANELLIFORMIS.get().asItem());
 				tabData.accept(FloisPrecambrianModBlocks.SCORIA.get().asItem());
 				tabData.accept(FloisPrecambrianModBlocks.ARBOREA.get().asItem());
+				tabData.accept(FloisPrecambrianModBlocks.RANGEA.get().asItem());
 			}).build());
 }

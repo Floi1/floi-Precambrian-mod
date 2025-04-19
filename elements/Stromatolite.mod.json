@@ -61,8 +61,8 @@
     "material": {
       "value": "NONE"
     },
-    "tickRate": 299,
-    "tickRandomly": true,
+    "tickRate": 3600,
+    "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {

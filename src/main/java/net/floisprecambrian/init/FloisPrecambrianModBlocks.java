@@ -18,6 +18,7 @@ import net.floisprecambrian.block.ScoriaBlock;
 import net.floisprecambrian.block.RippledironsandBlock;
 import net.floisprecambrian.block.RippledblacksandBlock;
 import net.floisprecambrian.block.RedalgaeBlock;
+import net.floisprecambrian.block.RangeaBlock;
 import net.floisprecambrian.block.ProterozoicportalblockBlock;
 import net.floisprecambrian.block.ProterozoicPortalBlock;
 import net.floisprecambrian.block.MoltenLavacobblestoneBlock;
@@ -87,6 +88,7 @@ public class FloisPrecambrianModBlocks {
 	public static final DeferredBlock<Block> BELTANELLIFORMIS = REGISTRY.register("beltanelliformis", BeltanelliformisBlock::new);
 	public static final DeferredBlock<Block> SCORIA = REGISTRY.register("scoria", ScoriaBlock::new);
 	public static final DeferredBlock<Block> ARBOREA = REGISTRY.register("arborea", ArboreaBlock::new);
+	public static final DeferredBlock<Block> RANGEA = REGISTRY.register("rangea", RangeaBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

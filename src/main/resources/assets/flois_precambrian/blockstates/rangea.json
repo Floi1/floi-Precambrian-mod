@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "flois_precambrian:block/rangea"
+    },
+    "facing=east": {
+      "model": "flois_precambrian:block/rangea",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "flois_precambrian:block/rangea",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "flois_precambrian:block/rangea",
+      "y": 270
+    }
+  }
+}

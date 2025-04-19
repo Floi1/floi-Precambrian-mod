@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "flois_precambrian:item/arborea_icon"
+    "layer0": "flois_precambrian:item/rangea_icon"
   },
   "render_type": "translucent"
 }

@@ -2,19 +2,19 @@
   "_fv": 77,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:black_wool",
+    "texture": "arborea_",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "bomakellia:default",
+    "customModelName": "rangea:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "bomakellia_item_icon",
+    "itemTexture": "rangea_icon",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -34,7 +34,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Bomakellia",
+    "name": "Rangea",
     "specialInformation": {
       "fixedValue": []
     },
@@ -122,7 +122,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onBlockAdded": {
-      "name": "BomakelliaBlockAdded"
+      "name": "RangeaBlockAdded"
     },
     "generateFeature": false,
     "restrictionBiomes": [],
