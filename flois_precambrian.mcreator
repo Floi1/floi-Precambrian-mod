@@ -39,7 +39,7 @@
       "type": "tab",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hadeantab",
+      "registry_name": "precambriantab",
       "metadata": {
         "files": []
       }
@@ -2672,6 +2672,7 @@
       "biome.flois_hadean_mod.cryogenianocean": "Cryogenian ocean",
       "biome.flois_hadean_mod.hadean_lava_fields": "Hadean lava fields",
       "block.flois_hadean_mod.ironsand": "Iron sand",
+      "item_group.flois_precambrian.precambriantab": "Floi\u0027s Precambrian",
       "biome.flois_precambrian.cryogenianland": "Cryogenian land",
       "biome.flois_precambrian.archeanwaterholes": "Archean waterholes",
       "block.flois_hadean_mod.lavarock": "Lava rock",
@@ -2755,7 +2756,6 @@
       "block.flois_precambrian.rangea": "Rangea",
       "biome.flois_hadean_mod.mesoproterozoicocean": "Mesoproterozoic ocean",
       "biome.flois_precambrian.ediacaranland": "Ediacaran land",
-      "item_group.flois_precambrian.hadeantab": "Hadean mod tab",
       "block.flois_precambrian.rippledblacksand": "Rippled black sand",
       "block.flois_precambrian.tawuia": "Tawuia",
       "block.flois_hadean_mod.horodyskia": "Horodyskia",

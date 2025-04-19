@@ -16,8 +16,8 @@ import net.floisprecambrian.FloisPrecambrianMod;
 
 public class FloisPrecambrianModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FloisPrecambrianMod.MODID);
-	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> HADEANTAB = REGISTRY.register("hadeantab",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.flois_precambrian.hadeantab")).icon(() -> new ItemStack(FloisPrecambrianModItems.HADEAN.get())).displayItems((parameters, tabData) -> {
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> PRECAMBRIANTAB = REGISTRY.register("precambriantab",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.flois_precambrian.precambriantab")).icon(() -> new ItemStack(FloisPrecambrianModItems.PROTEROZOIC.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(FloisPrecambrianModItems.HADEAN.get());
 				tabData.accept(FloisPrecambrianModBlocks.BLACKSAND.get().asItem());
 				tabData.accept(FloisPrecambrianModBlocks.LAVACOBBLESTONE.get().asItem());
@@ -56,5 +56,5 @@ public class FloisPrecambrianModTabs {
 				tabData.accept(FloisPrecambrianModBlocks.SCORIA.get().asItem());
 				tabData.accept(FloisPrecambrianModBlocks.ARBOREA.get().asItem());
 				tabData.accept(FloisPrecambrianModBlocks.RANGEA.get().asItem());
-			}).build());
+			}).withSearchBar().build());
 }
