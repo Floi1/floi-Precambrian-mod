@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "flois_precambrian:finkoella",
+    "flois_precambrian:swartpuntia",
+    "flois_precambrian:paracharnia",
+    "flois_precambrian:charnia"
+  ]
+}

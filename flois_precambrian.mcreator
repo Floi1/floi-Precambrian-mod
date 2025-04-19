@@ -2596,6 +2596,273 @@
         ]
       },
       "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Charnia",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charnia",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_precambrian/models/block/charnia.json",
+          "src/main/java/net/floisprecambrian/block/CharniaBlock.java",
+          "src/main/resources/assets/flois_precambrian/models/item/charnia.json",
+          "src/main/resources/assets/flois_precambrian/blockstates/charnia.json",
+          "src/main/resources/data/flois_precambrian/loot_table/blocks/charnia.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "CharniaBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charnia_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floisprecambrian/procedures/CharniaBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Charniagen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charniagen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/charniagen_1_biome_modifier.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/charniagen_1.json",
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/charniagen_1.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Charniagen2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charniagen_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/charniagen_2.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/charniagen_2_biome_modifier.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/charniagen_2.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Paracharnia",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paracharnia",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_precambrian/blockstates/paracharnia.json",
+          "src/main/resources/assets/flois_precambrian/models/item/paracharnia.json",
+          "src/main/java/net/floisprecambrian/block/ParacharniaBlock.java",
+          "src/main/resources/data/flois_precambrian/loot_table/blocks/paracharnia.json",
+          "src/main/resources/assets/flois_precambrian/models/block/paracharnia.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "ParacharniaBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paracharnia_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floisprecambrian/procedures/ParacharniaBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Paracharniagen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paracharniagen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/paracharniagen_1.json",
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/paracharniagen_1.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/paracharniagen_1_biome_modifier.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Swartpuntia",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swartpuntia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floisprecambrian/block/SwartpuntiaBlock.java",
+          "src/main/resources/assets/flois_precambrian/models/item/swartpuntia.json",
+          "src/main/resources/assets/flois_precambrian/blockstates/swartpuntia.json",
+          "src/main/resources/data/flois_precambrian/loot_table/blocks/swartpuntia.json",
+          "src/main/resources/assets/flois_precambrian/models/block/swartpuntia.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "SwartpuntiaBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swartpuntia_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floisprecambrian/procedures/SwartpuntiaBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Swartpuntiagen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swartpuntiagen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/swartpuntiagen_1.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/swartpuntiagen_1.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/swartpuntiagen_1_biome_modifier.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Finkoella",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finkoella",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flois_precambrian/models/block/finkoella.json",
+          "src/main/resources/data/flois_precambrian/loot_table/blocks/finkoella.json",
+          "src/main/java/net/floisprecambrian/block/FinkoellaBlock.java",
+          "src/main/resources/assets/flois_precambrian/models/item/finkoella.json",
+          "src/main/resources/assets/flois_precambrian/blockstates/finkoella.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "FinkoellaBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finkoella_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/floisprecambrian/procedures/FinkoellaBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Finkoellagen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finkoellagen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/finkoellagen_1.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/finkoellagen_1_biome_modifier.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/finkoellagen_1.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
     }
   ],
   "variable_elements": [],
@@ -2624,6 +2891,12 @@
       "~CUSTOM:MoltenLavacobblestone",
       "~CUSTOM:Lavarock",
       "~CUSTOM:Blackcobblestone"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:Finkoella",
+      "~CUSTOM:Swartpuntia",
+      "~CUSTOM:Paracharnia",
+      "~CUSTOM:Charnia"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Archeanportalblock"
@@ -2665,14 +2938,14 @@
       "advancements.hadeaneon.descr": "Enter the Hadean",
       "block.flois_hadean_mod.bacterialmat": "Bacteria lmat",
       "biome.flois_hadean_mod.paleoproterozoicocean": "Paleoproterozoic ocean",
-      "item.flois_precambrian.proterozoic": "Proterozoic Portal Igniter (wip)",
       "block.flois_hadean_mod.rippledironsand": "Rippled iron sand",
+      "item.flois_precambrian.proterozoic": "Proterozoic Portal Igniter (wip)",
       "block.flois_precambrian.bomakellia": "Bomakellia",
       "biome.flois_precambrian.hadeanwastes": "Hadean wastes",
       "biome.flois_hadean_mod.cryogenianocean": "Cryogenian ocean",
       "biome.flois_hadean_mod.hadean_lava_fields": "Hadean lava fields",
-      "block.flois_hadean_mod.ironsand": "Iron sand",
       "item_group.flois_precambrian.precambriantab": "Floi\u0027s Precambrian",
+      "block.flois_hadean_mod.ironsand": "Iron sand",
       "biome.flois_precambrian.cryogenianland": "Cryogenian land",
       "biome.flois_precambrian.archeanwaterholes": "Archean waterholes",
       "block.flois_hadean_mod.lavarock": "Lava rock",
@@ -2682,14 +2955,15 @@
       "block.flois_precambrian.hadeanportalblock": "Hadean portal block",
       "item.flois_precambrian.archean": "Archean Portal Igniter (wip)",
       "biome.flois_hadean_mod.paleoproterozoicland": "Paleoproterozoic land",
-      "block.flois_precambrian.ancientmud": "Ancient mud",
       "block.flois_precambrian.funisia": "Funisia",
+      "block.flois_precambrian.ancientmud": "Ancient mud",
       "block.flois_hadean_mod.molten_lavacobblestone": "Molten lava cobblestone",
       "block.flois_hadean_mod.archeanportalblock": "Archean portal block",
       "block.flois_precambrian.bacterialmat": "Bacteria lmat",
       "advancements.proterozoiceon.descr": "Enter the Proterozoic",
       "biome.flois_hadean_mod.hadean_fields2": "Hadean fields",
       "block.flois_precambrian.lavacobblestone": "Lava cobblestone",
+      "block.flois_precambrian.swartpuntia": "Paracharnia",
       "block.flois_hadean_mod.greenalgae": "Green algae",
       "block.flois_hadean_mod.zirconore": "Zircon ore block",
       "block.flois_hadean_mod.light_ash": "Light ash",
@@ -2711,6 +2985,7 @@
       "biome.flois_hadean_mod.cryogenianland": "Cryogenian land",
       "advancements.hadeaneon.title": "Hadean Eon",
       "advancements.archeanbiomes.title": "Archean biomes",
+      "block.flois_precambrian.paracharnia": "Paracharnia",
       "block.flois_precambrian.microbialmatt": "Microbial mat",
       "biome.flois_precambrian.neoproterozoiclands": "Neoproterozoic plains",
       "block.flois_precambrian.grypania": "Grypania",
@@ -2720,6 +2995,7 @@
       "item.flois_precambrian.hadean": "Hadean Portal Igniter (WIP)",
       "biome.flois_precambrian.hadean_fields": "Hadean fields",
       "block.flois_precambrian.horodyskia": "Horodyskia",
+      "block.flois_precambrian.charnia": "Charnia",
       "block.flois_precambrian.beltanelliformis": "Beltanelliformis",
       "advancements.proterozoicbiomes.title": "Proterozoic biomes",
       "biome.flois_precambrian.archeanshallowocean": "Archean shallow ocean",
@@ -2753,6 +3029,7 @@
       "item.flois_hadean_mod.proterozoic": "Proterozoic Portal Igniter (wip)",
       "block.flois_hadean_mod.hadeanportalblock": "Hadean portal block",
       "biome.flois_precambrian.hadean_ash": "Hadean ash",
+      "block.flois_precambrian.finkoella": "Finkoella",
       "block.flois_precambrian.rangea": "Rangea",
       "biome.flois_hadean_mod.mesoproterozoicocean": "Mesoproterozoic ocean",
       "biome.flois_precambrian.ediacaranland": "Ediacaran land",
@@ -2788,7 +3065,7 @@
   "workspaceSettings": {
     "modid": "flois_precambrian",
     "modName": "floi\u0027s Precambrian mod",
-    "version": "1.4.2",
+    "version": "1.5.0",
     "description": "floi\u0027s Precambrian mod for 1.21.1 neoforge",
     "author": "Floi",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/flois-precambrian",

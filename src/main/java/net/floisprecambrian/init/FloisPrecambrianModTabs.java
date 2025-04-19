@@ -56,5 +56,9 @@ public class FloisPrecambrianModTabs {
 				tabData.accept(FloisPrecambrianModBlocks.SCORIA.get().asItem());
 				tabData.accept(FloisPrecambrianModBlocks.ARBOREA.get().asItem());
 				tabData.accept(FloisPrecambrianModBlocks.RANGEA.get().asItem());
+				tabData.accept(FloisPrecambrianModBlocks.CHARNIA.get().asItem());
+				tabData.accept(FloisPrecambrianModBlocks.PARACHARNIA.get().asItem());
+				tabData.accept(FloisPrecambrianModBlocks.SWARTPUNTIA.get().asItem());
+				tabData.accept(FloisPrecambrianModBlocks.FINKOELLA.get().asItem());
 			}).withSearchBar().build());
 }

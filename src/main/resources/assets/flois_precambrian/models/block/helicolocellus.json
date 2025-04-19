@@ -4,5 +4,5 @@
     "cross": "flois_precambrian:block/helicolocellus",
     "particle": "flois_precambrian:block/helicolocellus"
   },
-  "render_type": "translucent"
+  "render_type": "cutout_mipped"
 }

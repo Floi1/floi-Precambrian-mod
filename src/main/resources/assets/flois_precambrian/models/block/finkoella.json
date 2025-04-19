@@ -1,0 +1,9 @@
+{
+  "parent": "flois_precambrian:custom/finkoella",
+  "textures": {
+    "all": "flois_precambrian:block/swartpuntia",
+    "particle": "flois_precambrian:block/swartpuntia",
+    "0": "flois_precambrian:block/finkoella"
+  },
+  "render_type": "cutout_mipped"
+}

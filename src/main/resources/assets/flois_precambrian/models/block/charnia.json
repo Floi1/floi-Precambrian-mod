@@ -1,0 +1,9 @@
+{
+  "parent": "flois_precambrian:custom/charnia",
+  "textures": {
+    "all": "flois_precambrian:block/charnia",
+    "particle": "flois_precambrian:block/charnia",
+    "0": "flois_precambrian:block/charnia"
+  },
+  "render_type": "cutout_mipped"
+}

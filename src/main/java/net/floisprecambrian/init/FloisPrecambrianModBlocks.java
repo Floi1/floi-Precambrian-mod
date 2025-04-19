@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.floisprecambrian.block.ZirconoreBlock;
 import net.floisprecambrian.block.ZirconblockBlock;
 import net.floisprecambrian.block.TawuiaBlock;
+import net.floisprecambrian.block.SwartpuntiaBlock;
 import net.floisprecambrian.block.StromatolitestemBlock;
 import net.floisprecambrian.block.StromatoliteBlock;
 import net.floisprecambrian.block.ScoriaBlock;
@@ -21,6 +22,7 @@ import net.floisprecambrian.block.RedalgaeBlock;
 import net.floisprecambrian.block.RangeaBlock;
 import net.floisprecambrian.block.ProterozoicportalblockBlock;
 import net.floisprecambrian.block.ProterozoicPortalBlock;
+import net.floisprecambrian.block.ParacharniaBlock;
 import net.floisprecambrian.block.MoltenLavacobblestoneBlock;
 import net.floisprecambrian.block.MicrobialmattBlock;
 import net.floisprecambrian.block.MicrobialmatBlock;
@@ -36,7 +38,9 @@ import net.floisprecambrian.block.HadeanPortalBlock;
 import net.floisprecambrian.block.GrypaniaBlock;
 import net.floisprecambrian.block.GreenalgaeBlock;
 import net.floisprecambrian.block.FunisiaBlock;
+import net.floisprecambrian.block.FinkoellaBlock;
 import net.floisprecambrian.block.DarkashBlock;
+import net.floisprecambrian.block.CharniaBlock;
 import net.floisprecambrian.block.BomakelliaBlock;
 import net.floisprecambrian.block.BlacksandBlock;
 import net.floisprecambrian.block.BlackcobblestoneBlock;
@@ -89,6 +93,10 @@ public class FloisPrecambrianModBlocks {
 	public static final DeferredBlock<Block> SCORIA = REGISTRY.register("scoria", ScoriaBlock::new);
 	public static final DeferredBlock<Block> ARBOREA = REGISTRY.register("arborea", ArboreaBlock::new);
 	public static final DeferredBlock<Block> RANGEA = REGISTRY.register("rangea", RangeaBlock::new);
+	public static final DeferredBlock<Block> CHARNIA = REGISTRY.register("charnia", CharniaBlock::new);
+	public static final DeferredBlock<Block> PARACHARNIA = REGISTRY.register("paracharnia", ParacharniaBlock::new);
+	public static final DeferredBlock<Block> SWARTPUNTIA = REGISTRY.register("swartpuntia", SwartpuntiaBlock::new);
+	public static final DeferredBlock<Block> FINKOELLA = REGISTRY.register("finkoella", FinkoellaBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
