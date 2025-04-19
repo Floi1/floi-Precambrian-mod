@@ -40,6 +40,7 @@ import net.floisprecambrian.block.GreenalgaeBlock;
 import net.floisprecambrian.block.FunisiaBlock;
 import net.floisprecambrian.block.FinkoellaBlock;
 import net.floisprecambrian.block.DarkashBlock;
+import net.floisprecambrian.block.CloudinaBlock;
 import net.floisprecambrian.block.CharniaBlock;
 import net.floisprecambrian.block.BomakelliaBlock;
 import net.floisprecambrian.block.BlacksandBlock;
@@ -97,6 +98,7 @@ public class FloisPrecambrianModBlocks {
 	public static final DeferredBlock<Block> PARACHARNIA = REGISTRY.register("paracharnia", ParacharniaBlock::new);
 	public static final DeferredBlock<Block> SWARTPUNTIA = REGISTRY.register("swartpuntia", SwartpuntiaBlock::new);
 	public static final DeferredBlock<Block> FINKOELLA = REGISTRY.register("finkoella", FinkoellaBlock::new);
+	public static final DeferredBlock<Block> CLOUDINA = REGISTRY.register("cloudina", CloudinaBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

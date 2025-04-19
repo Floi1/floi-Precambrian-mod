@@ -60,5 +60,6 @@ public class FloisPrecambrianModTabs {
 				tabData.accept(FloisPrecambrianModBlocks.PARACHARNIA.get().asItem());
 				tabData.accept(FloisPrecambrianModBlocks.SWARTPUNTIA.get().asItem());
 				tabData.accept(FloisPrecambrianModBlocks.FINKOELLA.get().asItem());
+				tabData.accept(FloisPrecambrianModBlocks.CLOUDINA.get().asItem());
 			}).withSearchBar().build());
 }

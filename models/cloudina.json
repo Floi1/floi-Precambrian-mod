@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "cloudina",
+		"particle": "cloudina"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 0],
+			"to": [8, 16, 16],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#0"}
+			}
+		}
+	]
+}

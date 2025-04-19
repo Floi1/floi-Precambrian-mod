@@ -1,0 +1,9 @@
+{
+  "parent": "flois_precambrian:custom/cloudina",
+  "textures": {
+    "all": "flois_precambrian:block/cloudina",
+    "particle": "flois_precambrian:block/cloudina",
+    "0": "flois_precambrian:block/cloudina"
+  },
+  "render_type": "cutout_mipped"
+}
