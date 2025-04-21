@@ -24,7 +24,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "flois_precambrian:cryogenianland"
+                "biomes": "flois_precambrian:ediacaranland"
               }
             }
           }
@@ -40,7 +40,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "flois_precambrian:cryogenianocean"
+                "biomes": "flois_precambrian:ediacaransea"
               }
             }
           }
@@ -56,7 +56,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "flois_precambrian:mesoproterozoicocean"
+                "biomes": "flois_precambrian:cryogenianland"
               }
             }
           }
@@ -72,7 +72,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "flois_precambrian:neoproterozoiclands"
+                "biomes": "flois_precambrian:cryogenianocean"
               }
             }
           }
@@ -88,7 +88,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "flois_precambrian:paleoproterozoicland"
+                "biomes": "flois_precambrian:mesoproterozoicocean"
               }
             }
           }
@@ -96,6 +96,38 @@
       }
     },
     "proterozoicbiomes_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "flois_precambrian:neoproterozoiclands"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "proterozoicbiomes_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "flois_precambrian:paleoproterozoicland"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "proterozoicbiomes_7": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [

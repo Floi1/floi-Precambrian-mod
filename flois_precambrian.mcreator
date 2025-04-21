@@ -2958,6 +2958,81 @@
         ]
       },
       "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Cobblestonegen2",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestonegen_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/cobblestonegen_2.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/cobblestonegen_2_biome_modifier.json",
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/cobblestonegen_2.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Gravelgen3",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravelgen_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/gravelgen_3.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/gravelgen_3_biome_modifier.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/gravelgen_3.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Andesitegen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesitegen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/andesitegen_1_biome_modifier.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/andesitegen_1.json",
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/andesitegen_1.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Granitegen1",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granitegen_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/granitegen_1.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/granitegen_1_biome_modifier.json",
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/granitegen_1.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
+    },
+    {
+      "name": "Ancientmudgen4",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientmudgen_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flois_precambrian/worldgen/placed_feature/ancientmudgen_4.json",
+          "src/main/resources/data/flois_precambrian/worldgen/configured_feature/ancientmudgen_4.json",
+          "src/main/resources/data/flois_precambrian/neoforge/biome_modifier/ancientmudgen_4_biome_modifier.json"
+        ]
+      },
+      "path": "~/Proterozoic/Ediacaran "
     }
   ],
   "variable_elements": [],
@@ -3034,14 +3109,14 @@
       "advancements.hadeaneon.descr": "Enter the Hadean",
       "block.flois_hadean_mod.bacterialmat": "Bacteria lmat",
       "biome.flois_hadean_mod.paleoproterozoicocean": "Paleoproterozoic ocean",
-      "block.flois_hadean_mod.rippledironsand": "Rippled iron sand",
       "item.flois_precambrian.proterozoic": "Proterozoic Portal Igniter (wip)",
+      "block.flois_hadean_mod.rippledironsand": "Rippled iron sand",
       "block.flois_precambrian.bomakellia": "Bomakellia",
       "biome.flois_precambrian.hadeanwastes": "Hadean wastes",
       "biome.flois_hadean_mod.cryogenianocean": "Cryogenian ocean",
       "biome.flois_hadean_mod.hadean_lava_fields": "Hadean lava fields",
-      "item_group.flois_precambrian.precambriantab": "Floi\u0027s Precambrian",
       "block.flois_hadean_mod.ironsand": "Iron sand",
+      "item_group.flois_precambrian.precambriantab": "Floi\u0027s Precambrian",
       "biome.flois_precambrian.cryogenianland": "Cryogenian land",
       "biome.flois_precambrian.archeanwaterholes": "Archean waterholes",
       "block.flois_hadean_mod.lavarock": "Lava rock",
@@ -3051,8 +3126,8 @@
       "block.flois_precambrian.hadeanportalblock": "Hadean portal block",
       "item.flois_precambrian.archean": "Archean Portal Igniter (wip)",
       "biome.flois_hadean_mod.paleoproterozoicland": "Paleoproterozoic land",
-      "block.flois_precambrian.funisia": "Funisia",
       "block.flois_precambrian.ancientmud": "Ancient mud",
+      "block.flois_precambrian.funisia": "Funisia",
       "block.flois_hadean_mod.molten_lavacobblestone": "Molten lava cobblestone",
       "block.flois_hadean_mod.archeanportalblock": "Archean portal block",
       "block.flois_precambrian.bacterialmat": "Bacteria lmat",
